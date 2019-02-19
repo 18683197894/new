@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Banner{
+    width: 100%;
+    overflow: hidden;
+}
+.Banner img{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}

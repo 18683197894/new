@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "黑体";
+    background-color: #F7F7F7;
+}
+.News{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0.2rem;
+    background-color: #ffffff;
+}
+.News_Jz{
+    width: 6.9rem;
+    overflow: hidden;
+    margin: auto;
+}
+.News_Jz a{
+    display: block;
+    text-decoration: none;
+    overflow: hidden;
+    border-bottom: 1px solid #D7D7D7;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+.News_Jz a:last-child{
+    border-bottom: none;
+}
+.News_Jz a img{
+    width: 2.2rem;
+    float: left;
+    overflow: hidden;
+}
+.News_Jz a .Text{
+    width: 4.45rem;
+    overflow: hidden;
+    float: right;
+}
+.News_Jz a .Text .Title{
+    font-size: 0.28rem;
+    color: #222222;
+    overflow: hidden;
+    height: 0.76rem;
+    line-height: 0.38rem;
+    margin-top: 0.15rem;
+    margin-bottom: 0.22rem;
+}
+.News_Jz a .Text .Browse{
+    width: 100%;
+    overflow: hidden;
+}
+.News_Jz a .Text .Browse span{
+    display: block;
+    float: left;
+    color: #929292;
+    font-size: 0.2rem;
+    height: 0.25rem;
+    line-height: 0.25rem;
+    margin-right: 0.12rem;
+}
+.News_Jz a .Text .Browse i{
+    display: block;
+    width: 2px;
+    height: 0.17rem;
+    background-color: #929292;
+    float: left;
+    margin-top: 0.03rem;
+    margin-right: 0.12rem;
+}
+.Occupy{
+    background-color:#F7F7F7;
+}
+.pagination{
+    width: 6.9rem;
+    overflow: hidden;
+    margin: auto;
+    padding-bottom: 0.3rem;
+}
+.pagination li{
+    width: 1rem;
+    float: left;
+    display: block;
+    font-size: 0.22rem;
+}
+.pagination li:nth-child(2){
+    float: right;
+}
+.pagination li span{
+    display: block;
+    width: 100%;
+    line-height: 0.3rem;
+    font-size: 0.22rem;
+    text-decoration: none;
+    color: #323232;
+}
+.pagination li a{
+    display: block;
+    width: 100%;
+    line-height: 0.3rem;
+    font-size: 0.22rem;
+    text-decoration: none;
+    color: #323232;
+}
+.pagination li span:hover{
+    text-decoration: none;
+}
+.pagination li a:hover{
+    text-decoration: none;
+}

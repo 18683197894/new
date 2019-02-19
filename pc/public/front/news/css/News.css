@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    min-width: 1300px;
+}
+body{
+    font-family: '黑体';
+}
+.News{
+    width: 1300px;
+    margin: auto;
+    overflow: hidden;
+}
+.News .Tab{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.News .Tab a{
+    display: block;
+    width: 50%;
+    height: 25px;
+    overflow: hidden;
+    text-decoration: none;
+    float: left;
+}
+.News .Tab .Tab_l{
+    border-right: 3px solid #6D6D6D;
+    box-sizing: border-box;
+}
+.News .Tab span{
+    display: block;
+    margin-left: 25px;
+    font-size: 22px;
+    color: #000000;
+    line-height: 25px;
+}
+.News .Tab .Tab_l span{
+    float: right;
+    margin-right: 25px;
+}
+.News .Tab a.avtive span{
+    color: #033270;
+}
+.Con{
+    width: 940px;
+    overflow: hidden;
+    float: left;
+}
+.Con_r{
+    width: 270px;
+    float: right;
+    overflow: hidden;
+}
+.Switch{
+    width: 100%;
+    overflow: hidden;
+}
+.Switch_T{
+    width: 100%;
+    overflow: hidden;
+}
+.Switch .link{
+    float: left;
+    width: 425px;
+    overflow: hidden;
+    margin-top: 35px;
+    text-decoration: none;
+}
+.link:nth-child(2N){
+    float: right;
+}
+.link .TwO{
+    float: right;
+}
+.link:hover img{
+    padding:4px;
+    background: url("../img/Switch_bg.png");
+    background-size: 100% 100%;
+}
+.link img{
+    display: block;
+    width: 417px;
+    margin: auto;
+    overflow: hidden;
+    height: 255px;
+}
+.link .Title{
+    width: 100%;
+    text-indent: 2px;
+    font-size: 20px;
+    color: #222222;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 23px;
+    overflow: hidden;
+}
+.link:hover .Title{
+    margin-top: 12px;
+    color: #000000;
+}
+.link .Num{
+    width: 100%;
+    overflow: hidden;
+}
+.Num .Num_l{
+    float: left;
+}
+.Num_l span{
+    font-size: 16px;
+    color: #646464;
+    margin-right: 10px;
+}
+.Num_l .Bul{
+    color: #033270;
+}
+.Num .time{
+    float: right;
+    font-size: 16px;
+    color: #646464;
+}
+.link .Dividing{
+    width: 100%;
+    height: 1px;
+    display: block;
+    background-color:#EAEAEA;
+    margin-top: 18px;
+    margin-bottom: 12px;
+}
+.link .Present{
+    font-size: 16px;
+    color: #464646;
+    line-height: 25px;
+    height: 50px;
+    overflow: hidden;
+}
+.Switch .pagination{
+    margin: auto;
+    height: 45px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.Switch .pagination li{
+    display:inline-block;
+    text-decoration: none;
+    width: 43px;
+    height: 43px;
+    line-height: 43px;
+    font-size: 20px;
+    color: #d7d7d7;
+    border: 1px solid #BFBFBF;
+    text-align: center;
+    cursor: pointer;
+}
+.Switch .pagination li:first-child{
+    width: 70px;
+    font-size: 18px;
+}
+.Switch .pagination li:last-child{
+    width: 70px;
+    font-size: 18px;
+}
+.Switch .pagination li a{
+    display: block;
+    width: 100%;
+    color: #d7d7d7;
+    text-decoration: none;
+}
+.Switch .pagination li.active{
+    background-color: #033270;
+    border: 1px solid #033270;
+}
+.Recommend{
+    width: 100%;
+    overflow: hidden;
+}
+.Recommend .Title{
+    font-size: 24px;
+    color: #2e2e2e;
+    margin-top: 33px;
+}
+.Recommend .Dividing{
+    width: 65px;
+    height: 2px;
+    background-color: #033270;
+    display: block;
+    margin-top: 20px;
+}
+.Recommend a{
+    display: block;
+    overflow: hidden;
+    margin-top: 25px;
+}
+.Recommend a img{
+    display: block;
+    width: 70px;
+    height: 65px;
+    float: left;
+    text-decoration: none;
+}
+.Recommend a .neir{
+    width: 182px;
+    height: 65px;
+    overflow: hidden;
+    float: right;
+}
+.Recommend a .neir .Time{
+    width: 100%;
+    overflow: hidden;
+    font-size: 16px;
+    color: #033270;
+}
+.Recommend a .neir .Text{
+    width: 100%;
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #222;
+    overflow: hidden;
+}
+.Con_r .Label{
+    width: 100%;
+    overflow: hidden;
+}
+.Label .Title{
+    font-size: 24px;
+    color: #2e2e2e;
+    margin-top: 33px;
+}
+.Label .Dividing{
+    width: 65px;
+    height: 2px;
+    background-color: #033270;
+    display: block;
+    margin-top: 20px;
+}
+.Label_Link{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 25px;
+}
+.Label_Link a{
+    display: block;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 30px;
+    border-radius: 15px;
+    color: #a1a1a1;
+    border: 1px solid #a1a1a1;
+    margin-top: 8px;
+    height: 30px;
+    width: 70px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.Label_Link a.avtive{
+    border: 1px solid #033270;
+    background-color: #033270;
+    color: #ffffff;
+}

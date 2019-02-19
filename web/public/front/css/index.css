@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:"黑体";
+}
+.header{
+    width: 100%;
+    height: 0.9rem;
+    background-color: #ffffff;
+}
+.header_logo{
+    width: 1.8rem;
+    height: 0.62rem;
+    display: block;
+    float: left;
+    margin-top: 0.12rem;
+    margin-left: 0.3rem;
+}
+.header_Telephone{
+    width: 1.55rem;
+    overflow: hidden;
+    float: right;
+    margin-top: 0.22rem;
+    margin-right: 0.25rem;
+}
+.header_Telephone img{
+    display: block;
+    width: 1.55rem;
+    height: 0.5rem;
+}
+.h_Top{
+    width: 100%;
+    overflow: hidden;
+    height: 0.26rem;
+}
+.h_Top img{
+    display: block;
+    float: left;
+    width: 0.27rem;
+    height: 0.24rem;
+}
+.h_Top span{
+    display: block;
+    float: left;
+    width: 1.3rem;
+    font-size: 0.26rem;
+    color: #033270;
+    line-height: 0.26rem;
+    margin-left: 0.08rem;
+}
+.header_Telephone .Num{
+    width: 100%;
+    text-align: center;
+    font-size: 0.2rem;
+    color: #033270;
+    overflow: hidden;
+    height: 0.28rem;
+    line-height: 0.28rem;
+}
+.swiper-container{
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+.swiper-container img{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.Entrance{
+    width: 100%;
+    overflow: hidden;
+    padding-top: 0.2rem;
+    background-color: #ffffff;
+}
+.Entrance a{
+    display: block;
+    overflow: hidden;
+    width: 25%;
+    float: left;
+    height: 1.4rem;
+    text-decoration:none;
+}
+.Entrance a .Entrance_img{
+    width: 0.9rem;
+    height: 0.9rem;
+    display: block;
+    margin: auto;
+}
+.Entrance a span{
+    display: block;
+    width: 100%;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    font-size: 0.24rem;
+    color: #363636;
+    margin-top: 0.07rem;
+    text-align: center;
+}
+.Mode{
+    width: 6.9rem;
+    overflow: hidden;
+    margin: auto;
+}
+.Mode .Title{
+    width: 100%;
+    height: 0.4rem;
+    overflow: hidden;
+    margin-top: 0.3rem;
+    position: relative;
+}
+.Mode .Title .Name{
+    width: 100%;
+    overflow: hidden;
+    line-height: 0.4rem;
+    font-size: 0.3rem;
+    letter-spacing: 5px;
+    color: #000000;
+    text-align: center;
+}
+.Mode .Title .xian_l{
+    width: 2.5rem;
+    height: 1px;
+    background-color: #CCCCCC;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 50%;
+}
+.Mode .Title .xian_r{
+    width: 2.6rem;
+    height: 1px;
+    background-color: #CCCCCC;
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 50%;
+}
+.Mode .Brief{
+    font-size: 0.2rem;
+    color: #b9b9b9;
+    width: 100%;
+    text-align: center;
+    line-height: 0.35rem;
+    height: 0.35rem;
+}
+.Mode .Mode_img{
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    text-decoration: none;
+}
+.Mode .Mode_img img{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.Advantage{
+    width: 6.9rem;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 0.3rem;
+}
+.Advantage .Title{
+    width: 100%;
+    overflow: hidden;
+    height: 0.4rem;
+    position: relative;
+}
+.Advantage .Title .Name{
+    width: 100%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    overflow: hidden;
+    font-size: 0.3rem;
+    letter-spacing: 5px;
+    color: #000000;
+    text-align: center;
+}
+.Advantage .Title .xian_l{
+    width: 2.5rem;
+    height: 1px;
+    background-color: #CCCCCC;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 50%;
+}
+.Advantage .Title .xian_r{
+    width: 2.5rem;
+    height: 1px;
+    background-color: #CCCCCC;
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 50%;
+}
+.Advantage .Brief{
+    font-size: 0.2rem;
+    color: #b9b9b9;
+    width: 100%;
+    text-align: center;
+    line-height: 0.35rem;
+    height: 0.35rem;
+}
+.Advantage_a{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0.2rem;
+}
+.Advantage_a a{
+    width: 33.333%;
+    overflow: hidden;
+    display: block;
+    text-decoration: none;
+    float: left;
+    margin-bottom: 0.2rem;
+}
+.Advantage_a a img{
+    display: block;
+    width: 2.1rem;
+    height: 1.4rem;
+    margin: auto;
+    border-radius: 0.1rem;
+}
+.Advantage_a a .Text{
+    display: block;
+    width: 2.1rem;
+    margin: auto;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    text-align: left;
+    font-size: 0.24rem;
+    color: #222222;
+    overflow: hidden;
+}
+.Make{
+    width: 6.9rem;
+    overflow: hidden;
+    margin: auto;
+}
+.Make .Title{
+    width: 100%;
+    overflow: hidden;
+    height: 0.4rem;
+    position: relative;
+}
+.Make .Title .Name{
+    width: 100%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    overflow: hidden;
+    font-size: 0.3rem;
+    letter-spacing: 5px;
+    color: #000000;
+    text-align: center;
+}
+.Make .Title .xian_l{
+    width: 2.5rem;
+    height: 1px;
+    background-color: #CCCCCC;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 50%;
+}
+.Make .Title .xian_r{
+    width: 2.5rem;
+    height: 1px;
+    background-color: #CCCCCC;
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 50%;
+}
+.Make .Brief{
+    font-size: 0.2rem;
+    color: #b9b9b9;
+    width: 100%;
+    text-align: center;
+    line-height: 0.35rem;
+    height: 0.35rem;
+}
+.Make_i{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+.Make_i input{
+    width: 100%;
+    height: 0.6rem;
+    display: block;
+    border-radius: 0.1rem;
+    background-color: #ffffff;
+    color: #929292;
+    overflow: hidden;
+    outline: none;
+    font-size: 0.28rem;
+    text-indent: 0.3rem;
+    border: 0.02rem solid #F4F4F4;
+    box-sizing: border-box;
+    border-top: 0.03rem solid #F4F4F4;
+}
+.Make_i input.avtive::-webkit-input-placeholder{
+    color: red;
+}
+.Make_i input::-webkit-input-placeholder{
+    color: #929292;
+}
+.Make_i .Make_x{
+    width: 100%;
+    height: 0.1rem;
+    display: block;
+    background-color: #F8F8F8;
+}
+.Make_i .Submit{
+    display: block;
+    text-decoration: none;
+    width: 6.1rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    color: #ffffff;
+    margin: auto;
+    margin-top: 0.2rem;
+    background-color:#033270;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-size: 0.28rem;
+}
+.Understand{
+    width: 6.9rem;
+    overflow: hidden;
+    padding-top: 0.2rem;
+    margin: auto;
+}
+.Understand .Title{
+    width: 100%;
+    overflow: hidden;
+    height: 0.4rem;
+    position: relative;
+}
+.Understand .Title .Name{
+    width: 100%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    overflow: hidden;
+    font-size: 0.3rem;
+    letter-spacing: 5px;
+    color: #000000;
+    text-align: center;
+}
+.Understand .Title .xian_l{
+    width: 2.5rem;
+    height: 1px;
+    background-color: #CCCCCC;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 50%;
+}
+.Understand .Title .xian_r{
+    width: 2.5rem;
+    height: 1px;
+    background-color: #CCCCCC;
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 50%;
+}
+.Understand .Brief{
+    font-size: 0.2rem;
+    color: #b9b9b9;
+    width: 100%;
+    text-align: center;
+    line-height: 0.35rem;
+    height: 0.35rem;
+}
+.Understand_a{
+    display: block;
+    width: 100%;
+    margin-top: 0.3rem;
+    margin-bottom: 0.2rem;
+}
+.Understand_a a{
+    display: block;
+    width: 33.333%;
+    overflow: hidden;
+    float: left;
+    text-decoration: none;
+}
+.Understand_a a img{
+    display: block;
+    width: 2.1rem;
+    height: 1.4rem;
+    margin: auto;
+    border-radius: 0.1rem;
+}
+.Understand_a a span{
+    display: block;
+    width: 2.1rem;
+    margin: auto;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    text-align: left;
+    font-size: 0.22rem;
+    color: #222222;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap
+}

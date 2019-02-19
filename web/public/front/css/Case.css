@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:"黑体";
+    background-color: #F7F7F7;
+}
+.Case_Tab{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0.2rem;
+    background-color: #ffffff;
+}
+.Case_Tab_Centered{
+    width: 6.9rem;
+    overflow: hidden;
+    margin: auto;
+    padding-top: 0.15rem;
+}
+.Case_Tab_Centered .Design{
+    width: 100%;
+    overflow: hidden;
+}
+.Design_D{
+    width: 4.18rem;
+    overflow: hidden;
+    height: 2.6rem;
+    float: left;
+    display: block;
+    text-decoration: none;
+    border-radius: 0.2rem;
+}
+.Design_D img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.Design_R{
+    width: 2.6rem;
+    height: 2.6rem;
+    overflow: hidden;
+    float: right;
+}
+.Design_R .Design_Rto{
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    height: 1.22rem;
+    margin-bottom: 0.16rem;
+    border-radius: 0.15rem;
+    overflow: hidden;
+}
+.Design_R .Design_Rto img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.Design_R .Design_Rbo{
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    height: 1.22rem;
+    border-radius: 0.15rem;
+    overflow: hidden;
+}
+.Design_R .Design_Rbo img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.City{
+    width: 100%;
+    overflow: hidden;
+}
+.City .Centered{
+    width: 6.9rem;
+    overflow: hidden;
+    margin: auto;
+}
+.City_a{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0.2rem;
+    height: 0.9rem;
+}
+.City_a a{
+    display: block;
+    width: 14.2857%;
+    float: left;
+    overflow: hidden;
+    height: 0.9rem;
+    line-height: 0.8rem;
+    font-size: 0.28rem;
+    color: #323232;
+    text-align: center;
+    text-decoration: none;
+}
+.City_a a.avtive{
+    font-size: 0.32rem;
+    color: #1b457d;
+    border-bottom: 3px solid #1b457d;
+    box-sizing: border-box;
+}
+.City_Show{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+.City_ShowT{
+    width: 100%;
+    overflow: hidden;
+    display: none;
+}
+.City_ShowT.avtive{
+    display: block;
+}
+.City_ShowT .City_Show_a{
+    width: 100%;
+    overflow: hidden;
+}
+.City_ShowT .City_Show_a a{
+    display: block;
+    width: 3.2rem;
+    height: 2.25rem;
+    float: left;
+    text-decoration: none;
+    margin-bottom: 0.2rem;
+}
+.City_ShowT .City_Show_a a:nth-child(2N){
+    float: right;
+}
+.City_ShowT .City_Show_a a img{
+    display: block;
+    width: 100%;
+    height: 1.85rem;
+    border-radius: 0.15rem;
+}
+.City_ShowT .City_Show_a a span{
+    display: block;
+    width: 100%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    text-align: center;
+    color: #323232;
+    font-size: 0.24rem;
+}
+.City_Show .More{
+    display: block;
+    width:0.43rem;
+    height: 0.39rem;
+    text-align: center;
+    line-height: 0.39rem;
+    text-decoration: none;
+    color: #9b9b9b;
+    font-size: 0.22rem;
+    margin: auto;
+}
+.City_Show .More img{
+    display: block;
+    width: 0.43rem;
+    height: 0.39rem;
+}
+.City_Show .More.avtive{
+    display: none;
+}
+.Centered .City_M{
+    width: 100%;
+    overflow: hidden;
+    margin-top:0.3rem;
+    margin-bottom: 0.25rem;
+    display: none;
+    opacity: 0;
+    transition: all 3s;
+}
+.Centered .City_M.avtive{
+    display: block;
+    opacity: 1;
+}
+.Centered .City_M .City_Ma{
+    width: 100%;
+    overflow: hidden;
+}
+.Centered .City_M .City_Ma a{
+    display: block;
+    text-decoration: none;
+    width: 3.2rem;
+    height: 2.25rem;
+    float: left;
+    margin-bottom: 0.2rem;
+}
+.Centered .City_M .City_Ma a:nth-child(2N){
+    float: right;
+}
+.Centered .City_M .City_Ma a img{
+    display: block;
+    width: 100%;
+    height: 1.85rem;
+    border-radius: 0.15rem;
+}
+.Centered .City_M .City_Ma a span{
+    display: block;
+    width: 100%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    text-align: center;
+    color: #323232;
+    font-size: 0.24rem;
+}
+.City_M .City_Mgb{
+    display: block;
+    text-decoration: none;
+    width: 0.43rem;
+    height: 0.39rem;
+    margin: auto;
+}
+.City_M .City_Mgb img{
+    display: block;
+    width: 0.43rem;
+    height: 0.39rem;
+}
+.Designer{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0.25rem;
+    background-color: #ffffff;
+    padding-bottom: 0.3rem;
+}
+.Designer_Go{
+    width: 6.9rem;
+    overflow: hidden;
+    margin: auto;
+}
+.Designer_Go .Title{
+    width: 100%;
+    overflow: hidden;
+    height: 0.75rem;
+    line-height: 0.75rem;
+    position: relative;
+}
+.Designer_Go .Title span{
+    display: block;
+    width: 100%;
+    text-align: left;
+    height: 0.75rem;
+    line-height: 0.75rem;
+    font-size: 0.32rem;
+    color: #323232;
+}
+.Designer_Go .Title .Designer_GoR{
+    width: 0.21rem;
+    height: 0.39rem;
+    position: absolute;
+    right: 0;
+    top: 0.18rem;
+}
+.Designer_Go .Title .Designer_GoR img{
+    display: block;
+    width: 0.21rem;
+    height: 0.39rem;
+}
+.Designer_Gow{
+    width: 100%;
+    text-align: center;
+    overflow-y: auto;
+}
+.Designer_Gow::-webkit-scrollbar {
+    display: none;
+}
+.Designer_Gowa{
+    width: 7.5rem;
+}
+.Designer_Gow a{
+    display: block;
+    width: 25%;
+    float: left;
+    text-decoration: none;
+}
+.Designer_Gow a img{
+    display: block;
+    width: 1.75rem;
+    height: 1.55rem;
+    margin: auto;
+    border-radius: 0.1rem;
+}
+.Designer_Gow a .Label{
+    display: block;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    font-size: 0.26rem;
+    color: #323232;
+    line-height: 0.35rem;
+    margin-top: 0.05rem;
+}
+.Designer_Gow a .Name{
+    display: block;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    font-size: 0.24rem;
+    color: #323232;
+    line-height: 0.35rem;
+}

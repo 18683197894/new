@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:"黑体";
+    background-color: #F7F7F7;
+}
+.Preferential{
+    width: 100%;
+    overflow: hidden;
+    background: url("../img/Preferential.jpg");
+    background-size: cover;
+    margin-top: 0.2rem;
+    padding-bottom: 0.55rem;
+}
+.Centered{
+    width: 6.9rem;
+    overflow: hidden;
+    margin: auto;
+}
+.Centered .Preferential_t{
+    width: 5.39rem;
+    overflow: hidden;
+    margin-top: 0.2rem;
+}
+.Centered_img{
+    width: 100%;
+    overflow: hidden;
+    margin-top:0.55rem;
+}
+.Preferential_img{
+    display: block;
+    width: 6.5rem;
+    overflow: hidden;
+    margin-bottom: 0.7rem;
+    float: left;
+}
+.Centered_img .Preferential_img:nth-child(2N){
+    float: right;
+}
+.Preferential_b{
+    width: 100%;
+    overflow: hidden;
+}
+.Honor{
+    width: 6.9rem;
+    overflow: hidden;
+    margin: auto;
+    padding-top: 0.25rem;
+    margin-bottom: 1.5rem;
+}
+.Honor .Title{
+    width: 100%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    position: relative;
+}
+.Honor .Title span{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.Honor .Title span img{
+    display: block;
+    width: 1.52rem;
+    height: 0.34rem;
+    margin-top: 0.2rem;
+}
+.Honor .Title a{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0.18rem;
+    text-decoration: none;
+}
+.Honor .Title a img{
+    display: block;
+    width: 0.21rem;
+    height: 0.39rem;
+}
+.Honor .Show{
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+}
+.Honor .Show a{
+    display: block;
+    width: 33.333%;
+    float: left;
+    overflow: hidden;
+    text-decoration: none;
+}
+.Honor .Show a img{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}

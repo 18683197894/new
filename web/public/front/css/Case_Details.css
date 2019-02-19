@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:"黑体";
+    background-color: #F7F7F7;
+}
+.Case_Details{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0.2rem;
+    background-color: #ffffff;
+}
+.Case_DetailsJz{
+    width: 6.9rem;
+    overflow: hidden;
+    margin: auto;
+    padding-top: 0.2rem;
+}
+.Details_On{
+    width: 100%;
+    overflow: hidden;
+}
+.Details_On .Details_On_l{
+    width: 2.85rem;
+    float: left;
+    overflow: hidden;
+    border-radius: 0.1rem;
+}
+.Details_On_r{
+    width: 3.8rem;
+    float: right;
+    display:block;
+    overflow: hidden;
+}
+.Details_On_r .Title{
+    width: 100%;
+    text-align: center;
+    font-size: 0.36rem;
+    color: #323232;
+    overflow: hidden;
+    line-height: 0.4rem;
+    margin-bottom: 0.1rem;
+}
+.Details_On_r .Place{
+    width: 100%;
+    font-size: 0.28rem;
+    color: #555555;
+    overflow: hidden;
+    line-height: 0.4rem;
+    margin-bottom: 0.1rem;
+}
+.Details_On_r .Text{
+    font-size: 0.24rem;
+    overflow: hidden;
+    color: #929292;
+    line-height: 0.28rem;
+}
+.Case_Details .Effect{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0.2rem;
+}
+.Case_Details .Effect .Title{
+    float: left;
+    font-size: 0.36rem;
+    color: #222222;
+    width: 1.8rem;
+    text-align: center;
+    overflow: hidden;
+}
+.Case_Details .Effect i{
+    display: block;
+    width: 5.1rem;
+    height: 1px;
+    background-color:#CECECE;
+    margin-top: 0.28rem;
+    float: right;
+}
+.Effect_a{
+    width: 100%;
+    overflow: hidden;
+}
+.Effect_a a{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid #F1F1F1;
+    padding-bottom: 0.2rem;
+    padding-top: 0.2rem;
+}
+.Effect_a a img{
+    display: block;
+    width: 2.5rem;
+    height: 2rem;
+    float: left;
+    overflow: hidden;
+    border-radius: 0.15rem;
+}
+.Effect_a a:nth-child(2N) img{
+    float: right;
+}
+.Effect_a a .Text{
+    width: 4.1rem;
+    float: right;
+    font-size: 0.24rem;
+    color: #323232;
+    margin-top: 0.2rem;
+    line-height: 0.3rem;
+}
+.Effect_a a:nth-child(2N) .Text{
+    float: left;
+}
+.Brand{
+    width: 100%;
+    overflow: hidden;
+    background-color: #ffffff;
+    margin-top: 0.2rem;
+}
+.Brand .Brand_Jz{
+    width: 6.9rem;
+    overflow: hidden;
+    margin: auto;
+}
+.Brand .Brand_Jz .Title{
+    width: 100%;
+    overflow: hidden;
+}
+.Brand .Brand_Jz .Title span{
+    display: block;
+    width: 1.5rem;
+    color: #222222;
+    font-size: 0.36rem;
+    float: left;
+    margin-bottom: 0.25rem;
+    margin-top: 0.2rem;
+}
+.Brand .Brand_Jz .Title i{
+    display: block;
+    height: 1px;
+    background-color: #E2E2E2;
+    margin-top: 0.5rem;
+    float: right;
+    width: 5.4rem;
+}
+.Brand_a{
+    width: 100%;
+    overflow-y: auto;
+}
+.Brand_Show{
+    width:7.5rem;
+}
+.Brand_Show a{
+    display: block;
+    text-decoration: none;
+    width: 25%;
+    float: left;
+    overflow: hidden;
+}
+.Brand_Show a img{
+    display: block;
+    width: 1.85rem;
+    height: 0.82rem;
+    margin: auto;
+}
+.Brand_a::-webkit-scrollbar {
+    display: none;
+}

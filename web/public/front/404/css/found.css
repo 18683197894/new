@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-width: 1200px;
+}
+.LOGO{
+    width: 100%;
+    overflow: hidden;
+}
+.LOGO a{
+    display: block;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+.found{
+    width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding-top: 150px;
+}
+.found_wuzi{
+    display: block;
+    float: left;
+    overflow: hidden;
+}
+.found_Text{
+    width: 600px;
+    overflow: hidden;
+    float: right;
+}
+.Silongsi{
+    width: 100%;
+    overflow: hidden;
+    font-size: 140px;
+    color: #496996;
+    font-weight: 900;
+    letter-spacing:8px;
+}
+.Baoqian{
+    width: 100%;
+    overflow: hidden;
+    font-size: 40px;
+    color: #222222;
+}
+.zidong{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.zidong .lf{
+    width: 270px;
+    float: left;
+    height: 50px;
+    background-color: #EAEAEA;
+    border-radius: 10px;
+    line-height: 50px;
+    color: #222222;
+    font-size: 24px;
+}
+.zidong .lf .NUM{
+    color: #fe0000;
+    font-size: 38px;
+    float: left;
+    display: block;
+    line-height: 50px;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+.fanhui{
+    display: block;
+    text-decoration: none;
+    float: left;
+    width: 270px;
+    height: 50px;
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    color: #222222;
+    font-size: 24px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 15px;
+    letter-spacing: 3px;
+}
+.Fangwen{
+    width: 100%;
+    overflow: hidden;
+}
+.Fangwen .biaoti{
+    color: #222222;
+    font-size: 30px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+}
+.Fangwen .haikey{
+    width: 100%;
+    overflow: hidden;
+}
+.Fangwen .haikey a{
+    display: block;
+    overflow: hidden;
+    float: left;
+    margin-right: 18px;
+    border-radius: 10px;
+    height: 40px;
+    border: 1px solid #496996;
+    box-sizing: border-box;
+    line-height: 40px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #496996;
+    font-size: 24px;
+    text-decoration: none;
+}
+.Fangwen .haikey a.avtive{
+    border: none;
+    background-color:#496996;
+    color: #ffffff;
+}
+@media screen and (max-width: 1200px){
+    .found{
+        width: 1200px;
+        overflow: hidden;
+        margin: auto;
+        padding-top: 150px;
+    }
+}

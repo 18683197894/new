@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:"黑体";
+}
+.header{
+    width: 100%;
+    height: 0.7rem;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+.header_T{
+    width: 6.9rem;
+    height: 100%;
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+}
+.header_T .History{
+    display: block;
+    text-decoration: none;
+    width: 0.21rem;
+    height: 0.39rem;
+    position: absolute;
+    left: 0;
+    top: 0.15rem;
+}
+.header_T .History img{
+    display: block;
+    width: 0.21rem;
+    height: 0.39rem;
+}
+.header_T .Title{
+    width: 100%;
+    height: 100%;
+    line-height: 0.7rem;
+    text-align: center;
+    overflow: hidden;
+    font-size: 0.44rem;
+    color: #323232;
+}
+.header_T .Share{
+    display: block;
+    text-decoration: none;
+    width: 0.39rem;
+    height: 0.39rem;
+    position: absolute;
+    right: 0;
+    top: 0.15rem;
+}
+.header_T .Share img{
+    display: block;
+    width: 0.39rem;
+    height: 0.39rem;
+}

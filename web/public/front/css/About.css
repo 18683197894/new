@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "黑体";
+    background-color: #F7F7F7;
+}
+.Brief{
+    width: 100%;
+    overflow: hidden;
+    background: url("../img/About_b.png");
+    background-size: cover;
+}
+.Brief_Jz{
+    width: 6.9rem;
+    margin: auto;
+    overflow: hidden;
+    padding-bottom: 0.4rem;
+}
+.Brief_Jz img{
+    display: block;
+    width: 2.03rem;
+    height: 0.77rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.2rem;
+}
+.Brief_Jz .Title{
+    width: 100%;
+    overflow: hidden;
+    color: #ffffff;
+    font-size: 0.36rem;
+    margin-bottom: 0.25rem;
+    text-align: center;
+    letter-spacing: 0.08rem;
+}
+.Brief_Jz p{
+    font-size: 0.24rem;
+    color: #ffffff;
+    line-height: 0.4rem;
+    display: block;
+    text-indent: 0.5rem;
+    margin-bottom: 0.25rem;
+}
+.Core{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0.2rem;
+    background: url("../img/Core_bg.png");
+    background-size: cover;
+    padding-bottom: 1.2rem;
+}
+.Core_Jz{
+    width: 6.9rem;
+    overflow: hidden;
+    margin: auto;
+}
+.Core_Logo{
+    display: block;
+    width: 2.43rem;
+    height: 0.75rem;
+    margin-top: 0.25rem;
+}
+.Core_Logo img{
+    display: block;
+    width: 2.43rem;
+    height: 0.74rem;
+}
+.Core .Core_People{
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    text-decoration: none;
+    margin-top: 0.45rem;
+    padding-bottom: 0.45rem;
+    border-bottom: 1px solid #DADADA;
+}
+.Core .Core_People:hover{
+    text-decoration: none;
+}
+.Core_People:last-child{
+    border-bottom: none;
+}
+.Core .Core_People img{
+    display: block;
+    float: left;
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 0.15rem;
+}
+.Core .Core_People .Text{
+    width: 4.47rem;
+    float: right;
+    overflow: hidden;
+}
+.Core .Core_People .Text .Name{
+    width: 100%;
+    overflow: hidden;
+    height: 0.4rem;
+    overflow: hidden;
+}
+.Core .Core_People .Text .Name span{
+    font-size: 0.36rem;
+    color: #ffffff;
+    display: block;
+    float: left;
+    margin-right: 0.13rem;
+    line-height: 0.36rem;
+}
+.Core .Core_People .Text .Name ol{
+    font-size: 0.2rem;
+    color: #ffffff;
+    display: block;
+    float: left;
+    line-height: 0.46rem;
+}
+.Core .Core_People .Text .Wenzi{
+    width: 100%;
+    overflow: hidden;
+    font-size: 0.24rem;
+    color: #ffffff;
+    line-height: 0.3rem;
+}

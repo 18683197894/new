@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f4f4f4;
+}
+.header {
+    background-color: rgba(165,203,243,0.2);
+    height: 100px;
+}
+.banner{
+    width: 100%;
+    overflow: hidden;
+}
+.banner img{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.News{
+    width: 100%;
+    overflow: hidden;
+}
+.News .Biaoti{
+    width: 100%;
+    height: 60px;
+    background-color: #2276cd;
+}
+.News .Biaoti .Name{
+    width: 67.7%;
+    margin: auto;
+    height: 60px;
+}
+.News .Biaoti .Name .jiantou{
+    line-height: 60px;
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 5px;
+    float: left;
+}
+.News .Biaoti .Name .Auto{
+    width: 400px;
+    margin: auto;
+    height: 60px;
+}
+.Biaoti .Name .Auto a{
+    width: 145px;
+    display: block;
+    float: left;
+    line-height: 60px;
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.News .Biaoti .Name a{
+    display: block;
+    float: left;
+    text-decoration: none;
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 60px;
+}
+.News .Biaoti .Name span{
+    display: block;
+    float: left;
+    font-size: 24px;
+    color: #ffffff;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 60px;
+}
+.Biaoti .Name .Auto a:nth-child(3){
+    width: 105px;
+    text-align: center;
+}
+.Biaoti .Name .Auto span{
+    /*display: block;*/
+    /*float: left;*/
+    font-size: 24px;
+    line-height: 60px;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 15px;
+}
+.Biaoti .Name .Auto a.avtive{
+    color: #033270;
+}
+.New_Inner{
+    width: 67.7%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.New_Inner_l{
+    float: left;
+    width: 71.5%;
+    overflow: hidden;
+    background-color: #ffffff;
+    padding-bottom: 90px;
+}
+.New_Inner_l .Name{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 30px;
+    letter-spacing: 2px;
+}
+.New_Inner_l .Text{
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+    font-size: 15px;
+    color: #999999;
+    line-height: 25px;
+}
+.New_Inner_R{
+    width: 25%;
+    overflow: hidden;
+    float: right;
+}
+.New_Inner_R_top{
+    width: 100%;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+.New_Inner_R .Hot{
+    width: 100%;
+    overflow: hidden;
+    height: 50px;
+    background-color: #16356B;
+}
+.New_Inner_R .Hot img{
+    display: block;
+    margin-left: 4%;
+    margin-top: 11px;
+}
+.New_Inner_R .redian{
+    width: 92%;
+    overflow: hidden;
+    margin: auto;
+}
+.New_Inner_R .redian a{
+    display: block;
+    width: 100%;
+    height: 45px;
+    border-bottom: 1px dashed #999999;
+    text-decoration: none;
+}
+.New_Inner_R .redian a:last-child{
+    border-bottom: none;
+}
+.New_Inner_R .redian a span{
+    display: block;
+    width: 75%;
+    height: 100%;
+    line-height: 45px;
+    font-size: 17px;
+    color: #16356b;
+    float: left;
+    overflow: hidden;
+}
+.New_Inner_R .redian a .tp{
+    width: 20%;
+    float: left;
+}
+.New_Inner_R .redian a .tp img{
+    display: block;
+    float: left;
+    margin-top: 11px;
+}
+.New_Inner_R .redian a .tp em{
+    display: block;
+    float: left;
+    line-height: 45px;
+    color: #2276cd;
+    margin-left: 5px;
+}
+.New_Inner_R .New_Inner_R_bot{
+    margin-top: 25px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+.zuixin{
+    width:100%;
+    overflow: hidden;
+    height: 50px;
+    background-color: #16356B;
+}
+.zuixin img{
+    display: block;
+    margin-top: 12px;
+    margin-left: 4%;
+}
+.anlie{
+    width: 92%;
+    overflow: hidden;
+    margin: auto;
+    border-bottom: 1px dashed #999999;
+    display: block;
+    text-decoration: none;
+}
+.anlie img{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.anlie span{
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+    font-size: 18px;
+    color: #16356b;
+    overflow: hidden;
+}
+.anlie:last-child{
+    border-bottom: none;
+}
+@media screen and (max-width: 1680px){
+    .New_Inner_l{
+        width: 68%;
+    }
+    .New_Inner_R{
+        width: 30%;
+    }
+}
+@media screen and (max-width: 1200px){
+    .News .Biaoti .Name{
+        width: 80%;
+    }
+    .New_Inner{
+        width: 80%;
+    }
+    .New_Inner_l{
+        width: 68%;
+    }
+    .New_Inner_R{
+        width: 30%;
+    }
+}
+@media screen and (max-width: 981px) {
+    .News .Biaoti .Name{
+        width: 80%;
+    }
+    .New_Inner{
+        width: 100%;
+    }
+    .New_Inner_l{
+        width: 68%;
+    }
+    .New_Inner_R{
+        width: 30%;
+    }
+}

@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    min-width: 1300px;
+}
+body{
+    font-family: '黑体';
+}
+.Crumbs{
+    width: 1300px;
+    margin: auto;
+    overflow: hidden;
+    line-height: 40px;
+    font-size: 22px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.Crumbs span{
+    color: #000000;
+    margin-right: 15px;
+}
+.Crumbs a{
+    text-decoration: none;
+    color: #000000;
+    margin-left: 15px;
+}
+.Crumbs a:last-child{
+    color: #022355;
+}
+.CaseDetails{
+    width: 1300px;
+    overflow: hidden;
+    margin: auto;
+    padding-top: 10px;
+}
+.CaseDetails_list{
+    width: 100%;
+    overflow: hidden;
+}
+.CaseDetails_list_img{
+    display: block;
+    float: left;
+    width: 650px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.CaseDetails_list_Text{
+    width: 570px;
+    float: right;
+    overflow: hidden;
+}
+.CaseDetails_list_Text .Name{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 36px;
+    color: #033270;
+}
+.CaseDetails_list_Text .neir{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    color: #3d3d3d;
+    line-height: 35px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+.CaseDetails_list_Text .xijie{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 35px;
+}
+.CaseDetails_list_Text .xijie .time{
+    width: 100%;
+    line-height: 40px;
+    font-size: 20px;
+    color: #3d3d3d;
+}
+.Effect{
+    width: 100%;
+    overflow: hidden;
+}
+.Effect .Title{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.Effect .Title span{
+    display: block;
+    float: left;
+    font-size: 30px;
+    color: #033270;
+    width: 220px;
+}
+.Effect .Title i{
+    display: block;
+    width: 1080px;
+    float: right;
+    height: 1px;
+    background-color:#F0F0F0;
+    margin-top: 20px;
+}
+.Effect .Content{
+    width: 100%;
+    padding-top: 10px;
+    overflow: hidden;
+    padding-bottom: 5px;
+}
+.Content_list{
+    width: 1296px;
+    margin: auto;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.Content_list:hover{
+    box-shadow: 0px 1px 3px 1px #E6E6E6;
+}
+.Content_list img{
+    display: block;
+    float: left;
+    width: 50%;
+    overflow: hidden;
+}
+.Content_list .Text{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+.Content_list .Text .Name{
+    width: 75%;
+    overflow: hidden;
+    margin: auto;
+    padding-top: 80px;
+    font-size: 20px;
+    color: #3d3d3d;
+    line-height: 35px;
+    letter-spacing: 2px;
+}
+.Content_list .Co{
+    width: 75%;
+    margin: auto;
+    overflow: hidden;
+    font-size: 20px;
+    color: #3d3d3d;
+    line-height: 35px;
+    padding-top: 30px;
+    letter-spacing: 2px;
+}
+.Content_list:hover
+.Brand{
+    width: 1298px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 40px;
+    box-shadow: 0px 1px 5px 1px #AEAEAE;
+    margin-bottom: 30px;
+    /*box-sizing: border-box;*/
+}
+.Brand .Title{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 25px;
+    text-indent: 50px;
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 0;
+}
+.Brand  .Logo{
+    display: block;
+    float: left;
+    width: 20%;
+    overflow: hidden;
+}
+.Pan{
+    width: 100%;
+    overflow: hidden;
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+.Pan a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+}
+.Pan a:hover{
+    color: #022355;
+}
+.Pan .shang{
+    float: left;
+}
+.Pan .xia{
+    float: right;
+}
+@media screen and (max-width: 1302px){
+    .Content_list .Text .Name{
+        padding-top: 50px;
+        width: 80%;
+    }
+    .Content_list .Co{
+        width: 90%;
+        padding-top: 25px;
+    }
+}

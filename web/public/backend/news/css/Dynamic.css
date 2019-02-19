@@ -1,0 +1,557 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.banner{
+    width: 100%;
+    overflow: hidden;
+}
+.banner img{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.News{
+    width: 100%;
+    overflow: hidden;
+}
+.News .Biaoti{
+    width: 100%;
+    height: 60px;
+    background-color: #2276cd;
+}
+.News .Biaoti .Name{
+    width: 67.7%;
+    margin: auto;
+    height: 60px;
+}
+.News .Biaoti .Name .jiantou{
+    line-height: 60px;
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 5px;
+    float: left;
+}
+.News .Biaoti .Name .Auto{
+    width: 400px;
+    margin: auto;
+    height: 60px;
+}
+.Biaoti .Name .Auto a{
+    width: 145px;
+    display: block;
+    float: left;
+    line-height: 60px;
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.Biaoti .Name .Auto a:nth-child(3){
+    width: 105px;
+    text-align: center;
+}
+.Biaoti .Name .Auto span{
+    /*display: block;*/
+    /*float: left;*/
+    font-size: 24px;
+    line-height: 60px;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 15px;
+}
+.Biaoti .Name .Auto a.avtive{
+    color: #033270;
+}
+.Dynamic{
+    width: 67.7%;
+    overflow: hidden;
+    margin: auto;
+    padding-bottom: 170px;
+}
+.Dynamic .daiimg{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 70px;
+    padding-bottom: 20px;
+    border-bottom: 5px solid #2276cd;
+}
+.Dynamic .daiimg .daiimg_l{
+    width: 41.2%;
+    overflow: hidden;
+    height: 400px;
+    position: relative;
+    float: left;
+    display: block;
+}
+.Dynamic .daiimg .daiimg_l img{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    height: 400px;
+}
+.Dynamic .daiimg .daiimg_l span{
+    display: block;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    line-height: 60px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color:rgba(34,118,205,0.3);
+    text-indent: 20px;
+}
+.daiimg_z{
+    width: 22.1%;
+    float: left;
+    height: 400px;
+    overflow: hidden;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: block;
+}
+.daiimg_z .top{
+    width: 100%;
+    overflow: hidden;
+    height: 200px;
+    position: relative;
+    display: block;
+}
+.daiimg_z .top img{
+    display: block;
+    width: 100%;
+    height: 200px;
+}
+.daiimg_z .top span{
+    display: block;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    line-height: 60px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color:rgba(34,118,205,0.3);
+    text-indent: 20px;
+}
+.daiimg_z .bott{
+    width: 100%;
+    overflow: hidden;
+    height: 200px;
+    position: relative;
+    margin-top: 10px;
+    display: block;
+}
+.daiimg_z .bott img{
+    display: block;
+    width: 100%;
+    height: 200px;
+}
+.daiimg_z .bott span{
+    display: block;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    line-height: 60px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color:rgba(34,118,205,0.3);
+    text-indent: 20px;
+}
+.daiimg_r{
+    width: 34.6%;
+    float: right;
+    overflow: hidden;
+    height: 400px;
+    position: relative;
+}
+.daiimg_r img{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    display: block;
+}
+.daiimg_r span{
+    display: block;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    line-height: 60px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color:rgba(34,118,205,0.3);
+    text-indent: 20px;
+}
+
+.redu{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 50px;
+}
+.box,.box1{
+    overflow: hidden;
+    position: relative;
+    width: 73.1%;
+    float: left;
+}
+.box,.box1 .list{
+    position: relative;
+    overflow: hidden;
+}
+.list a{
+    float: left;
+    list-style: none;
+}
+ol{
+    width:55%;
+    height: 20px;
+    position: absolute;
+    bottom: 20px;
+}
+ol li{
+    cursor:pointer;
+    position: relative;
+    margin-left: 15px;
+    display: inline;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gainsboro;
+    float: right;
+}
+ol .action{
+    background-color: #de6e6a;
+}
+ol li:hover{
+    background-color: #DE6E6A;
+}
+ul{
+    position: relative;
+    left: 0;
+}
+.prev,.next{
+    transition: all 0.5s;
+}
+.next:hover,.prev:hover{
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2);
+    opacity: 1!important;
+    transition: all 0.3s;
+}
+.box1 .list a span{
+    display: block;
+    width: 100%;
+    height: 80px;
+    background-color:rgba(34,118,205,0.7);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.box1 .list a{
+    display: none;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    /*display: block;*/
+}
+.box1 .list a img{
+    display: block;
+    width: 100%;
+}
+.box1 .list a.avtive{
+    display: block;
+}
+.dian{
+    width: 120px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    bottom: 8px;
+    height: 35px;
+}
+.dian span{
+    display: block;
+    width: 12px;
+    height: 12px;
+    float: left;
+    margin-left: 10px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.dian span.avtive{
+    background-color: #de6e6a;
+}
+.box1 .list a span .Name{
+    font-size: 22px;
+    color: #ffffff;
+    margin-top: 20px;
+    text-indent: 50px;
+}
+.box1 .list a span .text{
+    color: #ffffff;
+    text-indent: 50px;
+    font-size: 14px;
+    line-height: 30px;
+    overflow: hidden;
+}
+.Hot{
+    width: 23.3%;
+    overflow: hidden;
+    padding-bottom: 20px;
+    border: 1px solid #2276cd;
+    box-sizing: border-box;
+    float: right;
+    margin-right: 1px;
+    border-radius: 5px;
+}
+.Title{
+    width: 100%;
+    overflow: hidden;
+    font-size: 22px;
+    color: #2276cd;
+    text-indent: 20px;
+    margin-top: 15px;
+}
+.Hot_on{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 17px;
+    display: block;
+    text-decoration: none;
+    height: 20px;
+}
+.Hot_on .pai{
+    display: block;
+    float: left;
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+    color: #ffffff;
+    background-color:#2276cd;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+}
+.Hot_on .Text{
+    display: block;
+    float: left;
+    margin-left: 15px;
+    font-size: 13px;
+    color: #999999;
+    line-height: 20px;
+    width: 50%;
+    overflow: hidden;
+}
+.Hot_on.avtive .Text{
+    font-size: 15px;
+    color: #2276cd;
+}
+.Hot_on .tb{
+    display: block;
+    float: right;
+    margin-right: 20px;
+}
+.Hot_on .tb img{
+    display: block;
+    float: left;
+}
+.Hot_on .tb span{
+    display: block;
+    float: left;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #2276cd;
+    line-height: 25px;
+}
+.lieb{
+    width: 81%;
+    overflow: hidden;
+}
+.lieb .Loop{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #2276cd;
+    margin-top: 35px;
+}
+.lieb .Loop img{
+    display: block;
+    float: left;
+    width: 20.3%;
+    height: 185px;
+}
+.lieb .Loop .nr{
+    float: right;
+    width: 78.5%;
+    height: 185px;
+    overflow: hidden;
+    position: relative;
+}
+.lieb .Loop .nr .Name{
+    font-size: 22px;
+    color: #2276cd;
+    line-height: 40px;
+}
+.lieb .Loop .nr .Text{
+    width: 100%;
+    font-size: 18px;
+    color: #999999;
+    line-height: 25px;
+}
+.liulan{
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.liulan span{
+    display: block;
+    float: right;
+    margin-left: 30px;
+    font-size: 17px;
+    color: #999999;
+}
+.liulan i{
+    display: block;
+    width: 2px;
+    height: 18px;
+    background-color: #999999;
+    float: right;
+    margin-left: 30px;
+}
+.pagination{
+    overflow: hidden;
+    margin: auto;
+    display: block;
+    padding-top: 50px;
+}
+.pagination li{
+      display: block;
+      float: left;
+      width: 60px;
+      text-align: center;
+      cursor: pointer;
+      height: 40px;
+      line-height: 40px;
+      border: 1px solid #999999;
+      box-sizing: border-box;
+      margin-left: 10px;
+      font-size: 16px;
+}
+.pagination li.active{
+    color: #2276cd;
+    border: 1px solid #2276cd;
+}
+.pagination li:nth-child(1){
+    margin-left: 0;
+}
+.pagination li a{
+    text-decoration: none;
+    color: #333;
+    width: 100%;
+    height: 40px;
+    display: block;
+}
+@media screen and (max-width: 1500px){
+    .News .Biaoti .Name{
+        width: 80%;
+    }
+    .Dynamic{
+        width: 80%;
+    }
+    .Hot{
+        width: 25%;
+        height: 434px;
+    }
+    .Hot_on .pai{
+        margin-left: 15px;
+    }
+    .Hot_on .tb{
+        margin-right: 15px;
+    }
+    .Hot_on .Text{
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 1370px){
+    .News .Biaoti .Name{
+        width: 85%;
+    }
+    .Dynamic{
+        width: 85%;
+    }
+    .Hot{
+        width: 25%;
+        height: 371px;
+    }
+    .Hot_on .pai{
+        margin-left: 15px;
+    }
+    .Hot_on .tb{
+        margin-right: 15px;
+    }
+    .Hot_on .Text{
+        margin-left: 10px;
+    }
+    .lieb{
+        width: 90%;
+    }
+}
+    @media screen and (max-width: 1200px) {
+    .News .Biaoti .Name{
+        width: 90%;
+    }
+    .Dynamic{
+        width: 90%;
+    }
+    .Hot_on .pai{
+        margin-left: 10px;
+    }
+    .Hot_on .tb{
+        margin-right: 10px;
+    }
+    .Hot_on .Text{
+        margin-left: 5px;
+    }
+    .Hot{
+        width: 25%;
+        height: 356px;
+    }
+}
+@media screen and (max-width: 981px) {
+    .News .Biaoti .Name{
+        width: 98%;
+    }
+    .Dynamic{
+        width: 98%;
+    }
+    .Hot_on.avtive .Text{
+        font-size: 12px;
+    }
+    .Hot_on .Text{
+        font-size: 12px;
+    }
+    .Hot{
+        height: 308px;
+    }
+    .lieb{
+        width: 95%;
+    }
+    .lieb .Loop img{
+        height: 131px;
+    }
+}

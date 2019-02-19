@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    min-width: 1300px;
+}
+body{
+    font-family: '黑体';
+}
+.Team{
+    width: 1300px;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 38px;
+}
+.Part{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.Part_l{
+    width: 50%;
+    float: left;
+    border-right: 1px solid #6D6D6D;
+    height: 25px;
+    box-sizing: border-box;
+}
+.Part_l a{
+    display: block;
+    width: 120px;
+    float: right;
+    font-size: 22px;
+    color: #000000;
+    line-height: 25px;
+    text-decoration: none;
+}
+.Part_l.avtive a{
+    color: #033270;
+}
+.Part_r{
+    display: block;
+    float: right;
+    width: 50%;
+    height: 25px;
+}
+.Part_r a{
+    display: block;
+    width: 120px;
+    font-size: 22px;
+    color: #000000;
+    line-height: 25px;
+    text-decoration: none;
+    text-align: right;
+}
+.Part_r.avtive  a{
+    color: #033270;
+}
+.Show{
+    width: 100%;
+    overflow: hidden;
+}
+.Show_time{
+    width: 100%;
+    overflow: hidden;
+    display: none;
+    position: relative;
+    margin-bottom: 40px;
+}
+.Show_time.avtive{
+    display: block;
+}
+.Show_time .ON{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 50px;
+    transition: all 3s;
+    min-height: 235px;
+}
+.Show_time .ON .Text{
+    width: 505px;
+    overflow: hidden;
+    background: url("./front/team/img/Team_bg.png");
+    background-size: 100% 100%;
+    float: left;
+    padding-bottom: 26px;
+}
+.Show_time .ON .Text .Name{
+    width: 85%;
+    margin: auto;
+    font-size: 24px;
+    color: #000000;
+    margin-top: 30px;
+}
+.Show_time .ON .Text .Position{
+    width: 85%;
+    margin: auto;
+    font-size: 18px;
+    color: #464646;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.Show_time .ON .Text .Con{
+    width: 85%;
+    margin: auto;
+    font-size: 16px;
+    line-height: 23px;
+    color: #464646;
+}
+.Declaration{
+    width: 85%;
+    margin: auto;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646;
+    margin-top: 15px;
+}
+.Declaration span{
+    font-size: 18px;
+    color: #000;
+}
+.Show_time .touxiang{
+    display: block;
+    width: 235px;
+    height: 235px;
+    border-radius: 50%;
+    margin: auto;
+    position: absolute;
+    top: 50px;
+    left: 531px;
+    z-index: 999;
+    cursor: pointer;
+}
+.Show_time .fgx{
+    width: 2px;
+    height: 100%;
+    background-color:#E7E7E7;
+    position: absolute;
+    top: 0;
+    left: 49.9%;
+    z-index: 888;
+}
+.Show_time .TWO{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 50px;
+    transition: all 3s;
+    z-index: 999;
+    min-height: 235px;
+}
+.Show_time .TWO .Text{
+    width: 505px;
+    overflow: hidden;
+    background: url("./front/team/img/Team_bgr.png");
+    background-size: 100% 100%;
+    float: right;
+    padding-bottom: 26px;
+}
+.Show_time .TWO .Text .Name{
+    width: 85%;
+    margin: auto;
+    font-size: 24px;
+    color: #000000;
+    margin-top: 30px;
+}
+.Show_time .TWO .Text .Position{
+    width: 85%;
+    margin: auto;
+    font-size: 18px;
+    color: #464646;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.Show_time .TWO .Text .Con{
+    width: 85%;
+    margin: auto;
+    font-size: 16px;
+    line-height: 23px;
+    color: #464646;
+}
+.Declaration{
+    width: 85%;
+    margin: auto;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646;
+    margin-top: 15px;
+}
+.Declaration span{
+    font-size: 18px;
+    color: #000;
+}

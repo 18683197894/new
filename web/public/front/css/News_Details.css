@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "黑体";
+    background-color: #F7F7F7;
+}
+.News_Details{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0.2rem;
+    background-color: #ffffff;
+}
+.News_Details_Jz{
+    width: 6.9rem;
+    overflow: hidden;
+    margin: auto;
+    border-bottom: 1px solid #DCDCDC;
+}
+.News_Details_Jz .Title{
+    width: 100%;
+    overflow: hidden;
+    font-size: 0.36rem;
+    color: #323232;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    line-height: 0.4rem;
+}
+.Liulan{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 0.2rem;
+}
+.Liulan span{
+    display: block;
+    float: left;
+    font-size: 0.2rem;
+    color: #929292;
+    margin-right: 0.12rem;
+}
+.Liulan i{
+    display: block;
+    width: 1px;
+    height: 0.17rem;
+    background-color:#929292;
+    margin-right: 0.12rem;
+    float: left;
+    margin-top: 0.07rem;
+}
+.News_Details .Connet{
+    width: 6.9rem;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 0.3rem;
+    padding-bottom: 0.4rem;
+    font-size: 15px;
+}
+.Recommend{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0.2rem;
+    background-color: #ffffff;
+}
+.Recommend .Recommend_Jz{
+    width: 6.9rem;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 0.3rem;
+}
+.Recommend .Title{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 0.3rem;
+}
+.Recommend .Title span{
+    display: block;
+    float: left;
+    font-size: 0.36rem;
+    color: #222222;
+}
+.Recommend .Title i{
+    width: 5.4rem;
+    height: 1px;
+    background-color:#CCCCCC;
+    float: right;
+    margin-top: 0.28rem;
+}
+.Recommend_Show{
+    width: 100%;
+    overflow-y: auto;
+    padding-bottom: 0.2rem;
+}
+.Recommend_a{
+    width: 7.65rem;
+}
+.Recommend_a a{
+    display: block;
+    float: left;
+    width: 33.333%;
+}
+.Recommend_a a img{
+    display: block;
+    width: 2.4rem;
+    height: 1.4rem;
+    border-radius: 0.1rem;
+    margin: auto;
+}
+.Recommend_a a span{
+    display: block;
+    width: 2.4rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    margin: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.24rem;
+    color: #222222;
+}
+.Recommend_Show::-webkit-scrollbar {
+    display: none;
+}
+.Occupy{
+    background-color: #F7F7F7;
+}

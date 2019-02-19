@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:"黑体";
+    background-color: #F7F7F7;
+}
+.Design{
+    width: 100%;
+    overflow: hidden;
+    background-color: #ffffff;
+    margin-top: 0.2rem;
+}
+.Design .Centered{
+    width: 6.9rem;
+    margin: auto;
+    overflow: hidden;
+}
+.Design .Centered a{
+    display: block;
+    width: 100%;
+    height: 2.45rem;
+    border-bottom: 1px solid #DFDFDF;
+}
+.Design .Centered a:last-child{
+    border-bottom: none;
+}
+.Design .Centered a .Photo{
+    width: 2.03rem;
+    height: 2.03rem;
+    border-radius: 50%;
+    float: left;
+    margin-top: 0.23rem;
+}
+.Design .Centered a:nth-child(2N) .Photo{
+    float: right;
+}
+.Design .Centered a:nth-child(2N) .Text{
+    float: left;
+}
+.Design .Centered a .Text{
+    width: 4.45rem;
+    height: 2.45rem;
+    float: right;
+}
+.Design .Centered a .Text .Xinm{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0.4rem;
+}
+.Design .Centered a .Text .Xinm .Name{
+    /*width: 1.1rem;*/
+    overflow: hidden;
+    line-height: 0.6rem;
+    height: 0.6rem;
+    font-size: 0.36rem;
+    color: #323232;
+    float: left;
+}
+.Design .Centered a .Text .Xinm  .Zhiwei {
+    display: block;
+    float: left;
+    font-size: 0.22rem;
+    /*width: 1.4rem;*/
+    overflow: hidden;
+    text-align: center;
+    color: #929292;
+    line-height: 0.6rem;
+    height: 0.6rem;
+    margin-left: 0.08rem;
+    margin-right: 0.08rem;
+}
+.Champion{
+    width: 0.44rem;
+    height: 0.38rem;
+    display: block;
+    float: left;
+    margin-left: 0.18rem;
+    margin-top: 0.04rem;
+}
+.Grade{
+    display: block;
+    float: left;
+    width: 0.24rem;
+    height: 0.22rem;
+    margin-top: 0.165rem;
+    margin-right: 0.05rem;
+}
+.Design .Centered a .Text .Idea{
+    width: 100%;
+    overflow: hidden;
+    line-height: 0.3rem;
+    margin-top: 0.05rem;
+}
+.Idea_i{
+    font-size: 0.28rem;
+    color: #222222;
+}
+.Idea_i span{
+    font-size: 0.24rem;
+    color: #9b9ba2;
+}
+.Building{
+    width: 100%;
+    overflow: hidden;
+    background-color: #ffffff;
+    margin-top: 0.2rem;
+}
+.Building .Center{
+    width: 6.9rem;
+    overflow: hidden;
+    margin: auto;
+}
+.Building .Center .Title{
+    width: 100%;
+    height: 1rem;
+    overflow: hidden;
+    position: relative;
+}
+.Building .Center .Title span{
+    display: block;
+    width: 100%;
+    line-height: 1rem;
+    font-size: 0.36rem;
+    color: #222222;
+    text-align: left;
+}
+.Building .Center .Title a{
+    display: block;
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    top: 0.3rem;
+    width: 0.21rem;
+    height: 0.39rem;
+}
+.Building .Center .Title a img{
+    display: block;
+    width: 0.21rem;
+    height: 0.39rem;
+}
+.Building .Center .Building_a{
+    width: 100%;
+    overflow-y: auto;
+}
+.Building_Shwo{
+    width: 9.2rem;
+    height: 1.75rem;
+}
+.Building_Shwo a{
+    display: block;
+    text-decoration: none;
+    width:3rem;
+    float: left;
+    height: 1.75rem;
+    margin-right: 0.1rem;
+}
+.Building_Shwo a:last-child{
+    margin-right: 0;
+}
+.Building_Shwo a img{
+    display: block;
+    width: 100%;
+    height: 1.37rem;
+    border-radius: 0.15rem;
+}
+.Building_Shwo a span{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 0.24rem;
+    color: #323232;
+    line-height: 0.38rem;
+}
+.Building_a::-webkit-scrollbar {
+    display: none;
+}

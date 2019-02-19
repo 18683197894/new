@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.banner{
+    width: 100%;
+    overflow: hidden;
+}
+.banner img{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.News{
+    width: 100%;
+    overflow: hidden;
+}
+.News .Biaoti{
+    width: 100%;
+    height: 60px;
+    background-color: #2276cd;
+}
+.News .Biaoti .Name{
+    width: 67.7%;
+    margin: auto;
+    height: 60px;
+}
+.News .Biaoti .Name .jiantou{
+    line-height: 60px;
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 5px;
+    float: left;
+}
+.News .Biaoti .Name .Auto{
+    width: 400px;
+    margin: auto;
+    height: 60px;
+}
+.Biaoti .Name .Auto a{
+    width: 145px;
+    display: block;
+    float: left;
+    line-height: 60px;
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.Biaoti .Name .Auto a:nth-child(3){
+    width: 105px;
+    text-align: center;
+}
+.Biaoti .Name .Auto span{
+    /*display: block;*/
+    /*float: left;*/
+    font-size: 24px;
+    line-height: 60px;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 15px;
+}
+.Biaoti .Name .Auto a.avtive{
+    color: #033270;
+}
+.Information{
+    width: 67.7%;
+    overflow: hidden;
+    margin: auto;
+    padding-bottom: 150px;
+}
+.Loop{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 100px;
+}
+.Loop .neiron{
+    width: 66.6%;
+    float: left;
+    overflow: hidden;
+}
+.Loop .neiron .Name{
+    width: 95%;
+    overflow: hidden;
+    font-size: 25px;
+    color: #2276cd;
+}
+.Loop .neiron .jianjie{
+    width: 95%;
+    margin-top: 35px;
+    font-size: 17px;
+    color: #666666;
+    line-height: 25px;
+    padding-right: 5%;
+    border-right: 2px solid #2276cd;
+    box-sizing: border-box;
+}
+.Loop .shijian{
+    width: 33.33%;
+    float: left;
+    overflow: hidden;
+}
+.Loop .shijian .time{
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    color: #2276cd;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.Loop .shijian a{
+    display: block;
+    width: 220px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 28px;
+    color: #ffffff;
+    background-color:#2276cd;
+    border-radius:5px;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+}
+@media screen and (max-width: 1700px){
+    .News .Biaoti .Name{
+        width: 80%;
+    }
+    .Information{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 981px){
+    .News .Biaoti .Name{
+        width: 90%;
+    }
+    .Information{
+        width: 90%;
+    }
+}

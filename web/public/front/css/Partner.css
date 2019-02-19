@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "黑体";
+    background-color: #F7F7F7;
+}
+.business{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0.2rem;
+    background-color: #ffffff;
+}
+.business_jz{
+    width: 6.9rem;
+    margin: auto;
+}
+.business .Title{
+    width: 100%;
+    overflow: hidden;
+    height: 0.8rem;
+}
+.business .Title span{
+    display: block;
+    font-size: 0.36rem;
+    color: #222222;
+    line-height: 0.8rem;
+    float: left;
+    width: 1.5rem;
+}
+.business .Title i{
+    display: block;
+    width: 5.4rem;
+    float: right;
+    height: 1px;
+    background-color: #D1D1D1;
+    margin-top: 0.39rem;
+}
+.business .business_Show{
+    width: 100%;
+    overflow: hidden;
+}
+.business .business_Show a{
+    display: block;
+    text-decoration: none;
+    width: 33.33333%;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 0.3rem;
+}
+.business .business_Show a img{
+    display: block;
+    width: 2.26rem;
+    overflow: hidden;
+    margin: auto;
+}
+.Strategy{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0.2rem;
+    background-color: #ffffff;
+}
+.Strategy .Strategy_jz{
+    width: 6.9rem;
+    margin: auto;
+    overflow: hidden;
+}
+.Strategy .Title{
+    width: 100%;
+    overflow: hidden;
+    height: 0.8rem;
+}
+.Strategy .Title span{
+    display: block;
+    font-size: 0.36rem;
+    color: #222222;
+    line-height: 0.8rem;
+    float: left;
+    width: 1.85rem;
+}
+.Strategy .Title i{
+    display: block;
+    width: 5.03rem;
+    float: right;
+    height: 1px;
+    background-color: #D1D1D1;
+    margin-top: 0.39rem;
+}
+.Strategy .Strategy_Show{
+    width: 6.9rem;
+    margin: auto;
+    overflow: hidden;
+}
+.Strategy .Strategy_Show a{
+    display: block;
+    text-decoration: none;
+    width: 33.33333%;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 0.3rem;
+}
+.Strategy .Strategy_Show a img{
+    display: block;
+    width: 2.26rem;
+    overflow: hidden;
+    margin: auto;
+}
+.Strategy_Click{
+    width: 1.2rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    text-align: center;
+    font-size: 0.22rem;
+    color: #9b9b9b;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    border-radius: 0.2rem;
+    border: 1px solid #9b9b9b;
+    box-sizing: border-box;
+    margin-bottom: 0.2rem;
+}
+.Strategy_Click:hover{
+    text-decoration: none;
+}
+.Strategy_More{
+    width:100%;
+    overflow: hidden;
+    margin-top: 0.2rem;
+    background-color: #ffffff;
+    display: none;
+    padding-bottom: 0.2rem;
+}
+.Strategy_More.avtive{
+    display: block;
+}
+.Strategy_MoreJz{
+    width: 6.9rem;
+    overflow: hidden;
+    margin: auto;
+    padding-top: 0.2rem;
+}
+.Strategy_MoreJz a{
+    display: block;
+    text-decoration: none;
+    width: 33.33333%;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 0.3rem;
+}
+.Strategy_MoreJz a img{
+    display: block;
+    width: 2.26rem;
+    overflow: hidden;
+    margin: auto;
+}
+.Strategy_MoreMg{
+    display: block;
+    text-decoration: none;
+    width: 0.43rem;
+    height: 0.39rem;
+    margin: auto;
+}
+.Strategy_MoreMg img{
+    display: block;
+    width: 0.43rem;
+    height: 0.39rem;
+}
+.Guarantee{
+    width: 100%;
+    overflow: hidden;
+    background-color: #ffffff;
+    margin-top: 0.2rem;
+    padding-bottom: 0.1rem;
+}
+.Guarantee_Jz{
+    width: 6.9rem;
+    overflow: hidden;
+    margin: auto;
+}
+.Guarantee_Jz .Title{
+    width: 100%;
+    overflow: hidden;
+    height: 0.8rem;
+    position: relative;
+}
+.Guarantee_Jz .Title span{
+    font-size: 0.36rem;
+    color: #222222;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0.8rem;
+}
+.Guarantee_Jz .Title a{
+    display: block;
+    width: 0.21rem;
+    height: 0.39rem;
+    position: absolute;
+    right: 0;
+    top: 0.18rem;
+}
+.Guarantee_Jz .Title a img{
+    display: block;
+    width: 0.21rem;
+    height: 0.39rem;
+}
+.Guarantee_img{
+    width: 100%;
+    overflow: hidden;
+}
+.Guarantee_img img{
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}

@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "黑体";
+    background-color: #F7F7F7;
+}
+.Batch{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0.2rem;
+    background-color: #ffffff;
+}
+.Batch_Jz{
+    width: 6.9rem;
+    overflow: hidden;
+    margin: auto;
+    padding-top: 0.2rem;
+}
+.Batch_Jz img{
+    width: 2.87rem;
+    overflow: hidden;
+    float: left;
+}
+.Batch_Jz_Text{
+    width: 3.8rem;
+    float: right;
+    overflow: hidden;
+}
+.Batch_Jz_Text .Title{
+    font-size: 0.3rem;
+    color: #222222;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 0.2rem;
+    line-height: 0.25rem;
+}
+.Batch_Jz_Text .Wenzi{
+    font-size: 0.24rem;
+    color: #323232;
+    line-height: 0.26rem;
+}
+.Business{
+    width: 100%;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+.Business_Jz{
+    width: 6.9rem;
+    overflow: hidden;
+    margin: auto;
+}
+.Business_Jz .Title{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0.3rem;
+    margin-bottom: 0.4rem;
+}
+.Business_Jz .Title span{
+    width: 1.5rem;
+    overflow: hidden;
+    float: left;
+    font-size: 0.36rem;
+    color: #222222;
+}
+.Business_Jz .Title i{
+    display: block;
+    float: right;
+    width: 5.35rem;
+    height: 1px;
+    background-color: #EFEFEF;
+    margin-top: 0.26rem;
+}
+.Business_a{
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 0.1rem;
+}
+.Business_Jz a{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 0.1rem;
+    margin-bottom: 0.2rem;
+}
+.Business_Jz a img{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.Mengban{
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.4;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.Business_Jz a .Text{
+    display: block;
+    width: 48%;
+    height: 100%;
+    position: absolute;
+    right: 0.1rem;
+    top: 0;
+    z-index: 2;
+}
+.Business_Jz a .Text .Name{
+    display: block;
+    text-align: center;
+    font-size: 0.26rem;
+    color: #ffffff;
+    margin-top: 0.26rem;
+}
+.Business_Jz a .Text .Neirong{
+    font-size: 0.2rem;
+    color: #ffffff;
+}
+.Business_Jz a:nth-child(2N) .Text{
+    display: block;
+    width: 48%;
+    height: 100%;
+    position: absolute;
+    left: 0.2rem;
+    top: 0;
+    z-index: 2;
+}
+.Cooperation{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0.2rem;
+    background-color: #ffffff;
+}
+.Cooperation_Jz{
+    width: 6.9rem;
+    overflow: hidden;
+    margin: auto;
+    padding-bottom: 0.15rem;
+}
+.Cooperation_Jz .Title{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0.2rem;
+}
+.Cooperation_Jz .Title span{
+    width: 1.5rem;
+    overflow: hidden;
+    float: left;
+    font-size: 0.36rem;
+    color: #222222;
+}
+.Cooperation_Jz .Title i{
+    display: block;
+    float: right;
+    width: 5.35rem;
+    height: 1px;
+    background-color: #EFEFEF;
+    margin-top: 0.26rem;
+}
+.Cooperation_a{
+    display: block;
+    margin-top: 0.2rem;
+    overflow: hidden;
+}
+.Cooperation_a a{
+    display: block;
+    width: 33.33333%;
+    float: left;
+    overflow: hidden;
+    text-decoration: none;
+}
+.Cooperation_a a:hover{
+    text-decoration: none;
+}
+.Cooperation_a a img{
+    display: block;
+    width: 2.2rem;
+    height: 1.37rem;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 0.1rem;
+}
+.Cooperation_a a span{
+    display: block;
+    width: 2.2rem;
+    margin: auto;
+    text-align: center;
+    font-size: 0.24rem;
+    color: #323232;
+    margin-top: 0.05rem;
+    border-radius: 0.1rem;
+}
+.Cooperation_Jz .MORE{
+    display: block;
+    width: 1.2rem;
+    height: 0.4rem;
+    text-align: center;
+    line-height: 0.4rem;
+    border: 1px solid #9b9b9b;
+    color: #9b9b9b;
+    margin: auto;
+    margin-top: 0.3rem;
+    text-decoration: none;
+    border-radius: 0.2rem;
+    font-size:0.24rem;
+}

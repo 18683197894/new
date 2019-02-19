@@ -1,0 +1,152 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.banner{
+    width: 100%;
+    overflow: hidden;
+}
+.banner img{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.News{
+    width: 100%;
+    overflow: hidden;
+}
+.News .Biaoti{
+    width: 100%;
+    height: 60px;
+    background-color: #2276cd;
+}
+.News .Biaoti .Name{
+    width: 67.7%;
+    margin: auto;
+    height: 60px;
+}
+.News .Biaoti .Name .jiantou{
+    line-height: 60px;
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 5px;
+    float: left;
+}
+.News .Biaoti .Name .Auto{
+    width: 400px;
+    margin: auto;
+    height: 60px;
+}
+.Biaoti .Name .Auto a{
+    width: 145px;
+    display: block;
+    float: left;
+    line-height: 60px;
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.Biaoti .Name .Auto a:nth-child(3){
+    width: 105px;
+    text-align: center;
+}
+.Biaoti .Name .Auto span{
+    /*display: block;*/
+    /*float: left;*/
+    font-size: 24px;
+    line-height: 60px;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 15px;
+}
+.Biaoti .Name .Auto a.avtive{
+    color: #033270;
+}
+.News .Content{
+    width: 67.7%;
+    margin: auto;
+    padding-bottom: 150px;
+}
+.Content_Click{
+    width: 100%;
+    overflow: hidden;
+    display: none;
+}
+.Content_Click.avtive{
+    display: block;
+}
+.Content_Click .Title{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.Content_Click .Title img{
+    display: block;
+    margin: auto;
+}
+.Content_Click .Loop{
+    width: 100%;
+    overflow: hidden;
+}
+.Content_Click .Loop a{
+    width: 48%;
+    float: left;
+    overflow: hidden;
+    margin-top: 40px;
+}
+.Content_Click .Loop a:nth-child(2N){
+    float: right;
+}
+.Content_Click .Loop a .datu{
+    display: block;
+    width: 52%;
+    height: 160px;
+    float: left;
+}
+.Content_Click .Loop a .Text{
+    width: 45%;
+    float: right;
+}
+.Content_Click .Loop a .Text .Name{
+    width: 100%;
+    font-size: 18px;
+    color: #666;
+}
+.Content_Click .Loop a .Text .jies{
+    font-size: 11px;
+    color: #999;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+    line-height: 22px;
+}
+.Content_Click .Loop a .Text .jiantou{
+    display: block;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 1700px){
+    .News .Content{
+        width: 80%;
+    }
+    .News .Biaoti .Name{
+        width: 80%;
+    }
+    .Content_Click .Loop a .Text .jiantou{
+        margin-top: 35px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .News .Content{
+        width: 98%;
+    }
+    .Content_Click .Loop a .Text .jiantou{
+        margin-top: 25px;
+    }
+    .News .Biaoti .Name{
+        width: 80%;
+    }
+}

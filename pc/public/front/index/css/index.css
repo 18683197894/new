@@ -1,0 +1,379 @@
+body{
+    font-family: '黑体';
+}
+html{
+    min-width: 1300px;
+}
+.commercial{
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 999999;
+}
+.commercial img{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.commercial .guanb{
+    position: fixed;
+    left: 0;
+    top: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+    letter-spacing:8px;
+}
+.commercial .guanb i{
+    color: red;
+}
+.Banner{
+    width: 100%;
+    overflow: hidden;
+}
+.Banner a img{
+    display: block;
+    width: 100%;
+}
+.About{
+    width: 60%;
+    margin: auto;
+    position: relative;
+    height: 310px;
+}
+.About .kouh{
+    width: 100%;
+    position: absolute;
+    top: -95px;
+    left: 0;
+    height: 380px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow:0 2px 2px 0  #DCDCDC;
+    z-index: 9999;
+}
+.kouh .About_h{
+    display: block;
+    margin-top: 30px;
+    margin-left: 34.8%;
+}
+.About .kouh .Title{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    color: #033270;
+    text-align: center;
+    line-height: 75px;
+}
+.About .kouh .xiaob{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    color: #033270;
+    text-align: center;
+    line-height: 25px;
+    font-family: '微软雅黑';
+    letter-spacing:5px;
+}
+.kouh .About_x{
+    display: block;
+    margin-top: 1px;
+    margin-left: 56.1%;
+}
+.kouh .Text{
+    width: 75%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 25px;
+    line-height: 35px;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;;
+    letter-spacing:2px;
+    font-family: '黑体';
+}
+.kouh .More{
+    display: block;
+    margin: auto;
+    width: 205px;
+    height: 40px;
+    border: 2px solid #14407A;
+    color: #033270;
+    text-align: center;
+    border-radius: 30px;
+    line-height: 40px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-family: '微软雅黑';
+    letter-spacing:2px;
+    font-weight: 600;
+}
+.Pattern{
+    width: 100%;
+    overflow: hidden;
+}
+.Pattern .Title{
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+}
+.Pattern .Title .About_h{
+    display: block;
+    margin-top: 30px;
+    margin-left: 34.8%;
+}
+.Pattern .Title .Name{
+    width: 100%;
+    letter-spacing:2px;
+    text-align: center;
+    font-size: 40px;
+    color: #033270;
+    line-height: 75px;
+}
+.Pattern .Title .xiaob{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    color: #033270;
+    line-height: 25px;
+    font-family: '微软雅黑';
+    letter-spacing: 5px;
+}
+.Pattern .Title .About_x{
+    display: block;
+    margin-top: 10px;
+    margin-left: 60.1%;
+}
+.Pattern_bj{
+    display: block;
+    width: 67.7%;
+    margin: auto;
+    overflow: hidden;
+}
+.Pattern_bj img{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.Slogan{
+    width: 100%;
+    overflow: hidden;
+}
+.Slogan .Title{
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+}
+.Slogan .Title .About_h{
+    display: block;
+    margin-top: 30px;
+    margin-left: 34.8%;
+}
+.Slogan .Title .Name{
+    width: 100%;
+    letter-spacing:2px;
+    text-align: center;
+    font-size: 40px;
+    color: #033270;
+    line-height: 75px;
+}
+.Slogan .Title .xiaob{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    color: #033270;
+    line-height: 25px;
+    font-family: '微软雅黑';
+    letter-spacing: 5px;
+}
+.Slogan .Title .About_x{
+    display: block;
+    margin-top: 10px;
+    margin-left: 60.1%;
+}
+.pic{
+    overflow: hidden;/*隐藏溢出*/
+    width: 1200px;
+    height: 420px;
+    margin: 0 auto;
+    padding-top: 40px;
+
+}
+.pic ul li{
+    float: left;
+    height: 420px;
+    width: 100px;
+}
+
+
+.pic ul .pic1{
+    background-image: url(/front/index/img/wumian2.png);
+    background-position: center center;  /*图片居中  等比例*/
+    background-repeat: no-repeat;  /*图片不平铺*/
+}
+.pic ul .pic2{
+    background-image: url(/front/index/img/wumian3.png) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.pic ul .pic3{
+    background-image: url(/front/index/img/wumian4.png)  ;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.pic ul .pic4{
+    background-image: url(/front/index/img/wumian2.png)  ;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.pic ul .pic5{
+    background-image: url(/front/index/img/wumian5.png)  ;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.pic ul .pic6{
+    background-image: url(/front/index/img/wumian6.png)  ;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.pic ul .pic7{
+    background-image: url(/front/index/img/wumian7.png)  ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 600px;
+}
+
+.txt{
+    /* background-color: #000; */
+    background: rgba(42, 80, 138, 1);
+    height: 420px;
+    width: 100px;
+}
+.txt p{
+    float: left;
+    color: #fff;
+}
+.txt .p1{
+    height: 300px;
+    line-height: 30px;
+    font-size: 22px;
+    width: 22px;
+    margin: 30px 30px 0px 15px;
+    border: 1px solid #ffffff;
+    padding: 20px 20px 20px 20px;
+}
+.Contact{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+.Contact .Title{
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+}
+.Contact .Title .About_h{
+    display: block;
+    margin-top: 30px;
+    margin-left: 34.8%;
+}
+.Contact .Title .Name{
+    width: 100%;
+    letter-spacing:2px;
+    text-align: center;
+    font-size: 40px;
+    color: #033270;
+    line-height: 75px;
+}
+.Contact .Title .xiaob{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    color: #033270;
+    line-height: 25px;
+    font-family: '微软雅黑';
+    letter-spacing: 5px;
+}
+.Contact .Title .About_x{
+    display: block;
+    margin-top: 10px;
+    margin-left: 60.1%;
+}
+.Contact_wo{
+    width: 67.7%;
+    overflow: hidden;
+    margin: auto;
+    padding-top: 40px;
+}
+#map{
+    width: 57.3%;
+    height: 430px;
+    overflow: hidden;
+    float: left;
+    background-color: red;
+}
+.Leaving{
+    width: 36%;
+    float: right;
+    overflow: hidden;
+}
+.Leaving .Project{
+    display: block;
+    width: 80%;
+    height: 45px;
+    border-radius: 30px;
+    margin: auto;
+    border: 1px solid #B2B2B2;
+    overflow: hidden;
+    outline: none;
+    text-indent: 15px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.Leaving .Project.avtive{
+    border: 1px solid red;
+}
+.Leaving .Project.avtive::-webkit-input-placeholder {
+    color: red;
+}
+.Leaving a{
+    display: block;
+    width: 80%;
+    margin: auto;
+    height: 45px;
+    border-radius: 30px;
+    border: 1px solid #033270;
+    line-height: 45px;
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+    letter-spacing: 3px;
+    color:#033270;
+}
+.Leaving a:hover{
+    background-color:#033270;
+    color: #ffffff;
+}
+@media screen and (max-width: 1301px){
+    .shutter {
+        overflow: hidden;
+        width: 100%!important;
+        height: 400px!important;
+        position: relative;
+    }
+    .kouh .Text{
+        width: 90%;
+        line-height: 30px;
+    }
+    .pic{
+        width: 93%;
+    }
+    .Contact_wo{
+        width: 90%;
+    }
+}

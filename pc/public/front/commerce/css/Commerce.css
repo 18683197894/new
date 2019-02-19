@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    min-width: 1300px;
+}
+body{
+    font-family: '黑体';
+}
+.Banner{
+    width: 100%;
+    overflow: hidden;
+}
+.Banner img{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.Crumbs{
+    width: 1300px;
+    overflow: hidden;
+    margin: auto;
+    height: 88px;
+    line-height: 88px;
+}
+.Crumbs span{
+    color: #000000;
+    font-size: 22px;
+    margin-right: 15px;
+}
+.Crumbs a{
+    font-size: 22px;
+    margin-right: 15px;
+    color: #022355;
+    text-decoration: none;
+}
+.Content{
+    width: 1300px;
+    overflow: hidden;
+    margin: auto;
+}
+.Batch{
+    width: 100%;
+    overflow: hidden;
+    background-color: #F7F7F7;
+}
+.Batch img{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.Batch_tit{
+    width: 100%;
+    overflow: hidden;
+    font-size: 30px;
+    color: #033270;
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.Batch .Text{
+    width: 1150px;
+    overflow: hidden;
+    margin: auto;
+    font-size: 22px;
+    color: #474747;
+    line-height: 35px;
+    padding-bottom: 70px;
+}
+.Business{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.Business .Title{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    font-size: 30px;
+    color: #033270;
+    letter-spacing: 5px;
+    margin-top: 67px;
+    margin-bottom: 30px;
+}
+.Business_Show{
+    width: 100%;
+    overflow: hidden;
+    height: 395px;
+    position: relative;
+}
+.Business_Show .Tab{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    opacity: 0;
+    animation: all 5s;
+}
+.Business_Show .Tab.avtive{
+    opacity: 1;
+    animation: all 5s;
+    animation-fill-mode: forwards;
+    -webkit-animation: all 5s ;
+    -webkit-animation-fill-mode: forwards;
+}
+.Show_Click{
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    right: 320px;
+    bottom: 40px;
+}
+.Show_Click a{
+    display: block;
+    width: 12px;
+    height: 12px;
+    text-decoration: none;
+    border: 1px solid #6E6E6E;
+    float: left;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.Show_Click a.avtive{
+    background-color: #FF8939;
+    border: 1px solid #FF8939;
+}
+.Slogan{
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 95px;
+}
+.Slogan .Title{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    font-size: 30px;
+    color: #033270;
+    letter-spacing: 5px;
+    margin-top: 95px;
+    margin-bottom: 50px;
+}
+.Slogan .Slogan_c{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.Slogan .Slogan_c .show{
+    width: 465px;
+    height: 335px;
+    position: absolute;
+    top: 115px;
+    left: 430px;
+}
+.Slogan .Slogan_c .show .Reset{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.Reset .Early{
+    display: block;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    border: 2px solid #ffffff;
+    transform: rotateZ(45deg);
+    /*transition: all .5s;*/
+}
+.Reset .Metaphase{
+    display: block;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 147px;
+    bottom: 23px;
+    border: 2px solid #ffffff;
+    transform: rotateZ(45deg);
+    /*transition: all .5s;*/
+}
+.Reset .Later{
+    display: block;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 33px;
+    top: 30px;
+    border: 2px solid #ffffff;
+    transform: rotateZ(45deg);
+}
+.Reset .Early_T{
+    display: block;
+    height: 40px;
+    width: 305px;
+    position: absolute;
+    left: -320px;
+    top:86px;
+}
+.Reset .Early_T .Wenzi{
+    width: 220px;
+    height: 36px;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    float: left;
+    line-height: 36px;
+    font-size: 22px;
+    color: #ffffff;
+    overflow: hidden;
+    text-align: center;
+}
+.Reset .Early_T .Reset_img{
+    display: block;
+    float: left;
+    margin-top: 18px;
+    margin-left: 5px;
+}
+.Reset .Metaphase_T{
+    display: block;
+    height: 40px;
+    width: 305px;
+    position: absolute;
+    left: -197px;
+    bottom: 81px;
+}
+.Reset .Metaphase_T .Wenzi{
+    width: 220px;
+    height: 36px;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    float: left;
+    line-height: 36px;
+    font-size: 22px;
+    color: #ffffff;
+    overflow: hidden;
+    text-align: center;
+}
+.Reset .Metaphase_T .Reset_img{
+    display: block;
+    float: left;
+    margin-top: 18px;
+    margin-left: 5px;
+}
+.Reset .Later_T{
+    display: block;
+    height: 40px;
+    width: 305px;
+    position: absolute;
+    right: -309px;
+    top:86px;
+}
+.Reset .Later_T .Wenzi{
+    width: 220px;
+    height: 36px;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    float: left;
+    line-height: 36px;
+    font-size: 22px;
+    color: #ffffff;
+    overflow: hidden;
+    text-align: center;
+}
+.Reset .Later_T .Reset_img{
+    display: block;
+    float: left;
+    margin-top: 18px;
+    margin-right: 5px;
+}
+
+.Reset a{
+    text-decoration: none;
+}
+.Reset a.avtive{
+    background: rgba(255,255,225,0.5);
+    border: none;
+    padding: 2px;
+}
+.Reset .ACJ{
+    opacity:0;
+    transition: all 3s;
+}
+.Reset .Template{
+    display: block;
+    height: 40px;
+    width: 305px;
+    position: absolute;
+    left: -84px;
+    bottom: -27px;
+}
+.Reset .Template .Reset_img{
+    display: block;
+    float: left;
+    margin-top: 18px;
+    margin-right: 5px;
+}
+.Reset .Template .Wenzi{
+    width: 220px;
+    height: 36px;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    float: left;
+    line-height: 36px;
+    font-size: 22px;
+    color: #ffffff;
+    overflow: hidden;
+    text-align: center;
+}
+.Reset .Sale{
+    display: block;
+    height: 40px;
+    width: 305px;
+    position: absolute;
+    right: -76px;
+    bottom:-27px;
+}
+.Reset .Sale .Reset_img{
+    display: block;
+    float: left;
+    margin-top: 18px;
+    margin-right: 5px;
+}
+.Reset .Sale .Wenzi{
+    width: 220px;
+    height: 36px;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    float: left;
+    line-height: 36px;
+    font-size: 22px;
+    color: #ffffff;
+    overflow: hidden;
+    text-align: center;
+}
+.Reset .Batchh{
+    display: block;
+    height: 40px;
+    width: 305px;
+    position: absolute;
+    right: -210px;
+    top: 192px;
+}
+.Reset .Batchh .Reset_img{
+    display: block;
+    float: left;
+    margin-top: 18px;
+    margin-right: 5px;
+}
+.Reset .Batchh .Wenzi{
+    width: 220px;
+    height: 36px;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    float: left;
+    line-height: 36px;
+    font-size: 22px;
+    color: #ffffff;
+    overflow: hidden;
+    text-align: center;
+}
+.Reset .Architecture{
+    display: block;
+    height: 40px;
+    width: 305px;
+    position: absolute;
+    right: -210px;
+    top: -20px;
+}
+.Reset .Architecture .Reset_img{
+    display: block;
+    float: left;
+    margin-top: 18px;
+    margin-right: 5px;
+}
+.Reset .Architecture .Wenzi{
+    width: 220px;
+    height: 36px;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    float: left;
+    line-height: 36px;
+    font-size: 22px;
+    color: #ffffff;
+    overflow: hidden;
+    text-align: center;
+}
+.Reset .ACJ.avtive{
+    opacity: 1;
+}
+.Reset a span{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    font-size: 30px;
+    transform: rotateZ(-45deg);
+    line-height: 150px;
+    text-align: center;
+}
+.Promise{
+    width: 100%;
+    overflow: hidden;
+    background-color: #F7F7F7;
+    margin-bottom: 35px;
+}
+.Promise .Title{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    font-size: 30px;
+    color: #033270;
+    letter-spacing: 5px;
+    margin-top: 30px;
+    margin-bottom: 75px;
+}
+.Promise_c{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+.Article{
+    width: 33.33%;
+    overflow: hidden;
+    float: left;
+}
+.Article img{
+    display: block;
+    float: left;
+    margin-left: 40px;
+}
+.Article span{
+    display: block;
+    line-height: 95px;
+    float: left;
+    margin-left: 35px;
+    color: #000000;
+    font-size: 20px;
+}
+.Article:nth-child(3) img{
+    margin-left: 10px;
+}

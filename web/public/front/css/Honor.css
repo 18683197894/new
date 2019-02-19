@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "黑体";
+    background-color: #F7F7F7;
+}
+.Honor{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0.2rem;
+    background-color: #ffffff;
+}
+.Honor_Jz{
+    width: 6.9rem;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 0.2rem;
+}
+.Honor .Title{
+    width: 1.5rem;
+    overflow: hidden;
+    float: left;
+    font-size: 0.36rem;
+    color:#222222;
+}
+.Honor_Jz i{
+    display: block;
+    float: right;
+    width: 5.35rem;
+    height: 1px;
+    background-color: #EFEFEF;
+    margin-top: 0.26rem;
+}
+.Honor_Show{
+    width: 6.9rem;
+    overflow: hidden;
+    margin: auto;
+    padding-top: 0.2rem;
+}
+.Honor_Show a{
+    display: block;
+    width: 50%;
+    overflow: hidden;
+    float: left;
+    margin-bottom: 0.22rem;
+}
+.Honor_Show a img{
+    display: block;
+    width: 3.25rem;
+    overflow: hidden;
+    margin: auto;
+}
+.Course{
+    width: 100%;
+    overflow: hidden;
+    background-color: #ffffff;
+    margin-top: 0.2rem;
+}
+.Course_Jz{
+    width: 6.9rem;
+    overflow: hidden;
+    margin: auto;
+}
+.Course_Jz .Title{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0.3rem;
+}
+.Course_Jz .Title span{
+    display: block;
+    float: left;
+    width: 1.5rem;
+    overflow: hidden;
+    font-size: 0.36rem;
+    color:#222222;
+}
+.Course_Jz .Title i{
+    display: block;
+    float: right;
+    width: 5.35rem;
+    height: 1px;
+    background-color: #EFEFEF;
+    margin-top: 0.26rem;
+}
+.Course_Time{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0.4rem;
+    position: relative;
+}
+.Course_Time_a{
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 0.28rem;
+}
+.Course_Time_a .Time{
+    font-size: 0.28rem;
+    color: #323232;
+    width: 0.7rem;
+    float: left;
+}
+.Course_img{
+    display: block;
+    width: 0.17rem;
+    height: 0.17rem;
+    float: left;
+    position: relative;
+    z-index: 2;
+    margin-top: 0.12rem;
+    background-color: #ffffff;
+}
+.Course_img .Course_yuan{
+    display: block;
+    width: 0.17rem;
+    height: 0.17rem;
+}
+.Course_Time_a .Text{
+    width: 5.78rem;
+    float: right;
+    font-size: 0.24rem;
+    color: #222222;
+    line-height: 0.3rem;
+    margin-top: 0.05rem;
+}
+.Course_Xian{
+    width: 1px;
+    height: 100%;
+    overflow: hidden;
+    background-color: #929292;
+    position: absolute;
+    left:0.7767rem;
+    top: 0.2rem;
+    z-index: 1;
+}
+.Understand{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0.2rem;
+    background-color: #ffffff;
+}
+.Understand .Understand_Jz{
+    width: 6.9rem;
+    overflow: hidden;
+    margin: auto;
+}
+.Understand .Title{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 0.2rem;
+}
+.Understand .Title span{
+    display: block;
+    float: left;
+    width: 1.5rem;
+    overflow: hidden;
+    font-size: 0.36rem;
+    color:#222222;
+}
+.Understand .Title i{
+    display: block;
+    float: right;
+    width: 5.35rem;
+    height: 1px;
+    background-color: #EFEFEF;
+    margin-top: 0.26rem;
+}
+.Understand_Show{
+    width: 100%;
+    overflow-y: auto;
+}
+.Understand_Show_a{
+    width: 7.9rem;
+    margin-top: 0.4rem;
+}
+.Understand_Show_a a{
+    width: 33.3333%;
+    overflow: hidden;
+    float: left;
+    display: block;
+    text-decoration: none;
+}
+.Understand_Show_a a img{
+    display: block;
+    width: 2.4rem;
+    height: 1.4rem;
+    border-radius: 0.1rem;
+    margin: auto;
+}
+.Understand_Show_a a span{
+    display: block;
+    width: 2.4rem;
+    margin: auto;
+    font-size: 0.24rem;
+    color: #222222;
+}
+.Understand_Show::-webkit-scrollbar {
+    display: none;
+}
