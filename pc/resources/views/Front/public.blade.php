@@ -39,16 +39,8 @@ $banner = \App\Model\SysFrontKeyword::where('url',\Request::getRequestUri())->fi
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="Keywords" content="{{ $frontKeyword['keyword'] }}">
     <meta name="description" content="{{ $frontKeyword['description'] }}">
+@php echo $webConfig->statistical_code @endphp
 @yield('css')
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?98669ef195655b47be18f778f438f15e";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
 </head>
 <body>
 <div class="Header">
@@ -116,7 +108,7 @@ var _hmt = _hmt || [];
             @endforeach
             </div>
         </div>
-        <span class="beian">{{ $webConfig->copyright }} &nbsp;&nbsp;&nbsp;{{ $webConfig->record }} @php echo $webConfig->statistical_code; @endphp</span>
+        <span class="beian">{{ $webConfig->copyright }} &nbsp;&nbsp;&nbsp;{{ $webConfig->record }}</span>
         <div class="Weibo">
             <img src="{{ asset('/front/public/img/weixin.jpg') }}" alt=""/>
             <span>微信公众号</span>

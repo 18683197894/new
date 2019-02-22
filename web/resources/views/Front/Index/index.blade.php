@@ -39,7 +39,7 @@ $frontMenu = App\Model\SysFrontMenu::where('status','!=',0)
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?a459a84de9afd0a6d2f686afb0296d54";
+  hm.src = "https://hm.baidu.com/hm.js?a97b8dfaf8b73f8cab734e8fc95ee176";
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();

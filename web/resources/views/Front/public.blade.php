@@ -33,15 +33,7 @@ $frontMenu = App\Model\SysFrontMenu::where('status','!=',0)
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="Keywords" content="{{ $frontKeyword['keyword'] }}">
     <meta name="description" content="{{ $frontKeyword['description'] }}">
-    <script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?a459a84de9afd0a6d2f686afb0296d54";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
+</head>    
 <script>
 var _hmt = _hmt || [];
 (function() {
@@ -51,7 +43,6 @@ var _hmt = _hmt || [];
   s.parentNode.insertBefore(hm, s);
 })();
 </script>
-</head>
     @yield('css')
 <body>
 
