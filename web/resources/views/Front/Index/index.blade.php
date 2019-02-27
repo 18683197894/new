@@ -125,7 +125,7 @@ var _hmt = _hmt || [];
         </a>
         <a href="#">
             <img src="{{ asset('/front/img/Advantage_a2.png') }}" alt=""/>
-            <span class="Text">免费装修样板间</span>
+            <span class="Text">免费提供样板房</span>
         </a>
         <a href="#">
             <img src="{{ asset('/front/img/Advantage_a1.png') }}" alt=""/>

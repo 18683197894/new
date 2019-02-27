@@ -70,7 +70,7 @@
         <div class="Wenzi">免费物业管理</div>
     </div>
     <div class="Template ACJ">
-        <div class="Wenzi">免费设计装修样板间</div>
+        <div class="Wenzi">免费提供样板房</div>
         <img src="http://www.jsjju.cn/front/commerce/img/Reset.png" alt="" class="Reset_img">
     </div>
     <div class="Sale ACJ">

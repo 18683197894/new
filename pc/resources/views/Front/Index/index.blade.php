@@ -72,7 +72,7 @@
             <li class="pic2">
                 <a href="javascript:;">
                     <div class="txt">
-                        <p class="p1">免费装修样板间</p>
+                        <p class="p1">免费提供样板房</p>
                     </div>
                 </a>
             </li>
