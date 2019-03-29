@@ -15,7 +15,7 @@
         <img src="{{ asset('/front/commerce/img/Cooperation_pl.png') }}" alt=""/>
         <div class="Batch_tit">建商批量精装修</div>
         <div class="Text">
-            建商集团定位于中国房地产精装修产业价值构建者，其核心竞争优势来源于全一线品牌的资源整合能力，从而为业主提供最具性价比的放心生态家装。其独创模式，
+            四川建商家居集团有限公司定位于中国房地产精装修产业价值构建者，其核心竞争优势来源于全一线品牌的资源整合能力，从而为业主提供具性价比的放心生态家装。其创建模式，
             用市场杂牌的装修套餐价格装修出全一线家居建材品牌组合的品质，让终端购房客户得实惠，为房地产项目销售加分，并助开发商实现更高的利润可能。
         </div>
     </div>
@@ -75,7 +75,7 @@
     </div>
     <div class="Sale ACJ">
         <img src="http://www.jsjju.cn/front/commerce/img/Reset.png" alt="" class="Reset_img">
-        <div class="Wenzi">免费销售代理</div>
+        <div class="Wenzi">整合营销策划</div>
     </div>
     <div class="Batchh ACJ">
         <img src="http://www.jsjju.cn/front/commerce/img/Reset.png" alt="" class="Reset_img">

@@ -1,5 +1,3 @@
-User-agent:*
-Allow: /public
-Allow: /sitemap.xml
-Allow: /sitemap.html
-Sitemap: https:/www.jsjju.cn/sitemap.xml
+User-agent: *
+Allow: /
+Sitemap:https://www.jsjju.cn/sitemap.xml

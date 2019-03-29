@@ -8,10 +8,10 @@
 @endsection
 
 @section('content')
-<div class="commercial">
+<!-- <div class="commercial">
     <span class="guanb">广告关闭倒计时<i class="Num"></i></span>
     <img src="{{ asset('/front/index/img/index_commercial.png') }}" alt="" class="index_commercial"/>
-</div>
+</div> -->
 <div class="shutter">
     <div class="shutter-img">
         @foreach($lunbo as $v)
@@ -33,7 +33,7 @@
         <div class="xiaob">ABOUT US</div>
         <img src="{{ asset('/front/index/img/About_h.png') }}" alt=""class="About_x"/>
         <div class="Text">
-            建商集团是一家集规划设计、家居供应、装修实施、代理销售于一体的家居生态平台公司，专业为房地产开发商解决商品房批量精装修、售楼部\样板间设计装修、楼盘销售代理、物业管理等整套开发协同服务。
+            四川建商家居集团有限公司是一家集规划设计、家居供应、装修实施、整合营销策划于一体的家居生态平台公司，专业为房地产开发商解决商品房批量精装修、售楼部\样板间设计装修、楼盘销售代理、物业管理等整套开发协同服务。
         </div>
         <a href="{{ url('/about.html') }}" class="More">了解更多</a>
     </div>
@@ -79,7 +79,7 @@
             <li class="pic3">
                 <a href="javascript:;">
                     <div class="txt">
-                        <p class="p1">免费销售代理</p>
+                        <p class="p1">整合营销策划</p>
                     </div>
                 </a>
             </li>
@@ -148,7 +148,7 @@
 @endsection
 
 @section('js')
-<script type="text/javascript">
+<!-- <script type="text/javascript">
     setTimeout(function(){
          $(".commercial").css("display","none");
          },
@@ -171,7 +171,7 @@
         time();
     }
     count(5);
-</script>
+</script>  -->
 <script src="{{ asset('/front/index/js/velocity.js') }}"></script>
 <script src="{{ asset('/front/index/js/shutter.js') }}"></script>
 <script src="{{ asset('/front/index/js/index.js') }}"></script>

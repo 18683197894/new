@@ -27,7 +27,7 @@ body{
     margin-left: 15px;
 }
 .Map{
-    width: 1300px;
+    width: 67.7%;
     margin: auto;
     overflow: hidden;
     padding-bottom: 50px;
@@ -43,8 +43,8 @@ body{
     width: 30px;
     height: 30px;
     position: absolute;
-    left: 52.5%;
-    top: 65.5%;
+    left: 52%;
+    top: 45.2%;
     border-radius: 50%;
     z-index: 999;
     cursor: pointer;
@@ -54,14 +54,14 @@ body{
     height: 40px;
     position: absolute;
     left: 52.8%;
-    top: 63%;
+    top: 43.5%;
     z-index: 888;
     cursor: pointer;
 }
 .chengdu{
     position: absolute;
-    left: 41.2%;
-    top: 44%;
+    left: 41%;
+    top: 31.6%;
     width: 325px;
     height: 235px;
     background: url("/front/case/img/sichuan_h.png");
@@ -76,8 +76,8 @@ body{
     width: 30px;
     height: 30px;
     position: absolute;
-    left: 52%;
-    top: 70%;
+    left: 52.4%;
+    top: 48.6%;
     border-radius: 50%;
     z-index: 999;
     cursor: pointer;
@@ -86,15 +86,15 @@ body{
     width: 18px;
     height: 28px;
     position: absolute;
-    left: 53.75%;
-    top: 69.3%;
+    left: 53.72%;
+    top: 48.03%;
     z-index: 888;
     cursor: pointer;
 }
 .yibing{
     position: absolute;
-    left: 42%;
-    top: 50.5%;
+    left: 41.9%;
+    top: 35.2%;
     width: 325px;
     height: 235px;
     background: url("/front/case/img/sichuan_h.png");
@@ -109,8 +109,8 @@ body{
     width: 30px;
     height: 30px;
     position: absolute;
-    left: 56%;
-    top: 68%;
+    left: 56.5%;
+    top: 47.5%;
     border-radius: 50%;
     z-index: 999;
     cursor: pointer;
@@ -119,15 +119,15 @@ body{
     width: 26px;
     height: 40px;
     position: absolute;
-    left: 57.45%;
-    top: 66%;
+    left: 57.4%;
+    top: 45.9%;
     z-index: 888;
     cursor: pointer;
 }
 .chongq{
     position: absolute;
     left: 45.5%;
-    top: 48.5%;
+    top: 33.5%;
     width: 325px;
     height: 235px;
     background: url("/front/case/img/sichuan_h.png");
@@ -142,8 +142,8 @@ body{
     width: 30px;
     height: 30px;
     position: absolute;
-    left: 57.5%;
-    top: 75.5%;
+    left: 57%;
+    top: 52.8%;
     border-radius: 50%;
     z-index: 999;
     cursor: pointer;
@@ -152,15 +152,15 @@ body{
     width: 26px;
     height: 40px;
     position: absolute;
-    left: 58.65%;
-    top: 73.5%;
+    left: 58.1%;
+    top: 51.4%;
     z-index: 888;
     cursor: pointer;
 }
 .guizhou{
     position: absolute;
-    left: 46.8%;
-    top:55%;
+    left: 46.2%;
+    top: 39.5%;
     width: 325px;
     height: 235px;
     background: url("/front/case/img/sichuan_h.png");
@@ -175,25 +175,25 @@ body{
     width: 30px;
     height: 30px;
     position: absolute;
-    right: 24.5%;
-    top: 38%;
+    right: 25%;
+    top: 26.6%;
     border-radius: 50%;
     z-index: 999;
-    cursor:  pointer;
+    cursor: pointer;
 }
 .bj_hq{
     width: 26px;
     height: 40px;
     position: absolute;
-    right: 23.7%;
-    top: 36.3%;
+    right: 23.8%;
+    top: 25.2%;
     z-index: 888;
     cursor: pointer;
 }
 .beijin{
     position: absolute;
-    right:12.3%;
-    top:19%;
+    right: 12.3%;
+    top: 13%;
     width: 325px;
     height: 235px;
     background: url("/front/case/img/sichuan_h.png");
@@ -209,7 +209,7 @@ body{
     height: 30px;
     position: absolute;
     right: 16%;
-    top: 47.2%;
+    top: 32.6%;
     border-radius: 50%;
     z-index: 999;
     cursor: pointer;
@@ -220,14 +220,14 @@ body{
     display: block;
     position: absolute;
     right: 16%;
-    top: 46.3%;
+    top: 32.13%;
     z-index: 888;
     cursor: pointer;
 }
 .qingdao{
     position: absolute;
-    right:4.3%;
-    top:27.5%;
+    right: 4.2%;
+    top: 19.5%;
     width: 325px;
     height: 235px;
     background: url("/front/case/img/sichuan_h.png");
@@ -426,8 +426,8 @@ body{
     cursor:pointer;
 }
 
-@media screen and (min-width: 1302px){
+@media screen and (max-width: 1302px){
     .Map{
-        width: 1300px;
+        width: 98%;
     }
 }

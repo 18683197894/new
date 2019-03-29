@@ -18,7 +18,7 @@
         </a>
         <a href="#">
             <img src="{{ asset('/front/img/Guarantee3.png') }}" alt=""/>
-            <span>独创模式，额外收益立竿见影</span>
+            <span>创建模式，额外收益立竿见影</span>
         </a>
     </div>
 </div>

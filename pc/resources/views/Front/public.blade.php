@@ -40,6 +40,15 @@ $banner = \App\Model\SysFrontKeyword::where('url',\Request::getRequestUri())->fi
     <meta name="Keywords" content="{{ $frontKeyword['keyword'] }}">
     <meta name="description" content="{{ $frontKeyword['description'] }}">
 @php echo $webConfig->statistical_code @endphp
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?98669ef195655b47be18f778f438f15e";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
 @yield('css')
 </head>
 <body>
