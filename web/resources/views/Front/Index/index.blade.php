@@ -2,7 +2,7 @@
 $webConfig = \App\Model\SysWebConfig::find(1);
 if(!isset($keyword))
 {   
-    $keyword = \App\Model\SysFrontKeyword::where('url',\Request::getRequestUri())->first();
+    $keyword = \App\Model\SysFrontKeyword::where('url',\Request::route()->uri === '/'?'/':'/'.\Request::route()->uri)->first();
     $keyword = !empty($keyword)?$keyword->toArray():array();
     $keyword['title'] = isset($keyword['title'])?$keyword['title'] :'建商联盟';
     $keyword['keyword'] = isset($keyword['keyword'])?$keyword['keyword'] :'建商联盟';
