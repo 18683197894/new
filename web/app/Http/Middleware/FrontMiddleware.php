@@ -15,13 +15,13 @@ class FrontMiddleware
      */
     public function handle($request, Closure $next)
     {   
-        if(!$this->isMobile())
-        {   
+        //if(!$this->isMobile())
+        //{   
 
-            $host = $request->server('HTTP_HOST').$request->server('REQUEST_URI');
-            $newHost = preg_replace('/^m\./','www.',$host);
-            return redirect('http://'.$newHost);
-        }
+          //  $host = $request->server('HTTP_HOST').$request->server('REQUEST_URI');
+          //  $newHost = preg_replace('/^m\./','www.',$host);
+          //  return redirect('http://'.$newHost);
+       // }
         $model = SysSystemConfig::find(1);
         if($model && $model->site_close == 1)
         {

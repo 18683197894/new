@@ -7,7 +7,7 @@
 @section('content')
 <div class="Preferential">
     <div class="Centered">
-        <img src="{{ asset('/front/') }}img/Preferential_t.png" alt="" class="Preferential_t"/>
+        <img src="{{ asset('/front/img/Preferential_t.png') }}" alt="" class="Preferential_t"/>
         <div class="Centered_img">
             <img src="{{ asset('/front/img/Preferential1.png') }}" alt="" class="Preferential_img"/>
             <img src="{{ asset('/front/img/Preferential2.png') }}" alt="" class="Preferential_img"/>

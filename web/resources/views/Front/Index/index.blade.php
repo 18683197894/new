@@ -133,7 +133,7 @@ var _hmt = _hmt || [];
         </a>
         <a href="#">
             <img src="{{ asset('/front/img/Advantage_a6.png') }}" alt=""/>
-            <span class="Text">免费销售代理</span>
+            <span class="Text">整合营销策划</span>
         </a>
         <a href="#">
             <img src="{{ asset('/front/img/Advantage_a5.png') }}" alt=""/>
