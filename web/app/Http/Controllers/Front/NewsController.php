@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Model\DynamicNewsClassify;
 use App\Model\DynamicNews;
+use App\Model\SysFrontKeyword;
 class NewsController extends Controller
 {
     public function news(Request $request,$name=null,$id=null)
@@ -64,14 +65,19 @@ class NewsController extends Controller
         }
         $links = preg_replace('/\/p1\"/','"',$links);
     	$remen = DynamicNews::where('classify_id',$classify->id)->orderBy('total_num','DESC')->offset(0)->limit(5)->get();
-
+		$keyword = SysFrontKeyword::where('url','/'.$classify->url)->first();
+        if($keyword)
+        {
+            $keyword = $keyword->toArray();
+        }
     	   	return view('Front.News.classify',[
     		'classify' => $classify,
     		'news' => $news,
     		'classifys' => DynamicNewsClassify::orderBy('id','DESC')->get(),
     		'remen'=>$remen,
             'links' => $links,
-            'label'=>array('url'=>'/','title'=>$classify->classify_name)
+            'label'=>array('url'=>'/','title'=>$classify->classify_name),
+			'keyword'=>$keyword
     	]);
     }
 }

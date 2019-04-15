@@ -41,10 +41,11 @@ $banner = \App\Model\SysFrontKeyword::where('url',\Request::getRequestUri())->fi
     <meta name="description" content="{{ $frontKeyword['description'] }}">
 @php echo $webConfig->statistical_code @endphp
 <script>
+//百度商桥统计
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?98669ef195655b47be18f778f438f15e";
+  hm.src = "https://hm.baidu.com/hm.js?00c2569552862fac381c27ec05360b28";
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();

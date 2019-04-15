@@ -34,16 +34,17 @@ $frontMenu = App\Model\SysFrontMenu::where('status','!=',0)
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="Keywords" content="{{ $frontKeyword['keyword'] }}">
     <meta name="description" content="{{ $frontKeyword['description'] }}">
+	<script>
+		//百度统计
+		var _hmt = _hmt || [];
+			(function() {
+ 			var hm = document.createElement("script");
+  			hm.src = "https://hm.baidu.com/hm.js?0c0cc9613ccbe6fd5bb3c6d2a25cef53";
+ 			var s = document.getElementsByTagName("script")[0]; 
+			s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
 </head>
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?a97b8dfaf8b73f8cab734e8fc95ee176";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
 <body>
 <div class="header">
     <img src="{{ asset('/front/img/LOGO.gif') }}" alt="" class="header_logo"/>
@@ -198,7 +199,7 @@ var _hmt = _hmt || [];
         <img src="{{ asset('/front/img/index_te.gif') }}" alt=""/>
         <span>电话咨询</span>
     </a>
-    <a href="http://p.qiao.baidu.com/cps/chat?siteId=13027239&userId=27102984" target="_blank" class="footer_Kefu">
+    <a href="http://p.qiao.baidu.com/cps/chat?siteId=13305483&userId=27651107&cp=&cr=&cw=mobile" target="_blank" class="footer_Kefu">
         <img src="{{ asset('/front/img/kefu.gif') }}" alt=""/>
         <span>客服</span>
     </a>
