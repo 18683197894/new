@@ -76,6 +76,7 @@ $frontMenu = App\Model\SysFrontMenu::where('status','!=',0)
     </a>
     <a href="http://p.qiao.baidu.com/cps/chat?siteId=13305483&userId=27651107&cp=&cr=&cw=mobile" target="_blank" class="footer_Kefu">
         <img src="{{ asset('/front/img/kefu.gif') }}" alt=""/>
+        <div class="footerNum">1</div>
         <span>客服</span>
     </a>
     <a href="https://book.yunzhan365.com/zfki/bvkq/mobile/index.html" target="_blank" class="footer_Huace">
@@ -152,6 +153,11 @@ $frontMenu = App\Model\SysFrontMenu::where('status','!=',0)
 <script src="{{ asset('/front/js/zepto.min.js') }}"></script>
 <script src="{{ asset('/front/js/rem.js') }}"></script>
 <script src="{{ asset('/front/js/Classify.js') }}"></script>
+<script type="text/javascript">
+    $(".footer_Kefu").click(function(){
+        $(".footer_Kefu .footerNum").addClass("avtive")
+    });
+</script>
 @yield('js')
 </body>
 </html>

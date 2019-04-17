@@ -28,6 +28,7 @@ body{
     float: left;
     width: 20%;
     text-decoration: none;
+    position: relative;
 }
 .footer_index img{
     display: block;
@@ -42,7 +43,7 @@ body{
     overflow: hidden;
     text-align: center;
     font-size: 0.22rem;
-    color: #929292;
+    color: #033270;
     line-height: 0.4rem;
 }
 .footer_Classify img{
@@ -63,6 +64,23 @@ body{
     font-size: 0.26rem;
     color: #033270;
     line-height: 0.61rem;
+}
+.footerNum{
+    display: block;
+    width: 0.24rem;
+    height: 0.24rem;
+    background-color: red;
+    color: #ffffff;
+    font-size: 0.22rem;
+    line-height: 0.24rem;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    right: 0.4rem;
+    top: 0.56rem;
+}
+.footerNum.avtive{
+    display: none;
 }
 .footer_Kefu img{
     width: 0.51rem;

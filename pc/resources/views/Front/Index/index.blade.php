@@ -138,10 +138,14 @@
         <div id="map"></div>
         <div class="Leaving">
             <input type="text" class="Project" name="name" placeholder="姓名:" id="name"/>
+            <input type="text" class="Project" name="Telephone" placeholder="联系方式:" id="Telephone"/>
             <input type="text" class="Project" name="Project" placeholder="项目名称:" id="Project"/>
             <input type="text" class="Project" name="Developers" placeholder="公司名称:" id="Developers"/>
-            <input type="text" class="Project" name="Telephone" placeholder="联系方式:" id="Telephone"/>
-            <a href="javascript:;">提交</a>
+            <div class="TeYz">
+            <input type="text" class="TeYzSr" name="Verification" placeholder="输入验证码:" id="Send"/>
+            <a href="javascript:;" class="Send">点击发送短信验证码</a>
+            </div>
+            <a href="javascript:;" class="Submission">提交</a>
         </div>
     </div>
 </div>

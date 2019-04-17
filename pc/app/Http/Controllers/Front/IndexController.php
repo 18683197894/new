@@ -18,8 +18,16 @@ class IndexController extends Controller
     }
     public function message(Request $request)
     {
-    	$data = $request->except('_token');
-		// $request->setTrustedProxies(array('10.32.0.1/16'));
+    	$data = $request->except('_token','send');
+        if(!\Cache::has($request->phone))
+        {   
+            $this->error_message('请发送验证码',null,401);
+        }
+        if(\Cache::get($request->phone) !== intval($request['send']))
+        {   
+            $this->error_message('验证码错误',null,401);
+        }
+        \Cache::forget($request->phone);
 		$data['ip'] = $request->getClientIp();
     	if(LeavingMessage::create($data))
     	{
@@ -28,5 +36,20 @@ class IndexController extends Controller
     	{
     		$this->error_message('留言失败');
     	}
+    }
+
+    public function message_send(Request $request)
+    {   
+        $message = new \Message();
+        $code = mt_rand(1111, 9999);
+        $res = $message->SendMessage($request->phone,'验证码:'.$code,$request->getClientIp());
+        if($res['code'] == 200)
+        {   
+            \Cache::put($request->phone,$code,10);
+            $this->success_message($res['info']);
+        }else
+        {
+            $this->error_message($res['info']);
+        }
     }
 }

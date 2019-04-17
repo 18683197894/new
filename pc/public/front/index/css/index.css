@@ -359,6 +359,56 @@ html{
     background-color:#033270;
     color: #ffffff;
 }
+/*新加的*/
+.TeYz{
+    display: block;
+    width: 80%;
+    height: 45px;
+    margin: auto;
+    overflow: hidden;
+    outline: none;
+    text-indent: 15px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.TeYz .TeYzSr{
+    display: block;
+    width: 35%;
+    height: 42px;
+    float: left;
+    overflow: hidden;
+    outline: none;
+    text-indent: 15px;
+    font-size: 15px;
+    border: 1px solid #B2B2B2;
+    border-radius: 20px;
+}
+.TeYz .TeYzSr.avtive{
+    border: 1px solid red;
+}
+.TeYz .TeYzSr.avtive::-webkit-input-placeholder {
+    color: red;
+}
+.TeYz .Send{
+    display: block;
+    width: 58%;
+    float: right;
+    height: 42px;
+    border-radius: 15px;
+    text-indent: 0;
+    font-size: 16px;
+    color: #000000;
+
+}
+.TeYz .Send.avtive{
+    cursor:not-allowed;
+    background-color: #9f9f9f;
+    color: #ffffff;
+    border: 1px solid #9f9f9f;
+}
+.TeYz .Send.avtive:hover{
+    background-color: #9f9f9f;
+}
 @media screen and (max-width: 1301px){
     .shutter {
         overflow: hidden;

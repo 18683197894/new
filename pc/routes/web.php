@@ -200,6 +200,7 @@ Route::group(['middleware'=>['front']],function(){
 
 Route::get('/','Front\IndexController@index');
 Route::post('/index-message','Front\IndexController@message');
+Route::post('/index-message-send','Front\IndexController@message_send');
 
 Route::get('/case.html','Front\CaseController@case');
 
