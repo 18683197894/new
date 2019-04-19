@@ -75,7 +75,7 @@ $(".TeYz .Send").click(function(){
                     alert(res.info)
                 }else
                 {
-                    alert('留言失败!');
+                    alert('发送失败!');
                 }
             },
             error : function(res)

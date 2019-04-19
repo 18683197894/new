@@ -823,7 +823,7 @@ body{
     width: 1300px;
     overflow: hidden;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 40px;
 }
 .We_L{
     width: 50%;
@@ -852,7 +852,7 @@ body{
 .Inp{
     width: 100%;
     overflow: hidden;
-    margin-bottom: 37px;
+    margin-bottom: 21px;
     border: 1px solid #66696B;
     box-sizing: border-box;
     border-radius: 10px;
@@ -981,7 +981,7 @@ body{
 .swiper-button-next{
     width: 42px;
     height: 72px;
-    background: url("../img/Case_l.png");
+    background: url("/front/about/img/Case_l.png");
     background-size: 100% 100%;
 }
 .swiper-button-next{
@@ -996,7 +996,7 @@ body{
 .swiper-button-prev{
     width: 42px;
     height: 72px;
-    background: url("../img/Case_r.png");
+    background: url("/front/about/img/Case_r.png");
     background-size: 100% 100%;
 }
 .swiper-button-prev{
@@ -1007,6 +1007,51 @@ body{
     cursor: pointer;
     background-position: center;
     background-repeat: no-repeat;
+}
+/*新加的CSS*/
+.TeYz{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 25px;
+    position: relative;
+}
+.TeYz input{
+    display: block;
+    width: 35%;
+    height: 45px;
+    overflow: hidden;
+    outline: none;
+    border: 1px solid #66696B;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color:transparent;
+    font-size: 20px;
+    color: #9f9f9f;
+    float: left;
+    text-align: center;
+}
+
+.TeYz .Send{
+    display: block;
+    width: 58%;
+    float: right;
+    height: 42px;
+    border-radius: 15px;
+    text-indent: 0;
+    font-size: 16px;
+    color: #9f9f9f;
+    border: 1px solid #66696B;
+    box-sizing: border-box;
+    line-height: 42px;
+    text-align: center;
+    text-decoration: none;
+
+}
+.TeYz .Send.avtive{
+    cursor:not-allowed;
+    background-color: #9f9f9f;
+    color: #ffffff;
+    border: 1px solid #9f9f9f;
 }
 @media screen and (max-width: 1302px){
     .Header .Logo {

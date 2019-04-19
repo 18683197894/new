@@ -211,22 +211,22 @@ html{
 
 
 .pic ul .pic1{
-    background-image: url(/front/index/img/wumian2.png);
+    background-image: url(/front/index/img/wumian1.png);
     background-position: center center;  /*图片居中  等比例*/
     background-repeat: no-repeat;  /*图片不平铺*/
 }
 .pic ul .pic2{
-    background-image: url(/front/index/img/wumian3.png) ;
+    background-image: url(/front/index/img/wumian2.png) ;
     background-position: center center;
     background-repeat: no-repeat;
 }
 .pic ul .pic3{
-    background-image: url(/front/index/img/wumian4.png)  ;
+    background-image: url(/front/index/img/wumian3.png)  ;
     background-position: center center;
     background-repeat: no-repeat;
 }
 .pic ul .pic4{
-    background-image: url(/front/index/img/wumian2.png)  ;
+    background-image: url(/front/index/img/wumian4.png)  ;
     background-position: center center;
     background-repeat: no-repeat;
 }

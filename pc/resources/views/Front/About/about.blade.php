@@ -27,18 +27,13 @@
             <div class="Title">中 国 房 地 产 精 装 修 产 业 价 值 构 建 者</div>
             <div class="Brief">
                 <p>
-                    四川建商家居集团有限公司（以下简称“建商集团”），主营业务致力于为房地产发展商提供 “商品房批量精装”、“房地产整合营销”服务，以及利用公司已有中国知名连锁酒店品牌进驻，
-                  为开发商成功开发提供资源协同服务。
+                    四川建商家居集团有限公司（以下简称“建商集团”），是一家集建筑规划咨询、项目售楼部设计、营销样板间设计、住宅批量精装修工程指导、品牌材料集中供应把关等服务于一体化的商品房批量精装修公司，依托领先的设计实力、供应商与资源与施工技术，为广大开发商提供一站式住宅工业化整体解决方案。
                 </p>
                 <p>
-                    建商集团定位于中国房地产精装修产业价值构建者，其核心竞争优势来源于全一线品牌的资源整合能力，从而为业主提供具性价比的放心生态家装。
-                    其创建模式，用市场杂牌的装修套餐价格装修出全一线家居建材品牌组合的品质，让终端购房客户得实惠，为房地产项目销售加分，并助开发商实现更高的利润可能。
-                    同时，建商集团与战略合作商家也通过规模化的经营得到相应的合理利润，从而真正实现多方共赢！
+                    建商集团定位于中国房地产精装修产业价值构建者，目前主要核心业务为，为房地产发展商提供“商品房批量装修”、“房地产整合营销”等资源协同服务。其核心竞争优势来源于全一线品牌的资源整合能力，为业主提供比较具有性价比的放心生态家装，让终端购房客户得到实惠。其独创模式，用市场杂牌的装修价格装修出全一线家居建材品牌组合的品质，为房地产项目销售加分，并帮助实现更高的利润可能。同时，建商集团与战略合作商家也通过规模化的经营得到相应的合理利润，从而真正实现多方共赢！
                 </p>
                 <p>
-                    建商集团先后成功服务重庆·阳光100国际新城、青岛·海上嘉年华、北京·中冶蓝城、成都·迈克生物专家公寓、宜宾·浙商临港新天地等，
-                    所合作项目不但实现了更高的利润附加值并一售而空，得到了广大客户及业界同仁的普遍认同和一致肯定。立足四川，服务全国，
-                    在批量精装房成为大势所趋的行业背景下，建商集团将为更多有远见的开发商提供战略协同服务，助力客户企业在消费升级、产业转型的时代浪潮中快人一步、勇夺先机
+                    建商集团拥有丰富的装修施工经验，在全国，先后服务于全国多家楼盘，所有合作的项目不仅为开发商实现了更高的利润，且所有楼盘开售便一售而空，得到了广大客户和业界人士的一致认同。 立足四川，服务于全国，从经验探索到全程精细化管理，为开发商提供住宅工业化整体解决方案的综合型专业地产服务，让开发商在现代社会的浪潮中抢占先机。
                 </p>
             </div>
         </div>
@@ -147,23 +142,23 @@
         <div class="item">
             <div class="disk">
                 <div class="text-wrap">
-                    <div class="title"><h2>罗玉书</h2><span>副总经理</span></div>
+                    <div class="title"><h2>吴振裕</h2><span>总工程师</span></div>
                     <p class="text">
                         <span class="xianxi">
                             <o class="xianxi_top">
-                                <span class="name">罗玉书</span><span class="zhiw">副总经理</span>
+                                <span class="name">吴振裕</span><span class="zhiw">总工程师</span>
                             </o>
-                            原中国建筑一局集团工程总监、中港建筑工程(深圳)有限公司副总经理，二十余年建筑、装饰行业工作经验，现任四川建商集团董事、副总经理、总工程师。
+                            原广东世纪装饰股份有限公司工程副总，曾全面担纲湖南湖北万达广场装饰工程业务操盘，二十余年建筑、装饰行业工作经验，高级工程师，现任四川建商集团副总经理、总工程师。
                         </span>
                     </p>
                 </div>
             </div>
-            <img src="{{ asset('front/about/img/luo.png') }}" alt="">
+            <img src="{{ asset('front/about/img/wu.png') }}" alt="">
         </div>
         <div class="item">
             <div class="disk">
                 <div class="text-wrap">
-                    <div class="title"><h2>黄均祥</h2><span>供应链总监</span></div>
+                    <div class="title"><h2>冯佑鹏</h2><span>供应链总监</span></div>
                     <p class="text">
                         <span class="xianxi">
                             <o class="xianxi_top">
@@ -174,7 +169,7 @@
                     </p>
                 </div>
             </div>
-            <img src="{{ asset('front/about/img/geng.png') }}" alt="">
+            <img src="{{ asset('front/about/img/fou.png') }}" alt="">
         </div>
         <div class="item">
             <div class="disk">
@@ -271,6 +266,10 @@
                     <img src="{{ asset('front/about/img/Inp3.png') }}" alt="" class="Inp_img"/>
                     <input type="text" placeholder="您的邮箱" id="Email"/>
                 </div>
+                <div class="TeYz">
+                    <input type="text" class="" name="Verification" placeholder="输入验证码:" id="Send">
+                    <a href="javascript:;" class="Send">点击发送短信验证码</a>
+                </div>
                 <div class="Inp">
                     <img src="{{ asset('front/about/img/Inp5.png') }}" alt="" class="Inp_img"/>
                     <textarea class="Message" id="textarea" placeholder="您的留言"></textarea>
@@ -300,6 +299,7 @@
 
 @section('js')
 <script src="{{ asset('front/about/js/swiper.min.js') }}"></script>
+
 
 <script>
     $(".yiyuan a").mouseenter(function(){
@@ -559,79 +559,10 @@
         });
     });
 
-    $(".Collect .Button").click(function(){
-        var reg= /^[\u4e00-\u9fa5\s]+$/; //中文姓名验证
-        var RegCellPhone = /^(1)([0-9]{10})?$/;  //电话验证
-        var Em = /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+((\.[a-zA-Z0-9_-]{2,3}){1,2})$/;//验证邮箱
-        var username = $("#Name").val();   //  获取姓名
-        var Telephone = $("#Telephone").val();  //  获取电话号码
-        var Email1 = $("#Email").val();  //获取邮箱
-        var Te = $("#textarea").val().length;
-        if(!($('#Name').val()=='')){
-            if(reg.test(username)){
-                if(RegCellPhone.test(Telephone)){
-                    if(Email1!== ''){
-
-                        if(Em.test(Email1)){
-                            if(Te == 0){
-                                $("#textarea").attr('placeholder','请留言');
-                            }else{
-                                    $.ajax('/index-message',{
-                                        type : 'post',
-                                        data : {type:2,name:username,phone:Telephone,email:Email1,content:$("#textarea").val(),_token:$('meta[name="csrf-token"]').attr('content')},
-                                        success : function(res)
-                                        {
-                                            res = $.parseJSON(res);
-                                            if(res.code == 200)
-                                            {
-                                                alert('留言成功');
-                                                $("#Name").val('');
-                                                $("#Telephone").val('');
-                                                $("#Email").val('');
-                                                $("#textarea").val('');
-                                            }else
-                                            {
-                                                alert('留言失败');
-                                            }
-                                        },
-                                        error : function(error)
-                                        {
-                                            alert('留言失败');
-                                        }
-                                    })                            }
-                        }else{
-                            $("#Email").val("");
-                            $("#Email").attr('placeholder','邮箱格式不正确！请重新输入');
-                        }
-                    }else{
-                        $("#Email").attr('placeholder','请输入电子邮箱');
-                    }
-
-                }else{
-                    $("#Telephone").attr('placeholder','请输入正确的11位数电话号码');
-                }
-            }else{
-                $("#Name").val("");
-                $("#Name").attr('placeholder','请输入您的中文姓名');
-            }
-        }else{
-            $("#Name").attr('placeholder','用户名不能为空');
-        }
-    });
-    $("#Name").click(function(){
-        $("#Name").attr('placeholder','');
-    });
-    $("#Telephone").click(function(){
-        $("#Telephone").attr('placeholder','');
-    });
-    $("#Email").click(function(){
-        $("#Email").attr('placeholder','');
-    });
-    $("#textarea").click(function(){
-        $("#textarea").attr('placeholder','');
-    });
+   
 
 </script>
 <script src="{{ asset('front/about/js/jquery.scrollify.js') }}"></script>
 <script src="{{ asset('front/about/js/main.js') }}"></script>
+<script src="{{ asset('front/about/js/About.js') }}"></script>
 @endsection

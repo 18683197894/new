@@ -293,4 +293,6 @@ Route::get('/team.html','Front\AboutController@team');
 Route::get('/{name}/{id?}','Front\NewsController@news')->where('name','gsxw|hyxw');
 Route::get('/commerce.html','Front\AboutController@commerce');
 Route::get('/about.html','Front\AboutController@about');
+Route::post('/about-message','Front\AboutController@message');
+Route::post('/about-message-send','Front\AboutController@message_send');
 });

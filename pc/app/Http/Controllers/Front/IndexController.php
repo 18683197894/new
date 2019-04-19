@@ -19,15 +19,15 @@ class IndexController extends Controller
     public function message(Request $request)
     {
     	$data = $request->except('_token','send');
-        if(!\Cache::has($request->phone))
+        if(!\Cache::has('index_'.$request->phone))
         {   
             $this->error_message('请发送验证码',null,401);
         }
-        if(\Cache::get($request->phone) !== intval($request['send']))
+        if(\Cache::get('index_'.$request->phone) !== intval($request['send']))
         {   
             $this->error_message('验证码错误',null,401);
         }
-        \Cache::forget($request->phone);
+        \Cache::forget('index_'.$request->phone);
 		$data['ip'] = $request->getClientIp();
     	if(LeavingMessage::create($data))
     	{
@@ -45,7 +45,7 @@ class IndexController extends Controller
         $res = $message->SendMessage($request->phone,'验证码:'.$code,$request->getClientIp());
         if($res['code'] == 200)
         {   
-            \Cache::put($request->phone,$code,10);
+            \Cache::put('index_'.$request->phone,$code,10);
             $this->success_message($res['info']);
         }else
         {
