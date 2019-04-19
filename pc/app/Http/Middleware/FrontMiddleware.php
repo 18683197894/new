@@ -20,7 +20,8 @@ class FrontMiddleware
          {   
              $host = $request->server('HTTP_HOST').$request->server('REQUEST_URI');
              $newHost = preg_replace('/^www\./','m.',$host);
-             return redirect('http://'.$newHost);
+             //$this->gheader('https://'.$newHost);
+			 return redirect('https://'.$newHost,301);			
          }
         $model = SysSystemConfig::find(1);
         if($model && $model->site_close == 1)
@@ -51,4 +52,37 @@ class FrontMiddleware
             return false;  
         }  
     }
+	public function gheader($url)  
+	{  
+		//echo '<html><head><meta http-equiv="Content-Language" content="zh-CN"><meta HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=gb2312"><meta http-equiv="refresh"  content="0;url='.$url.'"><title>loading ... </title></head><body><div style="display:none">  <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id=\'cnzz_stat_icon_5696423\'%3E%3C/span%3E%3Cscript src=\'" + cnzz_protocol + "s9.cnzz.com/stat.php%3Fid%3D5696423%26show%3Dpic1\' type=\'text/javascript\'%3E%3C/script%3E"));</script></div> <script>window.location="'.$url.'";</script></body></html>';  
+	//echo '<!DOCTYPE HTML>
+//<html lang="en-US">
+//<head>
+  // <meta charset="UTF-8">
+   //<title></title>
+//</head>
+//<body>
+  // <a id="links" href="#" style="display:none;"></a>
+  // <script type="text/javascript">
+  //    var obj = document.getElementById("links");
+  //    obj.href = "'.$url.'";
+  //    obj.click();
+  // </script>
+//</body>
+//</html>';	
+	echo '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="refresh" content="0;url='.$url.'"/>    
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title></title>
+<style type="text/css">
+
+</style>
+</head>
+<body>
+</body>
+</html>';
+	exit();  
+	} 
 }

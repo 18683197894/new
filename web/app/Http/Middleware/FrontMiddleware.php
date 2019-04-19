@@ -20,7 +20,7 @@ class FrontMiddleware
 
           //  $host = $request->server('HTTP_HOST').$request->server('REQUEST_URI');
           //  $newHost = preg_replace('/^m\./','www.',$host);
-          //  return redirect('http://'.$newHost);
+          //  return redirect('https://'.$newHost);
        // }
         $model = SysSystemConfig::find(1);
         if($model && $model->site_close == 1)
