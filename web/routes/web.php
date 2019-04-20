@@ -16,6 +16,7 @@ Route::group(['middleware'=>['front']],function(){
 
 Route::get('/','Front\IndexController@index');
 Route::post('/index-message','Front\IndexController@index_message');
+Route::post('/index-message-send','Front\IndexController@message_send');
 
 Route::get('team.html','Front\AboutController@team');
 Route::get('discount.html','Front\AboutController@discount');

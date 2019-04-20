@@ -97,6 +97,7 @@ $(".Collect .Button").click(function(){
                                             $("#Email").val('');
                                             $("#textarea").val('');
                                             $("#Send").val('');
+                                            window.location.reload();
                                         }else if(res.code == 401)
                                         {  
                                             $("#Send").val("");

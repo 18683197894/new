@@ -163,6 +163,11 @@ $frontMenu = App\Model\SysFrontMenu::where('status','!=',0)
         <input type="text" id="Name" placeholder="您的称呼："/>
         <sapn class="Make_x"></sapn>
         <input type="text" id="Contact" placeholder="联系方式："/>
+        <div class="YanZ">
+            <input type="text" class="" name="Verification" placeholder="输入验证码:" id="Send">
+            <a href="javascript:;" class="Send">点击发送短信验证码</a>
+        </div>
+        <sapn class="Make_x"></sapn>
         <a href="javascript:;" class="Submit">提交</a>
     </div>
 </div>

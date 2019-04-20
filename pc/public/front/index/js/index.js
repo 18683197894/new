@@ -128,6 +128,7 @@ $(".Leaving .Submission").click(function(){
                                                $("#Developers").val('');
                                                $("#Project").val('');
                                                $("#Send").val('');
+                                               window.location.reload();
                                            }else if(res.code == 401)
                                            {  
                                                 $("#Send").val("");

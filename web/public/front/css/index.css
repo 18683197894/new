@@ -411,3 +411,33 @@ body{
     text-overflow:ellipsis;
     white-space:nowrap
 }
+/*新加的CSS*/
+.YanZ{
+    width: 100%;
+    height: 0.6rem;
+}
+.YanZ input{
+    display: block;
+    width: 35%;
+    float: left;
+}
+.YanZ .Send{
+    width: 60%;
+    float: right;
+    display: block;
+    line-height: 0.6rem;
+    text-align: center;
+    color: #929292;
+    font-size: 0.28rem;
+    border: 0.02rem solid #F4F4F4;
+    box-sizing: border-box;
+    border-top: 0.03rem solid #F4F4F4;
+    border-radius: 0.1rem;
+    text-decoration: none;
+}
+.YanZ .Send.avtive{
+    cursor: not-allowed;
+    background-color: #9f9f9f;
+    color: #ffffff;
+    border: 1px solid #9f9f9f;
+}
