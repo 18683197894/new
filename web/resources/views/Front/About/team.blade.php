@@ -35,7 +35,7 @@
                 <div class="Xinm">
                     <div class="Name">{{ $v->name }}</div>
                     <span class="Zhiwei">{{ $v->post }}</span>
-                    @if($loop->index == 1 || $loop->index == 2)
+                    @if($loop->index == 1 || $loop->index == 2 || $loop->index == 3)
                         <img src="{{ asset('/front/img/Grade.gif') }}" alt="" class="Grade"/>
                         <img src="{{ asset('/front/img/Grade.gif') }}" alt="" class="Grade"/>
                         <img src="{{ asset('/front/img/Grade.gif') }}" alt="" class="Grade"/>

@@ -204,7 +204,7 @@ $frontMenu = App\Model\SysFrontMenu::where('status','!=',0)
         <div class="footerNum">1</div>
         <span>客服</span>
     </a>
-    <a href="https://book.yunzhan365.com/zfki/bvkq/mobile/index.html" target="_blank" class="footer_Huace">
+    <a href="https://www.yunzhan365.com/47318499.html" target="_blank" class="footer_Huace">
         <img src="{{ asset('/front/img/huace.gif') }}" alt=""/>
         <span>画册</span>
     </a>
