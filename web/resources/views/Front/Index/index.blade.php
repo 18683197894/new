@@ -200,7 +200,7 @@ $frontMenu = App\Model\SysFrontMenu::where('status','!=',0)
         <img src="{{ asset('/front/img/Classify.gif') }}" alt=""/>
         <span>分类</span>
     </a>
-    <a href='tel:{{ str_replace("&nbsp;","",$webConfig->phone)}}' class="footer_Te" >
+    <a href='tel:18502838293' class="footer_Te" >
         <img src="{{ asset('/front/img/index_te.gif') }}" alt=""/>
         <span>电话咨询</span>
     </a>

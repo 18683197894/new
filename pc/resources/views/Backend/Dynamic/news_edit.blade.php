@@ -187,6 +187,13 @@ a{
           <input type="text" name="total_num" lay-verify="total_num" value="{{ $news->total_num }}" placeholder="请输入览数" autocomplete="off" class="layui-input">
         </div>
       </div>
+	  <div class="layui-form-item">
+         <label class="layui-form-label">创建时间</label>
+         <div class="layui-input-block">
+           <input type="text" name="created_at" lay-verify="required" value="{{ $news->created_at }}" placeholder="请输入时间" autocomplete="off" class="layui-input">
+         </div>
+      </div>
+
 			<div class="layui-form-item">
 				<label class="layui-form-label">展示图片</label>
 				<div class="layui-input-block">

@@ -99,7 +99,15 @@ class DynamicController extends Controller
             {
                 $data['description'] = !empty($request->synopsis)?$request->synopsis:$request->title;
             }
-            $news = DynamicNews::find($request->id);
+			if($data['created_at'])
+			{
+				$data['created_at'] = strtotime($data['created_at']);
+			}else
+			{
+				unset($data['created']);
+			}
+           
+			$news = DynamicNews::find($request->id);
             $imageInit = false;
             if($request->hasFile('exhibition_image'))
             {   
