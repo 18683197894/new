@@ -52,6 +52,28 @@ class MessageController extends Controller
         ]);
     }
 
+    public function leaving_message_re_re(Request $request)
+    {   
+        $this->SysConfingInit();
+        $name = $request->get('name','');        
+        $start = $request->get('start');
+        $end = $request->get('end');
+        $start = empty($start)?0:strtotime($start);
+        $end = empty($end)?time():strtotime($end)+86400;
+        $statusSql = ($request->get('status') === '1' || $request->get('status') === '0')?"status = ".$request->get('status'):"status != 3 ";
+        $message = LeavingMessage::whereRaw($statusSql)
+                                ->where('type',3)
+                                ->where('name','like','%'.$name.'%')
+                                ->where('created_at','>=',$start)
+                                ->where('created_at','<=',$end)
+                                ->orderBy('created_at','DESC')
+                                ->paginate($this->_sizePage);
+        return view('Backend.Message.leaving_message_re_re',[
+            'message'=>$message,
+            'request' => $request->all()
+        ]);
+    }
+
     public function leaving_message_status(Request $request)
     {
     	$model = LeavingMessage::find($request->id);

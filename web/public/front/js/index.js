@@ -28,32 +28,32 @@ $(".YanZ .Send").click(function(){
             }
             
             $.ajax('/index-message-send',{
-            'type':'post',
-            data : {_token:$('meta[name="csrf-token"]').attr('content'),phone:Tele},
-            success : function(res)
-            {   
-                res = $.parseJSON(res);
-                if(res.code == 200)
+                'type':'post',
+                data : {_token:$('meta[name="csrf-token"]').attr('content'),phone:Tele},
+                success : function(res)
+                {   
+                    res = $.parseJSON(res);
+                    if(res.code == 200)
+                    {
+                        $(".YanZ .Send").addClass("avtive");
+                            countime(60);
+                            setTimeout(function(){
+                            $(".YanZ .Send").removeClass("avtive");
+                            $(".YanZ .Send").show().text("点击发送短信验证码");
+                        },100000);
+                    }else if(res.code == 401)
+                    {  
+                        alert(res.info)
+                    }else
+                    {
+                        alert('发送失败!');
+                    }
+                },
+                error : function(res)
                 {
-                    $(".YanZ .Send").addClass("avtive");
-                        countime(60);
-                        setTimeout(function(){
-                        $(".YanZ .Send").removeClass("avtive");
-                        $(".YanZ .Send").show().text("点击发送短信验证码");
-                    },100000);
-                }else if(res.code == 401)
-                {  
-                    alert(res.info)
-                }else
-                {
-                    alert('发送失败!');
+                    alert('发送失败');
                 }
-            },
-            error : function(res)
-            {
-                alert('发送失败');
-            }
-           });
+            });
         }
         
 

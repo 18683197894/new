@@ -17,16 +17,19 @@ Route::group(['middleware'=>['front']],function(){
 Route::get('/','Front\IndexController@index');
 Route::post('/index-message','Front\IndexController@index_message');
 Route::post('/index-message-send','Front\IndexController@message_send');
-
-Route::get('team.html','Front\AboutController@team');
-Route::get('discount.html','Front\AboutController@discount');
+Route::get('/team.html','Front\AboutController@team');
+Route::get('/discount.html','Front\AboutController@discount');
 Route::get('/partner.html','Front\AboutController@partner');
 Route::get('/about.html','Front\AboutController@about');
 Route::get('/guarantee.html','Front\AboutController@guarantee');
 Route::get('/{name}/{id?}','Front\NewsController@news')->where('name','gsxw|hyxw');
 Route::get('/honor.html','Front\AboutController@honor');
 Route::get('/hardcover.html','Front\AboutController@hardcover');
-Route::get('case.html','Front\CaseController@case');
+Route::get('/case.html','Front\CaseController@case');
+Route::get('/design.html','Front\AboutController@design');
+Route::post('/design-message','Front\AboutController@message');
+Route::post('/design-message-send','Front\AboutController@message_send');
+
 Route::get('/case/baoli.html',function(){
 	$arr = array(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24);
 	shuffle($arr);

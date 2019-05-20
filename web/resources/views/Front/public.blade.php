@@ -94,6 +94,11 @@ $frontMenu = App\Model\SysFrontMenu::where('status','!=',0)
             </a>
         </div>
         <div class="Classify_Te_a">
+            <a href="{{ url('/design.html') }}" class="link">
+                售楼部免费设计
+            </a>
+        </div>
+        <div class="Classify_Te_a">
             <a href="{{ url('/discount.html') }}" class="link">
                 优惠活动
             </a>

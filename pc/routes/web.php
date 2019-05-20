@@ -133,6 +133,7 @@ Route::post('/backend/sys/frontmenu_del','Backend\SysController@frontmenu_del');
 */
 Route::get('/backend/message/leaving-message','Backend\MessageController@leaving_message');
 Route::get('/backend/message/leaving-message_re','Backend\MessageController@leaving_message_re');
+Route::get('/backend/message/leaving-message_re_re','Backend\MessageController@leaving_message_re_re');
 Route::post('/backend/message/leaving-message_status','Backend\MessageController@leaving_message_status');
 Route::post('/backend/message/leaving-message_del','Backend\MessageController@leaving_message_del');
 Route::post('/backend/message/leaving-message_code','Backend\MessageController@leaving_message_code');
