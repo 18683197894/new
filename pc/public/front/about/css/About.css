@@ -87,7 +87,7 @@ body{
 }
 .Centered .section1_logo{
     display: block;
-    margin-top: 150px;
+    margin-top: 120px;
 }
 .Centered .Cont{
     width: 100%;
@@ -98,21 +98,49 @@ body{
     text-align: center;
     font-size: 30px;
     color: #ffffff;
+    margin-top: 15px;
 }
 .Centered .Cont .Brief{
-    width: 800px;
+    width: 1000px;
     overflow: hidden;
     font-size: 18px;
     color: #ffffff;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 10px;
     line-height: 30px;
 }
 .Centered .Cont .Brief p{
     display: block;
     width: 100%;
-    margin-top: 10px;
     text-indent: 35px;
+    font-size: 16px;
+    line-height: 28px;
+}
+.Centered .Cont .Brief .zhuyi{
+    width: 100%;
+    height: 35px;
+    font-size: 24px;
+    color: #ffffff;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.Centered .Cont .Brief .xiaobao{
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 5px;
+    letter-spacing: 3px;
+}
+.Centered .Cont .Brief .color{
+    color: #ff9727;
+}
+.Centered .Cont .Brief .guwen{
+    width: 100%;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-top:10px;
 }
 .section2 .juz{
     width: 1300px;
@@ -1008,7 +1036,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 }
-/*新加的CSS*/
+/*æ–°åŠ çš„CSS*/
 .TeYz{
     width: 100%;
     overflow: hidden;
