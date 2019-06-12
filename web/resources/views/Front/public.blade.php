@@ -44,6 +44,14 @@ $frontMenu = App\Model\SysFrontMenu::where('status','!=',0)
   			s.parentNode.insertBefore(hm, s);
 		})();
 	</script>
+	<script>
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//datax.baidu.com/x.js?dm=jsjju.cn";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
 </head>    
 <body>
 
