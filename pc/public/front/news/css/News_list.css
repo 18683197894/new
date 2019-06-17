@@ -58,7 +58,7 @@ body{
 }
 .Conn_l  .Title .Text{
 width:100%;
-height:40px;
+//height:40px;
 text-align:center;
 line-height:40px; 
 font-size:30px;
