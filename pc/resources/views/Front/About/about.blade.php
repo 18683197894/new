@@ -28,13 +28,13 @@
             <div class="Brief">
                 <p>
                     四川建商家居集团有限公司是一家集市场调研分析、建筑规划设计咨询、项目售楼部设计、营销样板间设计、楼盘营销代理、楼盘批量精装修合作等服务于一体化的商品房批量装修公司，
-                    依托设计实力、供应商与资源与施工技术，为开发商提供一站式住宅工业化整体解决方案。
+                    依托设计实力、供应商资源与施工技术，为开发商提供一站式住宅工业化整体解决方案。
                 </p>
                 <p>
                     建商家居集团为房地产发展商提供“商品房批量精装”、“房地产整合营销”等资源协同服务。建商家居集团从经验探索到全程精细化管理，
                     为开发商提供住宅工业化整体解决方案的综合型专业地产服务。
                 </p>
-                <div class="zhuyi">特色工程</div>
+                <div class="zhuyi">工程特色</div>
                 <!--<div class="xiaobao color">一站式开发服务</div>-->
                 <!--<p>-->
                     <!--建商免费为开发商提供一站式开发服务：包括免费提供市场调研、免费项目可行性研究、-->
@@ -67,7 +67,7 @@
                 <div class="yipai">
                     <span class="color">企业定位：</span>中国房地产精装修产业价值构建者
                 </div>
-                <div class="zhuyi">集团文化</div>
+                <div class="zhuyi">集团地址</div>
                 <div class="dizhi color">四川省成都市青羊区敬业路229号7栋201</div>
             </div>
         </div>
@@ -196,7 +196,7 @@
                     <p class="text">
                         <span class="xianxi">
                             <o class="xianxi_top">
-                                <span class="name">黄均祥</span><span class="zhiw">供应链总监</span>
+                                <span class="name">冯佑鹏</span><span class="zhiw">供应链总监</span>
                             </o>
                             《中国建筑装饰装修》杂志编审委员会成员，对装饰供应链有二十余年的深度研究及实操运营经验。
                         </span>
