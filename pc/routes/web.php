@@ -23,7 +23,7 @@
 *	@origin -> exit  后台退出
 */	
 
-Route::group(['domain' => 'www.new.com'],function (){
+Route::group(['domain' => 'www.jsjju.cn'],function (){
     
 
 Route::get('backend/origin-login','Backend\LoginController@login');
