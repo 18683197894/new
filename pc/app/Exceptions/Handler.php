@@ -48,7 +48,10 @@ class Handler extends ExceptionHandler
      */
     public function render($request, Exception $exception)
     {   
-
+        if(preg_match('/\/\/fdc\./',$request->getUri()))
+        {
+             return response()->view('Fdc.Error.404',[],404)->header('Content-Type', 'text/html;charset=utf-8');
+        }
         return response()->view('Error.404',[],404)->header('Content-Type', 'text/html;charset=utf-8');
 
         if($exception instanceof \Illuminate\Validation\ValidationException)
@@ -58,6 +61,7 @@ class Handler extends ExceptionHandler
         {
             return response()->view('Error.404',[],404)->header('Content-Type', 'text/html;charset=utf-8');
         }
+
         return parent::render($request, $exception);
     }
 }

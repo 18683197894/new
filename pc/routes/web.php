@@ -22,10 +22,10 @@
 *	@origin -> index  后台框架
 *	@origin -> exit  后台退出
 */	
-Route::group(['domain' => 'fdc.jsjju.cn','namespace' => 'Fdc'],function (){
-    Route::get('/','Index\IndexController@index');
-    Route::get('/jfxz','Project\ProjectController@jfxz');
-});
+
+Route::group(['domain' => 'www.new.com'],function (){
+    
+
 Route::get('backend/origin-login','Backend\LoginController@login');
 Route::post('backend/origin-dologin','Backend\LoginController@dologin');
 
@@ -301,4 +301,9 @@ Route::get('/about.html','Front\AboutController@about');
 Route::post('/about-message','Front\AboutController@message');
 Route::post('/about-message-send','Front\AboutController@message_send');
 });
+});
 
+Route::group(['domain' => 'fdc.jsjju.cn','namespace' => 'Fdc'],function (){
+    Route::get('/','Index\IndexController@index');
+    Route::get('/jfxz','Project\ProjectController@jfxz');
+});
