@@ -1,11 +1,4 @@
  <IfModule mod_rewrite.c>
-    #RewriteEngine on
-    #RewriteCond %{SERVER_PORT} !^443$
-    #RewriteRule ^(.*)$ https://www.jsjju.cn/$1 [L,R=301]
-
-    RewriteEngine On
-    RewriteCond %{HTTP_HOST} ^new.com [NC]
-    RewriteRule ^(.*)$ http://www.new.com/$1 [L,R=301]
 
     <IfModule mod_negotiation.c>
         Options -MultiViews -Indexes

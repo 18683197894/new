@@ -22,7 +22,7 @@
 *	@origin -> index  后台框架
 *	@origin -> exit  后台退出
 */	
-Route::group(['domain' => 'fdc.new.com','namespace' => 'Fdc'],function (){
+Route::group(['domain' => 'fdc.jsjju.cn','namespace' => 'Fdc'],function (){
     Route::get('/','Index\IndexController@index');
     Route::get('/jfxz','Project\ProjectController@jfxz');
 });
