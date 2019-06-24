@@ -48,7 +48,7 @@ class Handler extends ExceptionHandler
      */
     public function render($request, Exception $exception)
     {   
-        if(preg_match('/\/\/fdc\./',$request->getUri()))
+        if(preg_match('/\/\/house\./',$request->getUri()))
         {
              return response()->view('Fdc.Error.404',[],404)->header('Content-Type', 'text/html;charset=utf-8');
         }

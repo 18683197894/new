@@ -23,7 +23,8 @@
 *	@origin -> exit  后台退出
 */	
 
-Route::group(['domain' => 'www.jsjju.cn'],function (){
+// Route::group(['domain' => 'www.jsjju.cn'],function (){
+Route::group(['domain' => 'www.new.com'],function (){
     
 
 Route::get('backend/origin-login','Backend\LoginController@login');
@@ -190,11 +191,18 @@ Route::get('/backend/carousel_web','Backend\AboutController@carousel_web');
 Route::post('/backend/carousel-add_web','Backend\AboutController@carousel_add_web');
 Route::post('/backend/carousel-edit_web','Backend\AboutController@carousel_edit_web');
 Route::post('/backend/carousel-del_web','Backend\AboutController@carousel_del_web');
+
+//FDC楼盘页留言
+Route::get('/backend/fdc/leaving-message','Backend\Fdc\MessageController@leaving_message');
+Route::post('/backend/fdc/message/leaving-message_status','Backend\Fdc\MessageController@leaving_message_status');
+Route::post('/backend/fdc/message/leaving-message_del','Backend\Fdc\MessageController@leaving_message_del');
+Route::post('/backend/fdc/message/leaving-message_code','Backend\Fdc\MessageController@leaving_message_code');
+
 Route::get('/backend/test/upimage',function(){
 	return view('Backend.Test.upimage');
 });
-
 Route::post('/backend/test/upimages','Backend\IndexController@upimages');
+
 });
 
 });
@@ -303,7 +311,8 @@ Route::post('/about-message-send','Front\AboutController@message_send');
 });
 });
 
-Route::group(['domain' => 'fdc.jsjju.cn','namespace' => 'Fdc'],function (){
+// Route::group(['domain' => 'house.jsjju.cn','namespace' => 'Fdc'],function (){
+Route::group(['domain' => 'house.new.com','namespace' => 'Fdc'],function (){
     Route::get('/','Index\IndexController@index');
     Route::get('/jfxz','Project\ProjectController@jfxz');
 });
