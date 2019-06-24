@@ -23,8 +23,8 @@
 *	@origin -> exit  后台退出
 */	
 
-// Route::group(['domain' => 'www.jsjju.cn'],function (){
-Route::group(['domain' => 'www.new.com'],function (){
+Route::group(['domain' => 'www.jsjju.cn'],function (){
+// Route::group(['domain' => 'www.new.com'],function (){
     
 
 Route::get('backend/origin-login','Backend\LoginController@login');
@@ -316,8 +316,8 @@ Route::post('/about-message-send','Front\AboutController@message_send');
 });
 });
 
-// Route::group(['domain' => 'house.jsjju.cn','namespace' => 'Fdc'],function (){
-Route::group(['domain' => 'house.new.com','namespace' => 'Fdc'],function (){
+Route::group(['domain' => 'house.jsjju.cn','namespace' => 'Fdc'],function (){
+// Route::group(['domain' => 'house.new.com','namespace' => 'Fdc'],function (){
     Route::get('/','Index\IndexController@index');
     Route::get('/jfxz','Project\ProjectController@jfxz');
     Route::post('/project/message-send','Project\ProjectController@message_send');
