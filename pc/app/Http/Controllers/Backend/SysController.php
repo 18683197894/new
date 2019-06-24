@@ -163,7 +163,7 @@ class SysController extends Controller
         unset($data['urls']);
         if($data['url'] != '/' )
         {
-            $data['url'] = '/'.$data['url'];
+            $data['url'] = $data['url'];
         }
         $model =  SysFrontKeyword::where('url',$data['url'])->first();
         if($model)

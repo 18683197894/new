@@ -1,0 +1,751 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: "黑体";
+}
+.swiper-slide{
+    width: 100%;
+    overflow: hidden;
+}
+.swiper-slide img{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.House{
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 100px;
+    position: relative;
+}
+.House .Text{
+    width: 1100px;
+    overflow: hidden;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #EDEDED;
+}
+.Text .mianbao{
+    width: 100%;
+    height: 40px;
+    background-color: #F6F6F6;
+    overflow: hidden;
+}
+.Text .mianbao a{
+    display: block;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    color: #333333;
+    font-size: 16px;
+    text-decoration: none;
+}
+.Text .mianbao span{
+    display: block;
+    float: left;
+    line-height: 40px;
+    color: #333333;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Text .mianbao a:nth-child(1){
+    margin-left: 20px;
+}
+.Text .Details{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.Details_img{
+    width: 585px;
+    overflow: hidden;
+    float: left;
+}
+.Details_img .tupian{
+    width: 100%;
+    overflow: hidden;
+    height: 450px;
+}
+.Details_img .tupian img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.Details_img .xiaotu{
+    width: 100%;
+    margin-top: 15px;
+    overflow: hidden;
+}
+.Details_img .xiaotu a{
+    display: block;
+    text-decoration: none;
+}
+.Details_img .xiaotu .fl{
+    float: left;
+    font-size: 30px;
+    width: 20px;
+    height: 95px;
+    line-height: 95px;
+    background-color: #F6F6F6;
+    text-align: center;
+    color: #9E9E9E;
+}
+.Details_img .xiaotu .fr{
+    float: right;
+    font-size: 30px;
+    width: 20px;
+    height: 95px;
+    line-height: 95px;
+    background-color: #F6F6F6;
+    text-align: center;
+    color: #9E9E9E;
+}
+.Details_img .xiaotu .fangxiaotu{
+    width: 545px;
+    float: left;
+    height: 95px;
+}
+.Details_img .xiaotu .fangxiaotu a{
+    display: block;
+    width: 125px;
+    height: 95px;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    margin-left: 9px;
+}
+.Details_img .xiaotu .fangxiaotu a.avtive{
+    width: 115px;
+    height: 85px;
+    border: 5px solid #007aff;
+}
+.Details_img .xiaotu .fangxiaotu a img{
+    display: block;
+    width: 100%;
+    height: 95px;
+}
+.Details_img .xiaotu .fangxiaotu a span{
+    display: block;
+    width: 100%;
+    height: 25px;
+    background-color: #000000;
+    opacity: 0.6;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    color: #ffffff;
+}
+.Introduce{
+    width: 470px;
+    float: right;
+    overflow: hidden;
+}
+.Introduce .Title{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 35px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #EDEDED;
+}
+.Introduce .Title .Name{
+    display: block;
+    float: left;
+    font-size: 34px;
+    color: #000000;
+}
+.Introduce .Title ol{
+    display: block;
+    float: left;
+    margin-left: 10px;
+    height: 25px;
+    border: 2px solid #00a0e9;
+    text-align: center;
+    line-height: 25px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 14px;
+    margin-top: 6px;
+    color: #00a0e9;
+}
+.Introduce .Title ol:nth-child(3){
+     color: #AFA0E4;
+     border: 2px solid #AFA0E4;
+ }
+.Introduce .Title ol:nth-child(4){
+     color: #FFC791;
+     border: 2px solid #FFC791;
+ }
+.Introduce .Title ol:nth-child(5){
+    color: red;
+    border: 2px solid red;
+}
+.Introduce .Price{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #EDEDED;
+}
+.Introduce .Price .Xunhuan{
+    width: 100%;
+    overflow: hidden;
+    line-height: 30px;
+    margin-bottom: 8px;
+}
+.Introduce .Price .Xunhuan .bt{
+    font-size: 20px;
+    color: #000000;
+    float: left;
+    letter-spacing: 3px;
+}
+.Introduce .Price .Xunhuan .neirong{
+    font-size: 16px;
+    color:#999999;
+}
+.Introduce .Price .Xunhuan .neirong span{
+    font-size: 26px;
+    color: red;
+    margin-right: 5px;
+}
+.Introduce .dianhua{
+    width: 355px;
+    height: 60px;
+    background-color: #FFEDDB;
+    margin: auto;
+    margin-top: 15px;
+    color: red;
+    font-size: 24px;
+    text-align: center;
+    line-height: 60px;
+}
+.Introduce .dianhua span{
+    font-size: 20px;
+}
+.Introduce .yuyue{
+    display: block;
+    width: 355px;
+    height: 60px;
+    background-color: #FF0000;
+    text-align: center;
+    line-height: 60px;
+    font-size: 24px;
+    color: #ffffff;
+    margin: auto;
+    margin-top: 3px;
+    text-decoration: none;
+}
+.Apartment{
+    width: 1100px;
+    overflow: hidden;
+    margin: auto;
+    padding-top: 50px;
+}
+.Apartment .Taitou{
+    width: 100%;
+    height: 60px;
+    background-color: #F6F6F6;
+    border: 1px solid #EDEDED;
+    box-sizing: border-box;
+    color: #010101;
+    font-size: 26px;
+    line-height: 60px;
+    text-indent: 20px;
+}
+.Apartment .ApartmentTu{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #EDEDED;
+}
+.ApartmentTu .ApartmentTu_img{
+    display: block;
+    width: 315px;
+    height: 215px;
+    float: left;
+    margin-left: 35px;
+}
+.ApartmentTu .Content{
+    width: 705px;
+    overflow: hidden;
+    float: right;
+    position: relative;
+}
+.ApartmentTu .Content .Content_xu{
+    width: 70%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    line-height: 25px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #010101;
+}
+.ApartmentTu .Content .Content_xu span{
+    font-size: 16px;
+    color: #999;
+}
+.Content .Tel{
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color: #FF5555;
+    font-size: 22px;
+    color: #ffffff;
+    position: absolute;
+    right: 0;
+    bottom:calc(50% - 25px);
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;;
+}
+.House .Guanggao{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 40px;
+}
+.House .Guanggao img{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.Sample{
+    width: 1100px;
+    overflow: hidden;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ECECEC;
+    box-sizing: border-box;
+}
+.Sample .Taitou{
+    width: 100%;
+    height: 60px;
+    background-color: #F6F6F6;
+    border: 1px solid #EDEDED;
+    box-sizing: border-box;
+    color: #010101;
+    font-size: 26px;
+    line-height: 60px;
+    text-indent: 20px;
+}
+.Sample .Sample_L{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 35px;
+}
+.Sample .Sample_L .Title{
+    width: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 190px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #3B76F6;
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    overflow: hidden;
+    float: left;
+}
+.Sample .Sample_L .Title span{
+    display: block;
+    transform:rotate(90deg);
+    text-align: left;
+}
+.Sample .Sample_L .Title span:nth-child(2){
+    margin-bottom: 10px;
+}
+.Sample .Sample_L a{
+    display: block;
+    width: 325px;
+    height: 290px;
+    overflow: hidden;
+    float: left;
+    margin-left: 22px;
+}
+.Sample .Sample_L a img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.House .Information{
+    width: 1100px;
+    overflow: hidden;
+    margin: auto;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ECECEC;
+    box-sizing: border-box;
+}
+.Information .Taitou{
+    width: 100%;
+    height: 60px;
+    background-color: #F6F6F6;
+    border: 1px solid #EDEDED;
+    box-sizing: border-box;
+    color: #010101;
+    font-size: 26px;
+    line-height: 60px;
+    text-indent: 20px;
+}
+.Information .Information_L{
+    width: 550px;
+    overflow: hidden;
+    float: left;
+}
+.Information .Information_L a{
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    height: 60px;
+    border-bottom:1px dashed #BFBFBF;
+    line-height: 62px;
+    color: #212121;
+}
+.Information .Information_L a span{
+    display: block;
+    float: left;
+    width: 22px;
+    height: 22px;
+    margin-top: 20px;
+    background-color: #BFBFBF;
+    text-align: center;
+    line-height: 22px;
+    font-size: 16px;
+    color: #ffffff;
+    margin-right: 10px;
+}
+.Information .Information_L a:nth-child(1) span{
+    display: block;
+    float: left;
+    width: 22px;
+    height: 22px;
+    margin-top: 20px;
+    background-color: red;
+    text-align: center;
+    line-height: 22px;
+    font-size: 16px;
+    color: #ffffff;
+    margin-right: 10px;
+}
+.Information .Information_L a:nth-child(2) span{
+    display: block;
+    float: left;
+    width: 22px;
+    height: 22px;
+    margin-top: 20px;
+    background-color: red;
+    text-align: center;
+    line-height: 22px;
+    font-size: 16px;
+    color: #ffffff;
+    margin-right: 10px;
+}
+.Information .Information_L a:nth-child(3) span{
+    display: block;
+    float: left;
+    width: 22px;
+    height: 22px;
+    margin-top: 20px;
+    background-color: red;
+    text-align: center;
+    line-height: 22px;
+    font-size: 16px;
+    color: #ffffff;
+    margin-right: 10px;
+}
+.Information_r{
+    width: 525px;
+    height: 290px;
+    float: right;
+    overflow: hidden;
+    margin-top: 40px;
+}
+.House .Like{
+    width: 1100px;
+    overflow: hidden;
+    margin: auto;
+}
+.House .Like .Title{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 30px;
+    font-size: 34px;
+    color: #010101;
+}
+.Like_C{
+    width: 100%;
+    overflow: hidden;
+}
+.Like_C a{
+    display: block;
+    width: 345px;
+    overflow: hidden;
+    float: left;
+    text-decoration: none;
+    margin-top: 30px;
+}
+.Like_C a img{
+    display: block;
+    width: 345px;
+    height: 210px;
+    overflow: hidden;
+}
+.Like_C a span{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    font-size: 26px;
+    color: #010101;
+    margin-top: 10px;
+}
+.Like_C a.Margin{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.House .shadow{
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+    background-color: #333;
+    opacity: 0.4;
+    position: absolute;
+    top: 320px;
+    left: 0;
+    display: none;
+}
+.House .shadow.avtive{
+    display: block;
+}
+.Collect{
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+    position: absolute;
+    top: 420px;
+    left: 0;
+    z-index: 9999;
+    display: none;
+}
+.Collect.avtive{
+    display: block;
+}
+.Collect .Centered{
+    width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    background-color: #ffffff;
+    position: relative;
+}
+.Collect .Liuc{
+    width: 935px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 65px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #D3D3D3;
+}
+.Liuc_On{
+    display: block;
+    float: left;
+    margin-left: 130px;
+}
+.Liuc_Heng{
+    display: block;
+    float: left;
+    margin-left:10px;
+    margin-top: 35px;
+}
+.Liuc_Two{
+    display: block;
+    float: left;
+    margin-left: -15px;
+}
+.Centered .Wanke{
+    width: 695px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 40px;
+    padding-bottom: 50px;
+}
+.Mingcheng{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    font-size: 28px;
+    color: #010101;
+    margin-bottom: 40px;
+}
+.Wanke_Xinx{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.Wanke_Xinx .Wenzi{
+    width: 130px;
+    float: left;
+    height: 50px;
+    overflow: hidden;
+    font-size: 22px;
+    color: #010101;
+    line-height: 50px;
+}
+.Wanke_Xinx .Wenzi span{
+    color: red;
+}
+.WankeInput{
+    width: 440px;
+    height: 50px;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    outline: none;
+    border-radius: 5px;
+    font-size: 21px;
+    line-height: 50px;
+    text-indent: 20px;
+}
+.WankeInput.avtive{
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+.WankeInput.avtive::-webkit-input-placeholder {
+    color: red;
+}
+.Wanke_Xinx .Select{
+    width: 440px;
+    height: 50px;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    outline: none;
+    border-radius: 5px;
+    font-size: 21px;
+    line-height: 50px;
+    text-indent: 20px;
+}
+.Wanke_Xinx .Select.avtive{
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+.Wanke_Xinx .Yanzhan{
+    width: 440px;
+    height: 50px;
+    display: block;
+    float: left;
+    font-size: 21px;
+}
+.Wanke_Xinx .Yanzhan .Yz{
+    width: 160px;
+    height: 50px;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    outline: none;
+    border-radius: 5px;
+    font-size: 21px;
+    line-height: 50px;
+    text-indent: 20px;
+}
+.Wanke_Xinx .Yanzhan .Yz.avtive{
+    border: 1px solid red;
+    box-sizing: border-box;
+    color: red;
+}
+.Wanke_Xinx .Yanzhan .Fs{
+    width: 265px;
+    height: 50px;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    outline: none;
+    border-radius: 5px;
+    font-size: 21px;
+    line-height: 50px;
+    margin-left: 15px;
+    color: #666;
+    text-decoration: none;
+    text-align: center;
+}
+.Wanke_Xinx .Yanzhan .Fs.avtive{
+    background-color:#0028FE;
+    color: #ffffff;
+    text-align: center;
+    cursor: not-allowed;
+}
+.Wanke_Xinx  .Tijiao{
+    width: 440px;
+    height: 50px;
+    display: block;
+    float: left;
+    font-size: 21px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: red;
+}
+.Wanke_Xinx .Tijiao:hover{
+    background-color: #0028FE;
+    color: #ffffff;
+}
+.Wanke_Xinx .Data{
+    width: 440px;
+    height: 50px;
+    display: block;
+    float: left;
+    font-size: 21px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 50px;
+}
+.Wanke_Xinx .Data select{
+    width: 102px;
+    height: 40px;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.Wanke_Xinx .Data select.avtive{
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+.Wanke_Xinx .Data select option{
+    min-height: 30px;
+}
+/*.Wanke_Xinx .time{*/
+    /*width: 102px;*/
+    /*height: 40px;*/
+    /*border: 1px solid #D9D9D9;*/
+    /*box-sizing: border-box;*/
+    /*border-radius: 5px;*/
+    /*float: left;*/
+/*}*/
+.Centered .guanbi{
+    width: 30px;
+    height: 30px;
+    display: block;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+.Centered .guanbi img{
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+}

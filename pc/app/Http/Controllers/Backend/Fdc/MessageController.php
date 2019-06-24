@@ -14,13 +14,17 @@ class MessageController extends Controller
     	$start = $request->get('start');
         $end = $request->get('end');
     	$start = empty($start)?0:$start;
-        $end = empty($end)?date('Y-m-d',time()):$end;
+        $end = empty($end)?'2020-12-30':$end;
 
     	$message = LeavingMessage::where('name','like','%'.$name.'%')
     							->whereDate('time','>=',$start)
                                 ->whereDate('time','<=',$end)
     							->orderBy('time','DESC')
     							->paginate($this->_sizePage);
+        foreach($message as $k => $v)
+        {
+            $message[$k]['time'] .= ' '.$v->time_re.'时';
+        }
     	return view('Backend.Fdc.Message.leaving_message',[
     		'message'=>$message,
     		'request' => $request->all()

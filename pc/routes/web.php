@@ -23,8 +23,8 @@
 *	@origin -> exit  后台退出
 */	
 
-Route::group(['domain' => 'www.jsjju.cn'],function (){
-// Route::group(['domain' => 'www.new.com'],function (){
+// Route::group(['domain' => 'www.jsjju.cn'],function (){
+Route::group(['domain' => 'www.new.com'],function (){
     
 
 Route::get('backend/origin-login','Backend\LoginController@login');
@@ -198,6 +198,11 @@ Route::post('/backend/fdc/message/leaving-message_status','Backend\Fdc\MessageCo
 Route::post('/backend/fdc/message/leaving-message_del','Backend\Fdc\MessageController@leaving_message_del');
 Route::post('/backend/fdc/message/leaving-message_code','Backend\Fdc\MessageController@leaving_message_code');
 
+Route::get('/backend/fdc/sys-keyword','Backend\Fdc\SysController@keyword');
+Route::post('/backend/fdc/sys-keyword-add','Backend\Fdc\SysController@keyword_add');
+Route::post('/backend/fdc/sys-keyword-edit','Backend\Fdc\SysController@keyword_edit');
+Route::post('/backend/fdc/sys-keyword-del','Backend\Fdc\SysController@keyword_del');
+
 Route::get('/backend/test/upimage',function(){
 	return view('Backend.Test.upimage');
 });
@@ -311,8 +316,12 @@ Route::post('/about-message-send','Front\AboutController@message_send');
 });
 });
 
-Route::group(['domain' => 'house.jsjju.cn','namespace' => 'Fdc'],function (){
-// Route::group(['domain' => 'house.new.com','namespace' => 'Fdc'],function (){
+// Route::group(['domain' => 'house.jsjju.cn','namespace' => 'Fdc'],function (){
+Route::group(['domain' => 'house.new.com','namespace' => 'Fdc'],function (){
     Route::get('/','Index\IndexController@index');
     Route::get('/jfxz','Project\ProjectController@jfxz');
+    Route::post('/project/message-send','Project\ProjectController@message_send');
+    Route::post('/project-message','Project\ProjectController@message');
+
+
 });
