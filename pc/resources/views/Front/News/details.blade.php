@@ -19,7 +19,7 @@
         <div class="Conn_l">
         <div class="Title">
     <h1><div class="Text">{{ $news->title }}</div></h1>
-<div class="xibao"><span>时间：{{ $news->created_at->format('Y-m-d') }}</span><span>发布作者：{{ $news->source }}</span></div>        
+<div class="xibao"><span>时间：{{ $news->created_at->format('Y-m-d') }}</span><span>发布作者：{{ $news->source }}</span><span>公众号：jsjt_cd</span></div>        
 </div>
 
         	@php
