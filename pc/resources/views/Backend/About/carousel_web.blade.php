@@ -123,7 +123,7 @@ $this->params = [
             </td>
             <td>{{ $v->id }}</td>
             <td>{{ $v->url }}</td>
-            <td style="padding:8px 8px"><a target="_blank" href="@if(!empty($v->image)) @php echo str_replace('//www','//m',url($v->image)) @endphp @endif"><img style="width:100%;height:100%;max-width:150px" src="@if(!empty($v->image)) @php echo str_replace('//www','//m',asset($v->image)) @endphp @endif"></a></td>
+            <td style="padding:8px 8px"><a target="_blank" href="@if(!empty($v->image)) @php echo str_replace('//www','//m',url($v->image)) @endphp @endif"><img style="width:100%;height:100%;max-width:150px;max-height:70px" src="@if(!empty($v->image)) @php echo str_replace('//www','//m',asset($v->image)) @endphp @endif"></a></td>
             <td>{{ $v->stort }}</td>
             <td>
               <a title="编辑" class="layui-btn layui-btn-sm "  onclick="link_edit(this,'链接编辑','{{json_encode($v)}}')" href="javascript:;">

@@ -133,7 +133,7 @@ $this->params = [
             <td>{{ $val->source }}</td>
             <td>{{ $val->key }}</td>
             <td>{{ $val->Classify->classify_name }}</td>
-            <td style="padding:8px 8px"><img style="width:100%;height:100%;max-width:150px" src="@if(!empty($val->exhibition_image)) {{ asset($val->exhibition_image) }} @else {{ asset(env('UPLOAD_NEWS_HEAD_DEFAULT')) }} @endif"></td>
+            <td style="padding:8px 8px"><img style="width:100%;height:100%;max-width:150px;max-height:70px" src="@if(!empty($val->exhibition_image)) {{ asset($val->exhibition_image) }} @else {{ asset(env('UPLOAD_NEWS_HEAD_DEFAULT')) }} @endif"></td>
             <td>{{ $val->created_at->format('Y-m-d') }}</td>
 
             <td class="td-manage">
