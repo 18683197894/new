@@ -197,11 +197,24 @@ Route::get('/backend/fdc/leaving-message','Backend\Fdc\MessageController@leaving
 Route::post('/backend/fdc/message/leaving-message_status','Backend\Fdc\MessageController@leaving_message_status');
 Route::post('/backend/fdc/message/leaving-message_del','Backend\Fdc\MessageController@leaving_message_del');
 Route::post('/backend/fdc/message/leaving-message_code','Backend\Fdc\MessageController@leaving_message_code');
-
+//FDC关键字
 Route::get('/backend/fdc/sys-keyword','Backend\Fdc\SysController@keyword');
 Route::post('/backend/fdc/sys-keyword-add','Backend\Fdc\SysController@keyword_add');
 Route::post('/backend/fdc/sys-keyword-edit','Backend\Fdc\SysController@keyword_edit');
 Route::post('/backend/fdc/sys-keyword-del','Backend\Fdc\SysController@keyword_del');
+
+//FDC新闻管理
+Route::get('/backend/fdc/dynamic/news','Backend\Fdc\DynamicController@news');
+Route::get('/backend/fdc/dynamic/news-add','Backend\Fdc\DynamicController@news_add');
+Route::post('/backend/fdc/dynamic/news-adds','Backend\Fdc\DynamicController@news_adds');
+Route::any('/backend/fdc/dynamic/news-edit','Backend\Fdc\DynamicController@news_edit');
+Route::any('/backend/fdc/dynamic/news-del','Backend\Fdc\DynamicController@news_del');
+
+//Fdcbanner
+Route::get('/backend/fdc/banner','Backend\Fdc\SysController@banner');
+Route::post('/backend/fdc/banner-add','Backend\Fdc\SysController@banner_add');
+Route::post('/backend/fdc/banner-edit','Backend\Fdc\SysController@banner_edit');
+Route::post('/backend/fdc/banner-del','Backend\Fdc\SysController@banner_del');
 
 Route::get('/backend/test/upimage',function(){
 	return view('Backend.Test.upimage');
@@ -320,8 +333,7 @@ Route::group(['domain' => 'house.jsjju.cn','namespace' => 'Fdc'],function (){
 // Route::group(['domain' => 'house.new.com','namespace' => 'Fdc'],function (){
     Route::get('/','Index\IndexController@index');
     Route::get('/jfxz','Project\ProjectController@jfxz');
+    Route::get('/jfxz/{id}','Project\ProjectController@jfxz_news');
     Route::post('/project/message-send','Project\ProjectController@message_send');
     Route::post('/project-message','Project\ProjectController@message');
-
-
 });

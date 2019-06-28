@@ -11,9 +11,9 @@
 <!--轮播-->
 <div class="swiper-container">
     <ul class="swiper-wrapper">
-        <li class="swiper-slide"><img src="{{ asset('/front/fdc/img/banner.png') }}" alt="11"/></li>
-        <li class="swiper-slide"><img src="{{ asset('/front/fdc/img/banner.png') }}" alt="11"/></li>
-        <li class="swiper-slide"><img src="{{ asset('/front/fdc/img/banner.png') }}" alt="11"/></li>
+        @foreach($luobo as $k => $v)
+        <li class="swiper-slide"><img src="{{ asset($v->image) }}" alt="11"/></li>
+        @endforeach
     </ul>
     <div class="swiper-pagination"></div>
 </div>
@@ -245,24 +245,11 @@
     <div class="Information">
         <div class="Taitou">万贯金府星座楼盘资讯</div>
         <div class="Information_L">
-            <a href="#">
-                <span>1</span>茶几上千万别摆这三样，丢面儿还会影响你的财运！赶紧拿走
+            @foreach($news as $k => $v)
+            <a href="{{ url('/jfxz/'.$v->id) }}">
+                <span>{{ $loop->index + 1 }}</span>{{ $v->title }}
             </a>
-            <a href="#">
-                <span>2</span>茶几上千万别摆这三样，丢面儿还会影响你的财运！赶紧拿走
-            </a>
-            <a href="#">
-                <span>3</span>茶几上千万别摆这三样，丢面儿还会影响你的财运！赶紧拿走
-            </a>
-            <a href="#">
-                <span>4</span>茶几上千万别摆这三样，丢面儿还会影响你的财运！赶紧拿走
-            </a>
-            <a href="#">
-                <span>5</span>茶几上千万别摆这三样，丢面儿还会影响你的财运！赶紧拿走
-            </a>
-            <a href="#">
-                <span>6</span>茶几上千万别摆这三样，丢面儿还会影响你的财运！赶紧拿走
-            </a>
+            @endforeach
         </div>
         <div class="Information_r">
             <!--轮播-->

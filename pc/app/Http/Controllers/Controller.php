@@ -67,7 +67,14 @@ class Controller extends BaseController
         $page = !empty($page)?$page:10;
         $this->_sizePage = $page;
     }
-
+    public function getFdcProjectList()
+    {
+        return ['/jfxz'=>'金府星座'];
+    }
+    public function getFdcPageList()
+    {
+        return ['/'=>'首页','/jfxz'=>'金府星座','/jfxz/{id}'=>'金府星座新闻页'];
+    }
     public function baseKey($arr,$code)
     {   
         if(!$arr|| $code == NULL)
