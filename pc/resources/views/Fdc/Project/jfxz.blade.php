@@ -21,11 +21,11 @@
 <div class="House">
     <div class="Text">
         <div class="mianbao">
-            <a href="#">首页</a>
+            <a href="{{ url('/') }}">首页</a>
             <span>></span>
-            <a href="#">热门楼盘</a>
+            <a href="javascript:;">热门楼盘</a>
             <span>></span>
-            <a href="#">万贯金府星座</a>
+            <a href="javascript:;">万贯金府星座</a>
         </div>
         <div class="Details">
             <div class="Details_img">
@@ -269,24 +269,11 @@
     <div class="Information">
         <div class="Taitou">万贯金府星座楼盘资讯</div>
         <div class="Information_L">
-            <a href="#">
-                <span>1</span>茶几上千万别摆这三样，丢面儿还会影响你的财运！赶紧拿走
+            @foreach($news as $v)
+            <a href="{{ url('/jfxz/'.$v->id) }}">
+                <span>{{ $loop->index + 1 }}</span>{{ $v->title }}
             </a>
-            <a href="#">
-                <span>2</span>茶几上千万别摆这三样，丢面儿还会影响你的财运！赶紧拿走
-            </a>
-            <a href="#">
-                <span>3</span>茶几上千万别摆这三样，丢面儿还会影响你的财运！赶紧拿走
-            </a>
-            <a href="#">
-                <span>4</span>茶几上千万别摆这三样，丢面儿还会影响你的财运！赶紧拿走
-            </a>
-            <a href="#">
-                <span>5</span>茶几上千万别摆这三样，丢面儿还会影响你的财运！赶紧拿走
-            </a>
-            <a href="#">
-                <span>6</span>茶几上千万别摆这三样，丢面儿还会影响你的财运！赶紧拿走
-            </a>
+            @endforeach
         </div>
         <div class="Information_r">
             <!--轮播-->
