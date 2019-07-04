@@ -156,7 +156,6 @@ $(".Wanke_Xinx .Fs").click(function(){
             
         }
         //在这下面写ajax发送验证码请求
-
     }else{
         $("#Telephone").val("");
         $("#Telephone").addClass("avtive");
@@ -176,7 +175,7 @@ $(".Wanke_Xinx .Tijiao").click(function(){
     var days = $("#days").val();  //获取日
     var time = $("#time").val();  //获取时间
     var Intention = $("#Intention").val();  //获取时间
-    var Riqi = year+'-'+month+'-'+days
+    var Riqi = year+'-'+month+'-'+days;
     var Send = $("#Send").val(); //获取输入的验证码
     if(!($('#name').val()=='')){
         if(reg.test(username)){
@@ -185,7 +184,7 @@ $(".Wanke_Xinx .Tijiao").click(function(){
                     if(!($('#month').val()=='')){
                         if(!($('#days').val()=='')){
                             if(!($('#time').val()=='')){
-                                if(!($('#Intention').val()=='')){
+                                 if(!($('#Intention').val()=='')){
                                     //在这里面做验证码判断
                                     if(!Send==''){
                                         $.ajax('/project-message',{
@@ -267,3 +266,93 @@ $(".Wanke_Xinx .Select").click(function(){
 $(".Yanzhan .Yz").click(function(){
     $(".Yanzhan .Yz").removeClass("avtive");
 });
+
+
+var ON = 0;
+function huantu(){
+    $(".ApartmentTu .ApartmentTu_tp").click(function(){
+        ON = $(this).parent(".ApartmentTu").index();
+        $(".huxintu_yy").addClass("avtive");
+        $(".huxintu").addClass("avtive");
+        var src = $(".suoying .ApartmentTu").eq(ON).find(".ApartmentTu_img").attr("src");    //获取图片地址
+        $(".huxintu_img .huxintu_tp").attr("src",src);   //对应地址替换
+    });
+    $(".suoying .ApartmentTu").each(function(){
+        shul =$(this).index();
+    });
+    $(".huxintu .fl").click(function(){
+        ON = ON-1;
+        if( ON < 0 ){
+            ON = shul;
+            var src = $(".suoying .ApartmentTu").eq(ON).find(".ApartmentTu_img").attr("src");    //获取图片地址
+            $(".huxintu_img .huxintu_tp").attr("src",src);   //对应地址替换
+        }else{
+            var src = $(".suoying .ApartmentTu").eq(ON).find(".ApartmentTu_img").attr("src");    //获取图片地址
+            $(".huxintu_img .huxintu_tp").attr("src",src);   //对应地址替换
+        }
+    });
+    $(".huxintu .fr").click(function(){
+        ON = ON+1;
+        if( ON > shul ){
+            ON = 0;
+            var src = $(".suoying .ApartmentTu").eq(ON).find(".ApartmentTu_img").attr("src");    //获取图片地址
+            $(".huxintu_img .huxintu_tp").attr("src",src);   //对应地址替换
+        }else{
+            var src = $(".suoying .ApartmentTu").eq(ON).find(".ApartmentTu_img").attr("src");    //获取图片地址
+            $(".huxintu_img .huxintu_tp").attr("src",src);   //对应地址替换
+        }
+    })
+}huantu();
+
+function gunle(){
+    $(".huxintu .guan").click(function(){
+        $(".huxintu_yy").removeClass("avtive");
+        $(".huxintu").removeClass("avtive");
+    })
+}gunle();
+
+
+
+var Sa = 0;
+function Sample(){
+    $(".Sample_a a").click(function(){
+        Sa =  $(this).index();
+        fu =  $(this).parent().parent(".Sample_L").index();
+        $(".Sample_y").addClass("avtive");
+        $(".Sample_tp").addClass("avtive");
+        var ple = $(".suoy .Sample_L").eq(fu).find(".Sample_a").find(".Sa_i").eq(Sa).find(".img").attr("src");   //获取图片地址
+        $(".Sample_tp_img .Simg").attr("src",ple);   //对应地址替换
+    });
+    $(".Sample_a .Sa_i").each(function(){
+        Sam =$(this).index();
+    });
+    $(".Sample_tp .fl").click(function(){
+        Sa = Sa-1;
+        if( Sa < 0 ){
+            Sa = Sam;
+            var ple = $(".suoy .Sample_L").eq(fu).find(".Sample_a").find(".Sa_i").eq(Sa).find(".img").attr("src");   //获取图片地址
+            $(".Sample_tp_img .Simg").attr("src",ple);   //对应地址替换
+        }else{
+            var ple = $(".suoy .Sample_L").eq(fu).find(".Sample_a").find(".Sa_i").eq(Sa).find(".img").attr("src");   //获取图片地址
+            $(".Sample_tp_img .Simg").attr("src",ple);   //对应地址替换
+        }
+    });
+    $(".Sample_tp .fr").click(function(){
+        Sa = Sa+1;
+        if( Sa > Sam ){
+            Sa = 0;
+            var ple = $(".suoy .Sample_L").eq(fu).find(".Sample_a").find(".Sa_i").eq(Sa).find(".img").attr("src");   //获取图片地址
+            $(".Sample_tp_img .Simg").attr("src",ple);   //对应地址替换
+        }else{
+            var ple = $(".suoy .Sample_L").eq(fu).find(".Sample_a").find(".Sa_i").eq(Sa).find(".img").attr("src");   //获取图片地址
+            $(".Sample_tp_img .Simg").attr("src",ple);   //对应地址替换
+        }
+    })
+}Sample();
+
+function xiaoshi(){
+    $(".Sample_tp .guan").click(function(){
+        $(".Sample_y").removeClass("avtive");
+        $(".Sample_tp").removeClass("avtive");
+    })
+}xiaoshi();

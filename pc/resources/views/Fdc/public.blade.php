@@ -62,7 +62,7 @@ if(!isset($keyword))
             <a href="javascript:;">电话：028-62230059</a>
         </div>
     </div>
-    <div class="Banquan"><span>opyRight 2017-2020 建商集团版权所有</span> <span>ICP备案：蜀ICP备17010220</span></div>
+    <div class="Banquan"><span>copyRight 2017-2020 建商集团版权所有</span> <span>ICP备案：蜀ICP备17010220</span></div>
     <div class="Erweima">
         <div class="Auto">
             <div class="weibo">
