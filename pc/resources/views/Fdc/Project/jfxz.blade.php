@@ -280,8 +280,7 @@
             <div class="swiper-container">
                 <ul class="swiper-wrapper">
                     <li class="swiper-slide"><img src="{{ asset('/front/fdc/img/Information_img.png') }}" alt="11"/></li>
-                    <li class="swiper-slide"><img src="{{ asset('/front/fdc/img/Information_img.png') }}" alt="11"/></li>
-                    <li class="swiper-slide"><img src="{{ asset('/front/fdc/img/Information_img.png') }}" alt="11"/></li>
+                    <li class="swiper-slide"><img src="{{ asset('/front/fdc/img/Information_img_2.png') }}" alt="11"/></li>
                 </ul>
                 <div class="swiper-pagination"></div>
             </div>
