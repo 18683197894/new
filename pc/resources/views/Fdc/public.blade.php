@@ -54,7 +54,7 @@ if(!isset($keyword))
         <div class="Juzhong_fl">
             <div class="Title">关于我们</div>
             <a href="#">买房找建商</a>
-            <a href="#">清水房送精装·精装房送家具家电</a>
+            <a href="#">清水房送精装·精装房送家居家电</a>
         </div>
         <div class="Juzhong_fr">
             <div class="Title">关于我们</div>

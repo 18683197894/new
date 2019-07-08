@@ -90,7 +90,7 @@
                     <div class="Xunhuan">
                         <div class="bt">开盘时间：</div>
                         <div class="neirong">
-                            2019年7月10号
+                            2019年7月16号
                         </div>
                     </div>
                     <div class="Xunhuan">
