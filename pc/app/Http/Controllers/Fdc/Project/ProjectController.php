@@ -46,6 +46,43 @@ class ProjectController extends Controller
             'xia' => DynamicNews::where('key',$news->key)->where('created_at','>',$news->toArray()['created_at'])->orderBy('created_at')->first()
         ]);
     }
+    public function rbgg(Request $request)
+    {
+        $luobo = Banner::where('key','/rbgg')->orderBy('stort')->get();
+        $news = DynamicNews::where('key','/rbgg')->orderBy('created_at','DESC')->offset(0)->limit(6)->get();
+        return view('Fdc.Project.rbgg',[
+            'luobo' => $luobo,
+            'news' => $news
+        ]);
+    }
+    public function rbgg_news(Request $request,$id)
+    {   
+        $luobo = Banner::where('key','/rbgg/{id}')->orderBy('stort')->get();
+        $news = DynamicNews::find($id);
+        if(!$news)
+        {   
+            return view('Fdc.Error.404',['path'=>'/rbgg']);
+        }
+        $news->total_num += 1;
+        $news->save();
+        
+        $remen = DynamicNews::where('key',$news->key)->where('id','!=',$news->id)->orderBy('total_num','DESC')->offset(0)->limit(10)->get();
+        
+
+        $keyword['title'] = $news->titles;
+        $keyword['keyword'] = $news->keyword;
+        $keyword['description'] = $news->description;
+
+        return view('Fdc.News.details',[
+            'key' => ['url'=>'/rbgg','title'=>$this->getFdcPageList()['/rbgg']],
+            'luobo' => $luobo,
+            'news'=>$news,
+            'remen' => $remen,
+            'keyword'=>$keyword,
+            'shang' => DynamicNews::where('key',$news->key)->where('created_at','<',$news->toArray()['created_at'])->orderBy('created_at','DESC')->first(),
+            'xia' => DynamicNews::where('key',$news->key)->where('created_at','>',$news->toArray()['created_at'])->orderBy('created_at')->first()
+        ]);
+    }
     public function message(Request $request)
     {
     	$data = $request->except('_token','send');

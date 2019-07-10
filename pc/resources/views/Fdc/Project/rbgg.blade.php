@@ -25,31 +25,31 @@
             <span>></span>
             <a href="javascript:;">热门楼盘</a>
             <span>></span>
-            <a href="javascript:;">万贯金府星座</a>
+            <a href="javascript:;">润帛公馆</a>
         </div>
         <div class="Details">
             <div class="Details_img">
                 <div class="tupian">
-                    <img src="{{ asset('/front/fdc/img/loupan.png') }}" alt=""/>
+                    <img src="{{ asset('/front/fdc/img/rbgg_loupan1.png') }}" alt=""/>
                 </div>
                 <div class="xiaotu">
                     <a href="javascript:;" class="fl"><</a>
                     <a href="javascript:;" class="fr">></a>
                     <div class="fangxiaotu">
                         <a href="javascript:;" class="avtive">
-                            <img src="{{ asset('/front/fdc/img/fangxiaotu1.png') }}" alt=""/>
+                            <img src="{{ asset('/front/fdc/img/rbgg_loupan1.png') }}" alt=""/>
                             <span>楼盘效果图</span>
                         </a>
                         <a href="javascript:;">
-                            <img src="{{ asset('/front/fdc/img/fangxiaotu2.png') }}" alt=""/>
+                            <img src="{{ asset('/front/fdc/img/rbgg_loupan2.png') }}" alt=""/>
                             <span>交通图</span>
                         </a>
                         <a href="javascript:;">
-                            <img src="{{ asset('/front/fdc/img/fangxiaotu3.png') }}" alt=""/>
+                            <img src="{{ asset('/front/fdc/img/rbgg_loupan3.png') }}" alt=""/>
                             <span>样板间</span>
                         </a>
                         <a href="javascript:;">
-                            <img src="{{ asset('/front/fdc/img/fangxiaotu4.png') }}" alt=""/>
+                            <img src="{{ asset('/front/fdc/img/rbgg_loupan4.png') }}" alt=""/>
                             <span>周边配套图</span>
                         </a>
                     </div>
@@ -57,7 +57,7 @@
             </div>
             <div class="Introduce">
                 <div class="Title">
-                    <span class="Name">万贯金府星座</span>
+                    <span class="Name">润帛公馆</span>
                     <ol>公寓</ol>
                     <ol>新盘</ol>
                     <ol>品牌</ol>
@@ -66,43 +66,43 @@
                     <div class="Xunhuan">
                         <div class="bt">价格：</div>
                         <div class="neirong">
-                            <span>1.37-1.49</span>万元/㎡
+                            <span>6880</span>元/㎡起
                         </div>
                     </div>
                     <div class="Xunhuan">
                         <div class="bt">户型：</div>
                         <div class="neirong">
-                            43㎡-50㎡、51㎡-58㎡、74㎡-80㎡、100㎡-110㎡
+                            26㎡ 36㎡ 59㎡
                         </div>
                     </div>
                     <div class="Xunhuan">
                         <div class="bt">绿化率：</div>
                         <div class="neirong">
-                            暂无信息
+                            15%
                         </div>
                     </div>
                     <div class="Xunhuan">
                         <div class="bt">地址：</div>
                         <div class="neirong">
-                            金牛 西南交大、金府、华侨城·欢乐谷三大商圈中心
+                            新都 - 斑竹园镇兴城大道1689号
                         </div>
                     </div>
                     <div class="Xunhuan">
                         <div class="bt">开盘时间：</div>
                         <div class="neirong">
-                            2019年7月16号
+                            2019年5月02号
                         </div>
                     </div>
                     <div class="Xunhuan">
                         <div class="bt">开发商：</div>
                         <div class="neirong">
-                            成都万贯房地产开发有限公司
+                            成都立达昇商贸有限公司
                         </div>
                     </div>
                     <div class="Xunhuan">
                         <div class="bt">商业价值：</div>
                         <div class="neirong">
-                            三核之芯、醇熟配套、双铁物业、商务典范
+                            双地铁房、名校配套、低总价全能小户
                         </div>
                     </div>
                 </div>
@@ -114,27 +114,27 @@
         </div>
     </div>
     <div class="Apartment">
-        <div class="Taitou">万贯金府星座户型图</div>
+        <div class="Taitou">润帛公馆户型图</div>
         <div class="suoying">
             <div class="ApartmentTu">
                 <div class="ApartmentTu_tp">
-                    <img src="{{ asset('/front/fdc/img/huxing1.png') }}" alt="" class="ApartmentTu_img"/>
+                    <img src="{{ asset('/front/fdc/img/rbgg_huxing1.png') }}" alt="" class="ApartmentTu_img"/>
                 </div>
                 <div class="Content">
                     <div class="Content_xu">
-                        建面：43㎡-50㎡
+                        建面：26㎡
                     </div>
                     <div class="Content_xu">
                         公寓类型：<span>办公/居住</span>
                     </div>
                     <div class="Content_xu">
-                        参考均价：<span class="red">1.37—1.49万元/㎡</span>
+                        参考均价：<span class="red">8000元/㎡</span>
                     </div>
                     <div class="Content_xu">
                         房源状态：<span>充足</span>
                     </div>
                     <div class="Content_xu">
-                        户型解析：<span>高利用率，功能分区明确，动线紧凑，小创新大舒适；百变空间，户型方正大气，城市SOHO功能灵活蝶变；智能时尚，智能系统引领生活，更舒适、方便、安全。</span>
+                        户型解析：<span>高赠送空间，双倍生活空间，由你掌握；一楼约11m大尺度挑空，空间开阔，视野敞亮，茶水间一字布局，操作方便，超大采光面，直面城市时尚T台。</span>
                     </div>
                 <span class="Tel">
                     <img src="{{ asset('/front/fdc/img/lianxidh.png') }}" alt=""/>
@@ -143,23 +143,23 @@
             </div>
             <div class="ApartmentTu">
                 <div class="ApartmentTu_tp">
-                    <img src="{{ asset('/front/fdc/img/huxing2.png') }}" alt="" class="ApartmentTu_img"/>
+                    <img src="{{ asset('/front/fdc/img/rbgg_huxing2.png') }}" alt="" class="ApartmentTu_img"/>
                 </div>
                 <div class="Content">
                     <div class="Content_xu">
-                        建面：51㎡-58㎡
+                        建面：36㎡
                     </div>
                     <div class="Content_xu">
                         公寓类型：<span>办公/居住</span>
                     </div>
                     <div class="Content_xu">
-                        参考均价：<span class="red">1.37—1.49万元/㎡</span>
+                        参考均价：<span class="red">8000元/㎡</span>
                     </div>
                     <div class="Content_xu">
                         房源状态：<span>充足</span>
                     </div>
                     <div class="Content_xu">
-                        户型解析：<span>高利用率，功能分区明确，动线紧凑，小创新大舒适；百变空间，户型方正大气，城市SOHO功能灵活蝶变；智能时尚，智能系统引领生活，更舒适、方便、安全。</span>
+                        户型解析：<span>高赠送空间，双倍生活空间，由你掌握；一楼约11m大尺度挑空，空间开阔，视野敞亮，茶水间一字布局，操作方便，超大采光面，直面城市时尚T台。</span>
                     </div>
                 <span class="Tel">
                     <img src="{{ asset('/front/fdc/img/lianxidh.png') }}" alt=""/>
@@ -168,48 +168,23 @@
             </div>
             <div class="ApartmentTu">
                 <div class="ApartmentTu_tp">
-                    <img src="{{ asset('/front/fdc/img/huxing3.png') }}" alt="" class="ApartmentTu_img"/>
+                    <img src="{{ asset('/front/fdc/img/rbgg_huxing3.png') }}" alt="" class="ApartmentTu_img"/>
                 </div>
                 <div class="Content">
                     <div class="Content_xu">
-                        建面：74㎡-80㎡
+                        建面：59㎡
                     </div>
                     <div class="Content_xu">
                         公寓类型：<span>办公/居住</span>
                     </div>
                     <div class="Content_xu">
-                        参考均价：<span class="red">1.37—1.49万元/㎡</span>
+                        参考均价：<span class="red">8000元/㎡</span>
                     </div>
                     <div class="Content_xu">
                         房源状态：<span>充足</span>
                     </div>
                     <div class="Content_xu">
-                        户型解析：<span>两全其美、时尚简约、动静分区，生活工作自有天地；弹性空间、通透采光、通风良好、全能户型按需幻变；智能时尚、智能系统引领生活，更舒适、方便、安全。</span>
-                    </div>
-                <span class="Tel">
-                    <img src="{{ asset('/front/fdc/img/lianxidh.png') }}" alt=""/>
-                </span>
-                </div>
-            </div>
-            <div class="ApartmentTu">
-                <div class="ApartmentTu_tp">
-                    <img src="{{ asset('/front/fdc/img/huxing4.png') }}" alt="" class="ApartmentTu_img"/>
-                </div>
-                <div class="Content">
-                    <div class="Content_xu">
-                        建面：100㎡-110㎡
-                    </div>
-                    <div class="Content_xu">
-                        公寓类型：<span>办公/居住</span>
-                    </div>
-                    <div class="Content_xu">
-                        参考均价：<span class="red">1.37—1.49万元/㎡</span>
-                    </div>
-                    <div class="Content_xu">
-                        房源状态：<span>充足</span>
-                    </div>
-                    <div class="Content_xu">
-                        户型解析：<span>两全其美、时尚简约、动静分区，生活工作自有天地；弹性空间、通透采光、通风良好、全能户型按需幻变；智能时尚、智能系统引领生活，更舒适、方便、安全。</span>
+                        户型解析：<span>高赠送空间，双倍生活空间，自由幻变；一楼约17m 超大尺度挑空，极致视野多面采光、明厨明卫，布局合理；二楼双厅设计，满足不同生活乐趣。</span>
                     </div>
                 <span class="Tel">
                     <img src="{{ asset('/front/fdc/img/lianxidh.png') }}" alt=""/>
@@ -220,54 +195,54 @@
 
     </div>
     <div class="Sample">
-        <div class="Taitou">万贯金府星座样板间</div>
+        <div class="Taitou">润帛公馆样板间</div>
         <div class="suoy">
             <div class="Sample_L">
-                <div class="Title"><span>47</span>㎡办公型样板间</div>
+                <div class="Title"><span>26</span>㎡办公型样板间</div>
                 <div class="Sample_a">
                     <a href="javascript:;" class="Sa_i">
-                        <img src="{{ asset('/front/fdc/img/Sample_Show1.png') }}" alt="" class="img"/>
+                        <img src="{{ asset('/front/fdc/img/rbgg_Sample_Show1.png') }}" alt="" class="img"/>
                     </a>
                     <a href="javascript:;" class="Sa_i">
-                        <img src="{{ asset('/front/fdc/img/Sample_Show2.png') }}" alt="" class="img"/>
+                        <img src="{{ asset('/front/fdc/img/rbgg_Sample_Show2.png') }}" alt="" class="img"/>
                     </a>
                     <a href="javascript:;" class="Sa_i">
-                        <img src="{{ asset('/front/fdc/img/Sample_Show3.png') }}" alt="" class="img"/>
+                        <img src="{{ asset('/front/fdc/img/rbgg_Sample_Show3.png') }}" alt="" class="img"/>
                     </a>
                 </div>
             </div>
             <div class="Sample_L">
-                <div class="Title"><span>47</span>㎡私馆型样板间</div>
+                <div class="Title"><span>36</span>㎡私馆型样板间</div>
                 <div class="Sample_a">
                     <a href="javascript:;" class="Sa_i">
-                        <img src="{{ asset('/front/fdc/img/Sample_Show4.png') }}" alt="" class="img"/>
+                        <img src="{{ asset('/front/fdc/img/rbgg_Sample_Show4.png') }}" alt="" class="img"/>
                     </a>
                     <a href="javascript:;" class="Sa_i">
-                        <img src="{{ asset('/front/fdc/img/Sample_Show5.png') }}" alt="" class="img"/>
+                        <img src="{{ asset('/front/fdc/img/rbgg_Sample_Show5.png') }}" alt="" class="img"/>
                     </a>
                     <a href="javascript:;" class="Sa_i">
-                        <img src="{{ asset('/front/fdc/img/Sample_Show6.png') }}" alt="" class="img"/>
+                        <img src="{{ asset('/front/fdc/img/rbgg_Sample_Show6.png') }}" alt="" class="img"/>
                     </a>
                 </div>
             </div>
             <div class="Sample_L">
-                <div class="Title"><span>75</span><span>.59</span>㎡私馆样板间</div>
+                <div class="Title"><span>59</span>㎡私馆样板间</div>
                 <div class="Sample_a">
                     <a href="javascript:;" class="Sa_i">
-                        <img src="{{ asset('/front/fdc/img/Sample_Show7.png') }}" alt="" class="img"/>
+                        <img src="{{ asset('/front/fdc/img/rbgg_Sample_Show7.png') }}" alt="" class="img"/>
                     </a>
                     <a href="javascript:;" class="Sa_i">
-                        <img src="{{ asset('/front/fdc/img/Sample_Show8.png') }}" alt="" class="img"/>
+                        <img src="{{ asset('/front/fdc/img/rbgg_Sample_Show8.png') }}" alt="" class="img"/>
                     </a>
                     <a href="javascript:;" class="Sa_i">
-                        <img src="{{ asset('/front/fdc/img/Sample_Show9.png') }}" alt="" class="img" />
+                        <img src="{{ asset('/front/fdc/img/rbgg_Sample_Show9.png') }}" alt="" class="img" />
                     </a>
                 </div>
             </div>
         </div>
     </div>
     <div class="Information">
-        <div class="Taitou">万贯金府星座楼盘资讯</div>
+        <div class="Taitou">润帛公馆星座楼盘资讯</div>
         <div class="Information_L">
             @foreach($news as $v)
             <a href="{{ url('/jfxz/'.$v->id) }}">
@@ -279,8 +254,8 @@
             <!--轮播-->
             <div class="swiper-container">
                 <ul class="swiper-wrapper">
-                    <li class="swiper-slide"><img src="{{ asset('/front/fdc/img/Information_img.png') }}" alt="11"/></li>
-                    <li class="swiper-slide"><img src="{{ asset('/front/fdc/img/Information_img_2.png') }}" alt="11"/></li>
+                    <li class="swiper-slide"><img src="{{ asset('/front/fdc/img/rbgg_Information_img.png') }}" alt="11"/></li>
+                
                 </ul>
                 <div class="swiper-pagination"></div>
             </div>
@@ -324,7 +299,7 @@
 <div class="Collect">
     <div class="Centered">
         <div class="Liuc">
-            <img src="{{ asset('/front/fdc/img/Liuc1.png') }}" alt="" class="Liuc_On"/>
+            <img src="{{ asset('/front/fdc/img/rbgg_Liuc1.png') }}" alt="" class="Liuc_On"/>
             <img src="{{ asset('/front/fdc/img/Liuc_Heng.png') }}" alt="" class="Liuc_Heng"/>
             <img src="{{ asset('/front/fdc/img/Liuc2.png') }}" alt="" class="Liuc_Two"/>
             <img src="{{ asset('/front/fdc/img/Liuc_Heng.png') }}" alt="" class="Liuc_Heng"/>
@@ -332,7 +307,7 @@
         </div>
         <div class="Wanke">
             <div class="Mingcheng">
-                万贯金府星座
+                润帛公馆
             </div>
             <div class="Wanke_Xinx">
                 <div class="Wenzi">
@@ -395,10 +370,9 @@
                 </div>
                 <select class="Select" id="Intention">
                     <option value ="">请选择您的意向户型</option>
-                    <option value ="43-50">43-50</option>
-                    <option value ="51-58">51-58</option>
-                    <option value ="78-80">78-80</option>
-                    <option value ="100-110">100-110</option>
+                    <option value ="26">26</option>
+                    <option value ="36">36</option>
+                    <option value ="59">59</option>
                 </select>
             </div>
             <div class="Wanke_Xinx">
@@ -465,7 +439,7 @@
 @section('js')
 <script type="text/javascript" src="{{ asset('/front/fdc/js/select.js') }}"></script>
 <script src="{{ asset('/front/fdc/js/swiper.min.js') }}"></script>
-<script src="{{ asset('/front/fdc/js/jfxz.js') }}"></script>
+<script src="{{ asset('/front/fdc/js/rbgg.js') }}"></script>
 <script type="text/javascript">
     $(function(){
         $("#date").selectDate();

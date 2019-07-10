@@ -69,11 +69,11 @@ class Controller extends BaseController
     }
     public function getFdcProjectList()
     {
-        return ['/jfxz'=>'金府星座'];
+        return ['/jfxz'=>'金府星座','/rbgg'=>'润帛公馆'];
     }
     public function getFdcPageList()
     {
-        return ['/'=>'首页','/jfxz'=>'金府星座','/jfxz/{id}'=>'金府星座新闻页'];
+        return ['/'=>'首页','/jfxz'=>'金府星座','/jfxz/{id}'=>'金府星座新闻页','/rbgg'=>'润帛公馆'];
     }
     public function baseKey($arr,$code)
     {   
