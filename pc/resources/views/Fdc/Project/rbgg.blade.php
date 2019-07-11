@@ -64,7 +64,7 @@
                 </div>
                 <div class="Price">
                     <div class="Xunhuan">
-                        <div class="bt">价格：</div>
+                        <div class="bt">参考单价：</div>
                         <div class="neirong">
                             <span>6880</span>元/㎡起
                         </div>
@@ -72,7 +72,7 @@
                     <div class="Xunhuan">
                         <div class="bt">户型：</div>
                         <div class="neirong">
-                            26㎡ 36㎡ 59㎡
+                            26㎡、36㎡、59㎡
                         </div>
                     </div>
                     <div class="Xunhuan">
@@ -128,13 +128,13 @@
                         公寓类型：<span>办公/居住</span>
                     </div>
                     <div class="Content_xu">
-                        参考均价：<span class="red">8000元/㎡</span>
+                        参考均价：<span class="red">7000元/㎡</span>
                     </div>
                     <div class="Content_xu">
-                        房源状态：<span>充足</span>
+                        房源状态：<span>少量</span>
                     </div>
                     <div class="Content_xu">
-                        户型解析：<span>高赠送空间，双倍生活空间，由你掌握；一楼约11m大尺度挑空，空间开阔，视野敞亮，茶水间一字布局，操作方便，超大采光面，直面城市时尚T台。</span>
+                        户型解析：<span>户型紧凑精美，空间布局合理，超大采光面，展现城市时尚排场；开敞式厨房设计，品味现代生活，阳光清风自由出入，尊享舒适生活。</span>
                     </div>
                 <span class="Tel">
                     <img src="{{ asset('/front/fdc/img/lianxidh.png') }}" alt=""/>
@@ -156,7 +156,7 @@
                         参考均价：<span class="red">8000元/㎡</span>
                     </div>
                     <div class="Content_xu">
-                        房源状态：<span>充足</span>
+                        房源状态：<span>少量</span>
                     </div>
                     <div class="Content_xu">
                         户型解析：<span>高赠送空间，双倍生活空间，由你掌握；一楼约11m大尺度挑空，空间开阔，视野敞亮，茶水间一字布局，操作方便，超大采光面，直面城市时尚T台。</span>
@@ -181,7 +181,7 @@
                         参考均价：<span class="red">8000元/㎡</span>
                     </div>
                     <div class="Content_xu">
-                        房源状态：<span>充足</span>
+                        房源状态：<span>少量</span>
                     </div>
                     <div class="Content_xu">
                         户型解析：<span>高赠送空间，双倍生活空间，自由幻变；一楼约17m 超大尺度挑空，极致视野多面采光、明厨明卫，布局合理；二楼双厅设计，满足不同生活乐趣。</span>

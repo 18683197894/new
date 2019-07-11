@@ -64,7 +64,7 @@
                 </div>
                 <div class="Price">
                     <div class="Xunhuan">
-                        <div class="bt">价格：</div>
+                        <div class="bt">参考单价：</div>
                         <div class="neirong">
                             <span>1.37-1.49</span>万元/㎡
                         </div>
