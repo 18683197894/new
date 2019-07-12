@@ -12,7 +12,7 @@
 <div class="swiper-container">
     <ul class="swiper-wrapper">
         @foreach($luobo as $k => $v)
-        <li class="swiper-slide"><img src="{{ asset($v->image) }}" alt="11"/></li>
+        <a href="{{ $v->url }}"><li class="swiper-slide"><img src="{{ asset($v->image) }}" alt="11"/></li></a>
         @endforeach
     </ul>
     <div class="swiper-pagination"></div>
@@ -125,7 +125,7 @@
                         建面：43㎡-50㎡
                     </div>
                     <div class="Content_xu">
-                        公寓类型：<span>办公/居住</span>
+                        公寓类型：<span>办公</span>
                     </div>
                     <div class="Content_xu">
                         参考均价：<span class="red">1.37—1.49万元/㎡</span>
@@ -150,7 +150,7 @@
                         建面：51㎡-58㎡
                     </div>
                     <div class="Content_xu">
-                        公寓类型：<span>办公/居住</span>
+                        公寓类型：<span>办公</span>
                     </div>
                     <div class="Content_xu">
                         参考均价：<span class="red">1.37—1.49万元/㎡</span>
@@ -175,7 +175,7 @@
                         建面：74㎡-80㎡
                     </div>
                     <div class="Content_xu">
-                        公寓类型：<span>办公/居住</span>
+                        公寓类型：<span>办公</span>
                     </div>
                     <div class="Content_xu">
                         参考均价：<span class="red">1.37—1.49万元/㎡</span>
@@ -200,7 +200,7 @@
                         建面：100㎡-110㎡
                     </div>
                     <div class="Content_xu">
-                        公寓类型：<span>办公/居住</span>
+                        公寓类型：<span>办公</span>
                     </div>
                     <div class="Content_xu">
                         参考均价：<span class="red">1.37—1.49万元/㎡</span>
