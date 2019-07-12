@@ -12,7 +12,7 @@
 <div class="swiper-container">
     <ul class="swiper-wrapper">
         @foreach($luobo as $k => $v)
-        <a href="{{ $v->url }}"><li class="swiper-slide"><img src="{{ asset($v->image) }}" alt="11"/></li></a>
+        <li class="swiper-slide"><a href="{{ $v->url }}"><img src="{{ asset($v->image) }}" alt="11"/></a></li>
         @endforeach
     </ul>
     <div class="swiper-pagination"></div>
