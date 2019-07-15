@@ -49,6 +49,9 @@ class Kernel extends HttpKernel
         ],
         'front' => [
             \App\Http\Middleware\FrontMiddleware::class,
+        ],
+        'house' => [
+            \App\Http\Middleware\HouseMiddleware::class,
         ]
     ];
 

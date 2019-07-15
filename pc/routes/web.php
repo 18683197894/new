@@ -331,13 +331,16 @@ Route::post('/about-message-send','Front\AboutController@message_send');
 
 Route::group(['domain' => 'house.jsjju.cn','namespace' => 'Fdc'],function (){
 // Route::group(['domain' => 'house.new.com','namespace' => 'Fdc'],function (){
+// 
+Route::group(['middleware'=>['house']],function(){
     Route::get('/','Index\IndexController@index');
-
     Route::get('/jfxz','Project\ProjectController@jfxz');
     Route::get('/jfxz/{id}','Project\ProjectController@jfxz_news');
     Route::get('/rbgg','Project\ProjectController@rbgg');
     Route::get('/rbgg/{id}','Project\ProjectController@rbgg_news');
 
     Route::post('/project/message-send','Project\ProjectController@message_send');
-    Route::post('/project-message','Project\ProjectController@message');
+    Route::post('/project-message','Project\ProjectController@message');	
+});
+
 });
