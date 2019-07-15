@@ -30,7 +30,7 @@
         <div class="Core_Logo">
             <img src="{{ asset('/front/img/Core_lg.png') }}" alt=""/>
         </div>
-        <a href="javascript:;" class="Core_People">
+        <!-- <a href="javascript:;" class="Core_People">
             <img src="{{ asset('/front/img/Core1.png') }}" alt=""/>
             <div class="Text">
                 <div class="Name">
@@ -42,7 +42,7 @@
                     成都陈设艺术行业协会荣誉顾问； 北京大学中国文商企业家后EMBA联谊会会长；四川建商集团董事长、总经理。
                 </div>
             </div>
-        </a>
+        </a> -->
         <a href="javascript:;" class="Core_People">
             <img src="{{ asset('/front/img/Core2.png') }}" alt=""/>
             <div class="Text">

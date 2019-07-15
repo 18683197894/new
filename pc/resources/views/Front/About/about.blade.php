@@ -159,7 +159,7 @@
         <div class="item active main">
             <div class="disk">
                 <div class="text-wrap">
-                    <div class="title"><h2>熊勇</h2><span>董事长</span></div>
+                    <!-- <div class="title"><h2>熊勇</h2><span>董事长</span></div>
                     <p class="text">
                         <span class="xianxi">
                             <o class="xianxi_top">
@@ -168,7 +168,7 @@
                             熊勇先生格局高远，二十余载商海搏击，现任市政协委员；四川省房地产协会常务理事、成都市建筑装饰协会、成都陈设艺术行业协会荣誉顾问；
                             北京大学中国文商企业家后EMBA联谊会会长；四川建商集团董事长、总经理。
                         </span>
-                    </p>
+                    </p> -->
                 </div>
             </div>
             <img src="{{ asset('front/about/img/xiong.png') }}" alt="">
