@@ -9,6 +9,6 @@ class IndexController extends Controller
 {
     public function index(Request $request)
     {
-    	return redirect('/jfxz');
+    	return redirect('/rbgg');
     }
 }

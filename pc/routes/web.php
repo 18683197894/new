@@ -334,8 +334,8 @@ Route::group(['domain' => 'house.jsjju.cn','namespace' => 'Fdc'],function (){
 // 
 Route::group(['middleware'=>['house']],function(){
     Route::get('/','Index\IndexController@index');
-    Route::get('/jfxz','Project\ProjectController@jfxz');
-    Route::get('/jfxz/{id}','Project\ProjectController@jfxz_news');
+    // Route::get('/jfxz','Project\ProjectController@jfxz');
+    // Route::get('/jfxz/{id}','Project\ProjectController@jfxz_news');
     Route::get('/rbgg','Project\ProjectController@rbgg');
     Route::get('/rbgg/{id}','Project\ProjectController@rbgg_news');
 
