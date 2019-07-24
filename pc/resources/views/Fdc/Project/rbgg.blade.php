@@ -245,7 +245,7 @@
         <div class="Taitou">润帛公馆星座楼盘资讯</div>
         <div class="Information_L">
             @foreach($news as $v)
-            <a href="{{ url('/jfxz/'.$v->id) }}">
+            <a href="{{ url('/rbgg/'.$v->id) }}">
                 <span>{{ $loop->index + 1 }}</span>{{ $v->title }}
             </a>
             @endforeach
